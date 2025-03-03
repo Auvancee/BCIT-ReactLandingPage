@@ -2,10 +2,13 @@
 
 ## ★ Welcome fellow coding enthusiasts ★
 
-✦ A Personal Website <br>
+✦ My Personal Portfolio Website <br>
 ✦ About Me, Portfolio Projects, And More! <br>
 ✦ Check Out The Live Site → https://aumar.xyz/ [under construction]
 
+★ Upcoming Features:
+ - React Based Website
+ - PageTransitions & Preloader
 
 [ Happy Developing! :) ]
 
