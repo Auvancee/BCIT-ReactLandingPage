@@ -1,0 +1,104 @@
+/* General Header Layout */
+.header-container {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    position: fixed; /* Sticky to top */
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: sans-serif;
+  }
+  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+  }
+  
+  /* Left Logo/Text */
+  .text-logo a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'NeueM-MonoBook';
+    /* font-weight: bold; */
+  }
+  
+  /* Right Menu + Arrow */
+  .menu-toggle {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  
+  .menu-label {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'NeueM-MonoBook';
+    color: black;
+  }
+  
+  /* Arrow visible on hover or open */
+  .arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    font-family: 'NeueM-MonoBook';
+    color: black;
+  }
+  
+  /* Rotate when open */
+  .arrow.rotate {
+    transform: rotate(-45deg);
+  }
+  
+  /* Dropdown Menu Styling */
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%; /* Right below "MENU" */
+    padding: 1rem 1.5rem;
+    min-width: 180px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: fadeIn 0.3s ease;
+  }
+  
+  /* Links inside dropdown */
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    margin: 0.5rem 0;
+    text-align: right;
+  }
+  
+  .dropdown-menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: 'NeueM-MonoBook';
+    transition: opacity 0.2s ease;
+  }
+  
+  .dropdown-menu a:hover {
+    opacity: 0.7;
+  }
+  
+  /* Smooth fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
