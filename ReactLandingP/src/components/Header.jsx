@@ -19,14 +19,30 @@ function Header() {
                 {/* <Link to="/home">
                     <img src={logo} className="ona-film-logo" alt="uae-flag-logo" />
                 </Link> */}
+                
+                <div className="NavConatainer">
+                    <div className="TextLogo">
+                        <Link to="https://aumar.xyz">@HAFIZAU</Link>
+                    </div>
 
-                <ul>
-                    {/* <li><Link to="/">Home</Link></li> */}
-                    <li><Link to="/favourites">Favourites</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    {/* <Link to="/login"><img src={user} className="UserSvg" alt="user-login" /></Link> */}
-                    {/* <li><Link to="/movie/1">Movie</Link></li> */}
-                </ul>
+                    <div className="NavMenu">
+                        <ul>
+                            <p>MENU</p>
+                            {/* <li><Link to="/">Home</Link></li> */}
+                            <li><Link to="#About">ABOUT</Link></li>
+                            <li><Link to="#Featured">FEATURED</Link></li>
+                            <li><Link to="../pages/PageSynopsis.jsx">SYNOPSIS</Link></li>
+                            <li><Link to="../pages/PageWorks.jsx.jsx">PROJECTS</Link></li>
+                            <li><Link to="#Contact">CONTACT</Link></li>
+                            {/* <Link to="/login"><img src={user} className="UserSvg" alt="user-login" /></Link> */}
+                            {/* <li><Link to="/movie/1">Movie</Link></li> */}
+                        </ul>
+                    </div>
+                </div>
+                
+
+                
+                
 
                 {/* <!-- [1.1] Hamburger Menu  --> */}
                 {/* <!-- Codepen Link: https://codepen.io/ainalem/pen/LJYRxz --> */}
