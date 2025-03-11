@@ -43,15 +43,15 @@ function Header() {
 
             {/* <!-- [1.2] Overlay (w/ Hamburger Onclick)  --> */}
             {/* <div className={`overlay ${isMenuOpen ? 'active' : ''}`} id="menuOverlay"> */}
-                <div className="overlay-content">
+                {/* <div className="overlay-content">
                     <ul>
                         <li className="menu-item"><Link to="/login">Login</Link></li>
                         <li className="menu-item"><Link to="/home">Home</Link></li>
                         <li className="menu-item"><Link to="/favourites">Favourites</Link></li>
                         <li className="menu-item"><Link to="/about">About</Link></li>
-                        {/* <li><Link to="/movie/1">Movie</Link></li> */}
+                        
                     </ul>
-                </div>
+                </div> */}
             {/* </div> */}
         </header>
     );
