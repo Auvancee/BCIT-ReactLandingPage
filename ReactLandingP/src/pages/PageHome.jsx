@@ -1,17 +1,24 @@
 import "./PageHome.css";
+import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 // import { useState, useEffect } from "react";
 
 
 function PageHome() {
 
+    const lenis = useLenis(({ scroll }) => {
+        // called every scroll
+      })
+
     return (
 
-        <main>
-            <div className="rectangle"></div>
+        <ReactLenis root>
+            <main>
+                <div className="rectangle"></div>
 
 
-        
-        </main>
+            
+            </main>
+        </ReactLenis>
 
 
     )
