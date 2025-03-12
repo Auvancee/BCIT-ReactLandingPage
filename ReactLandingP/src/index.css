@@ -459,11 +459,6 @@ video {
 
 
 
-
-
-
-
-
  /* !! Background Settings !! */
  body {
   background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(228, 229, 222) 100%) no-repeat;
@@ -474,3 +469,8 @@ video {
  main {
   height: 100vh;
  }
+
+ * {
+  -webkit-tap-highlight-color: transparent;
+ }
+

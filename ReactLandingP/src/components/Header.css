@@ -1,3 +1,107 @@
+/* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+
+
+/* [1] Header & Navigation */
+
+.menu-label {
+    display: none;
+}
+
+.logo-mobile {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  
+  .main-logo {
+    width: 3.7rem; /* or adjust as needed */
+    height: auto;
+    transition: transform 0.3s ease;
+    display: block;
+    border-radius: 20px;
+  }
+  
+  /* Fullscreen Overlay */
+  .mobile-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Show overlay when open */
+  .mobile-overlay.open {
+    transform: translateX(0);
+  }
+  
+  /* Centered content */
+  .overlay-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .overlay-content li {
+    margin: 2rem 0;
+  }
+  
+  .overlay-content a {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'NeueM-MonoBook';
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'NeueM-MonoBook';
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+  }
+
+  .text-logo a {
+    display: none;
+  }
+
+
+
+
+
+
+
+/* ⇣⇣ DESKTOP SETTINGS ⇣⇣ */
+
+@media (min-width: 55em) { 
+
+.logo-mobile {
+    display: none;
+}
+
+.menu-label {
+    display: block;
+}
+
+.text-logo a {
+    display: block;
+  }
+
+
 /* General Header Layout */
 .header-container {
     width: 100%;
@@ -102,3 +206,14 @@
     }
   }
   
+
+}
+
+
+
+
+
+
+
+
+

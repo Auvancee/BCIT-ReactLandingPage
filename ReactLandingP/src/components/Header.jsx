@@ -1,38 +1,41 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import logo from "./images/HAFIZAU PNG LOGO INVERTED.png"; // Import your SVG as image
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isHovering, setIsHovering] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); // Desktop dropdown menu
+  const [isHovering, setIsHovering] = useState(false); // Desktop hover arrow
+  const [isOverlayOpen, setIsOverlayOpen] = useState(false); // Mobile overlay menu
 
-  const toggleMenu = () => setIsOpen((prev) => !prev);
+  const toggleMenu = () => setIsOpen((prev) => !prev); // Desktop dropdown
+  const toggleMenu2 = () => setIsOverlayOpen((prev) => !prev); // Mobile overlay
+
   const handleMouseEnter = () => setIsHovering(true);
   const handleMouseLeave = () => setIsHovering(false);
 
   return (
     <header className="header-container">
       <nav className="nav-bar">
-        {/* Left Logo */}
+        {/* Left Logo/Text for Desktop */}
         <div className="text-logo">
           <Link to="/">@HAFIZAU</Link>
         </div>
 
-        {/* Right Menu with Hover + Toggle */}
+        {/* Right Desktop MENU */}
         <div
-          className="menu-toggle"
+          className="menu-toggle desktop-only"
           onClick={toggleMenu}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          
-          {/* Arrow appears on hover or when menu is open */}
+          {/* Arrow + MENU label */}
           {(isHovering || isOpen) && (
             <span className={`arrow ${isOpen ? "rotate" : ""}`}>←</span>
           )}
           <span className="menu-label">MENU</span>
 
-          {/* Dropdown Menu */}
+          {/* Dropdown for Desktop */}
           {isOpen && (
             <div className="dropdown-menu">
               <ul>
@@ -45,7 +48,29 @@ function Header() {
             </div>
           )}
         </div>
+
+        {/* Mobile Logo (Hamburger) */}
+        <div className="logo-mobile mobile-only" onClick={toggleMenu2}>
+          <img src={logo} alt="HAFIZAU Logo" className="main-logo" />
+        </div>
       </nav>
+
+      {/* Mobile Overlay Fullscreen */}
+      <div className={`mobile-overlay ${isOverlayOpen ? "open" : ""}`}>
+        <div className="overlay-content">
+          <ul>
+            <li><Link to="#Services" onClick={toggleMenu2}>SERVICES</Link></li>
+            <li><Link to="/works" onClick={toggleMenu2}>PROJECTS</Link></li>
+            <li><Link to="/synopsis" onClick={toggleMenu2}>SYNOPSIS</Link></li>
+            <li><Link to="#Ovations" onClick={toggleMenu2}>OVATIONS</Link></li>
+            <li><Link to="#Contact" onClick={toggleMenu2}>CONTACT</Link></li>
+          </ul>
+          <div className="contact-info">
+            <p>EMAIL</p>
+            <p>thanks@you.com</p>
+          </div>
+        </div>
+      </div>
     </header>
   );
 }
