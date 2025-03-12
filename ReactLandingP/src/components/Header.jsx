@@ -15,7 +15,7 @@ function Header() {
       <nav className="nav-bar">
         {/* Left Logo */}
         <div className="text-logo">
-          <Link to="https://aumar.xyz">@HAFIZAU</Link>
+          <Link to="/">@HAFIZAU</Link>
         </div>
 
         {/* Right Menu with Hover + Toggle */}
@@ -38,8 +38,8 @@ function Header() {
               <ul>
                 <li><Link to="#About" onClick={toggleMenu}>ABOUT</Link></li>
                 <li><Link to="#Featured" onClick={toggleMenu}>FEATURED</Link></li>
-                <li><Link to="/pages/PageSynopsis" onClick={toggleMenu}>SYNOPSIS</Link></li>
-                <li><Link to="/pages/PageWorks" onClick={toggleMenu}>PROJECTS</Link></li>
+                <li><Link to="/synopsis" onClick={toggleMenu}>SYNOPSIS</Link></li>
+                <li><Link to="/works" onClick={toggleMenu}>PROJECTS</Link></li>
                 <li><Link to="#Contact" onClick={toggleMenu}>CONTACT</Link></li>
               </ul>
             </div>

@@ -21,7 +21,8 @@
   .text-logo a {
     font-size: 1.2rem;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+    /* mix-blend-mode: difference; */
     font-family: 'NeueM-MonoBook';
     /* font-weight: bold; */
   }
@@ -39,7 +40,7 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     font-family: 'NeueM-MonoBook';
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   /* Arrow visible on hover or open */
@@ -47,7 +48,7 @@
     font-size: 1.2rem;
     transition: transform 0.3s ease;
     font-family: 'NeueM-MonoBook';
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   /* Rotate when open */
@@ -61,9 +62,8 @@
     right: 0;
     top: 100%; /* Right below "MENU" */
     padding: 1rem 1.5rem;
-    min-width: 180px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    animation: fadeIn 0.3s ease;
+    
+    animation: fadeIn 0.3s ease-in-out;
   }
   
   /* Links inside dropdown */
@@ -80,7 +80,7 @@
   
   .dropdown-menu a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 1.2rem;
     font-family: 'NeueM-MonoBook';
     transition: opacity 0.2s ease;

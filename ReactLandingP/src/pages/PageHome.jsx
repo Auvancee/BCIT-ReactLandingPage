@@ -7,7 +7,7 @@ function PageHome() {
     return (
 
         <main>
-
+            <div className="rectangle"></div>
 
 
         
