@@ -30,17 +30,19 @@
     right: 0;
     width: 100%;
     height: 100vh;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
     z-index: 999;
     transform: translateX(100%);
     transition: transform 0.4s ease;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
+    padding: 20px;
   }
   
+
+
   /* Show overlay when open */
   .mobile-overlay.open {
     transform: translateX(0);
@@ -50,38 +52,110 @@
   .overlay-content ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-  }
-  
-  .overlay-content li {
-    margin: 2rem 0;
+    
   }
   
   .overlay-content a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     text-decoration: none;
-    font-family: 'NeueM-MonoBook';
+    font-family: 'MonumentExtended-Black';
   }
   
+  .overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .overlay-content li {
+    margin: 0;
+  }
+
+  .overlay-info li {
+    margin: 2px;
+  }
+
   /* Contact Info */
   .contact-info {
     margin-top: 3rem;
     text-align: center;
-    font-family: 'NeueM-MonoBook';
   }
   
   .contact-info p {
     margin: 0.5rem 0;
+    text-align: left;
   }
 
   .text-logo a {
-    display: none;
+    display: none;  
+  }
+
+  .emailtitle {
+    font-family: 'MonumentExtended-Black';
+    font-size: 1.2rem;
+  }
+
+  .email {
+    font-family: 'MonumentExtended-Light';
+    font: 16px;
+  }
+
+  .Socials {
+    margin-top: 1rem;
+  }
+
+  .socialTitle p {
+    font-family: 'MonumentExtended-Black';
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .socialIconsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+  }
+
+  .SocialIcon {
+    width: 40px;
+    display: block;
   }
 
 
+@media (min-width: 30em) {
+  .main-logo {
+    width: 4rem; /* or adjust as needed */
+    height: auto;
+    transition: transform 0.3s ease;
+    display: block;
+    border-radius: 20px;
+  }
 
+  .overlay-content a {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'MonumentExtended-Black';
+  }
 
+  .emailtitle {
+    font-family: 'MonumentExtended-Black';
+    font-size: 1.7rem;
+  }
+
+  .socialTitle p {
+    font-family: 'MonumentExtended-Black';
+    font-size: 1.7rem;
+    margin: 0.5rem 0;
+  }
+
+  .SocialIcon {
+    width: 60px;
+    display: block;
+  }
+  
+}
 
 
 

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Header from "../components/HeaderOne";
 import PageHome from "../pages/PageHome";
 import PageWorks from "../pages/PageWorks";
 import PageSynopsis from "../pages/PageSynopsis";
@@ -15,7 +15,7 @@ const AppRouter = () => {
     return (
       
       <>
-        <Header />
+        
   
           <Routes>
             <Route path="/" element={<PageHome />} />
