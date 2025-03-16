@@ -1,22 +1,28 @@
+/* ● MOBILE SETTINGS ● */
 
+/* • Introduction • */
 main {
     background-color: #000000;
-    color: white;
-    position: relative; /* To allow absolute children like .Introduction */
-    min-height: 100vh; /* At least viewport height */
-    padding: 0; /* Adjust as needed */
+    color: white;  
+}
+
+/* • Hero section full screen • */
+.HeroSection {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
 .Introduction {
-    position: absolute; /* Absolute to main */
+    margin-bottom: auto; 
+    position: absolute; 
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Perfect center */
-    padding: 0 2rem; /* Optional side padding */
+    transform: translate(-50%, -50%); 
+    padding: 0 2rem; 
 }
 
-
-/* Small heading */
 .Introduction h2 {
     font-size: 1rem;
     text-transform: uppercase;
@@ -27,9 +33,8 @@ main {
     font-weight: 600;
 }
 
-/* Large headline */
 .Introduction h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin: 0;
     letter-spacing: -0.03em;
@@ -41,34 +46,203 @@ main {
     -webkit-text-stroke: 0.5px white;
 }
 
+/* • Splide Sticker Auto Scroll  • */
+.splide {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+   
+}
+
+.splide .splide__track ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-family: 'MonumentExtended-Black';
+    
+}
+
+.splide .splide__track ul li img {
+    width: 2rem;
+    height: 4rem;
+    
+}
+
+.splide .splide__track-2 {
+    background-color: #ffffff;
+    rotate: 0deg;
+    
+}
+
+.splide .splide__track-2 ul li {
+    color: black;
+}
+
+/* • About Container & Content • */
+.AboutContainer  {
+    color: black;
+    padding: 1.5rem;
+    margin-top: 60px;
+}
+
+/* ◭ Both About & Favorite Settings ◭ */
+.AboutTitle h4, .AboutTitle h3, .FavoriteTitle h4, .FavoriteTitle h3 {
+    margin: 0;
+}
+
+.AboutTitle h4, .FavoriteTitle h4 {
+    font-family: 'NeueM-MonoThin';
+    color: #00000080;
+}
+
+.AboutTitle h3, .FavoriteTitle h3 {
+    font-family: 'NeueM-Bold';
+    font-size: 33px;
+    letter-spacing: -0.7px;
+}
+
+.AboutContent p, .FavoriteContent p {
+    font-family: 'NeueM-Book';
+}
+
+/* • Favourite Container & Content • */
+.FavoriteContainer {
+    padding: 1.5rem;
+    margin-top: 90px;
+    color: black;
+}
+
+
+
+/* ● TABLET SETTINGS ● */
+
 @media (min-width: 30em) {
+
+/* • Introduction • */    
+    main {
+        background-color: #000000;
+        color: white;
+    }
+    
+    /* • Hero section full screen • */
+    .HeroSection {
+        min-height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    
+    .Introduction {
+        margin-bottom: auto;
+    }
+    
     .Introduction h2 {
         font-size: 1.5rem;
     }
     .Introduction h1 {
         font-size: 3rem;
     }
+    
+    /* • Splide Sticker Auto Scroll  • */
+    .splide {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+    }
+
+    .splide .splide__track ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-family: 'MonumentExtended-Black';
+    }
+
+    .splide .splide__track ul li img {
+        width: 3.5rem;
+        height: 4rem;
+    }
+
+    .splide .splide__track-2 {
+        background-color: #ffffff;
+        rotate: 0deg;
+    }
+
+    .splide .splide__track-2 ul li {
+        color: black;
+    }
+
+    /* • About Container & Content • */
+    .AboutContainer  {
+        padding: 4rem;
+        margin-top: 60px;
+    }
+    
+    /* ◭ Both About & Favorite Settings ◭ */
+    .AboutTitle h4, .AboutTitle h3 {
+        margin: 0;
+    }
+    
+    .AboutTitle h4, .FavoriteTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #00000080;
+        font-size: 18px;
+    }
+    
+    .AboutTitle h3, .FavoriteTitle h3 {
+        font-family: 'NeueM-Bold';
+        font-size: 40px;
+        letter-spacing: -0.7px;
+    }
+    
+    .AboutContent p, .FavoriteContent p {
+        font-family: 'NeueM-Book';
+        text-align: right;
+        font-size: 20px;
+    }
+
+    /* • Favourite Container & Content • */
+    .FavoriteContainer {
+        padding: 4rem;
+        margin-top: 60px;
+        color: black;
 }
 
 
-@media (min-width: 55em){
+
+}
+
+
+@media (min-width: 65em){
 
 
     main {
         background-color: #000000;
         color: white;
-        position: relative; /* To allow absolute children like .Introduction */
-        min-height: 100vh; /* At least viewport height */
-        padding: 0; /* Adjust as needed */
     }
     
-    /* Center the Introduction section */
+    /* HERO section full screen */
+    .HeroSection {
+        min-height: 100vh; /* Full screen */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Spread items: Intro top, Splide bottom */
+    }
+    
+    /* Intro */
     .Introduction {
-        position: absolute; /* Absolute to main */
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); /* Perfect center */
-        padding: 0 2rem; /* Optional side padding */
+        margin-bottom: auto; /* Push it upwards naturally */
     }
     
     /* Small heading */
@@ -76,24 +250,99 @@ main {
         font-size: 1.5rem;
         text-transform: uppercase;
         font-family: 'MonumentExtended-Black';
-        margin: 0;
-        text-align: left;
         margin-bottom: 1rem;
-        font-weight: 600;
+        text-align: left;
     }
     
-    /* Large headline */
+    /* Big outlined heading */
     .Introduction h1 {
         font-size: 6rem;
-        font-weight: 700;
+        text-align: left;
         margin: 0;
         letter-spacing: -0.03em;
         line-height: 0.9;
         font-family: 'MonumentExtended-Black';
         text-transform: uppercase;
-        text-align: left;
         color: transparent;
         -webkit-text-stroke: 1px white;
     }
+    
+    /* Splide at the bottom */
+    .splide {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+        pointer-events: visible;
+    }
+    
+    /* Splide Track */
+    .splide .splide__track ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6.4rem;
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-family: 'MonumentExtended-Black';
+    }
+    
+    /* Splide Images */
+    .splide .splide__track ul li img {
+        width: 6.4rem;
+        height: 4rem;
+    }
+    
+    /* Splide White Track */
+    .splide .splide__track-2 {
+        background-color: #ffffff;
+    }
+    
+    /* Splide text color black */
+    .splide .splide__track-2 ul li {
+        color: black;
+    }
+    
+    /* About Section */
+    .ContainerWhite {
+        background-color: #ffffff;
+        color: black;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+
+    .AboutContainer  {
+        padding: 0rem 14rem 0rem 14rem;
+        margin-top: 9rem;
+    }
+    
+    .AboutTitle h4, h3 {
+        margin: 0;
+    }
+    
+    .AboutTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #00000080;
+        font-size: 18px;
+    }
+    
+    .AboutTitle h3 {
+        font-family: 'NeueM-Bold';
+        font-size: 80px;
+        letter-spacing: -0.7px;
+        
+    }
+    
+    .AboutContent p {
+        
+        font-family: 'NeueM-Book';
+        text-align: right;
+        font-size: 30px;
+        max-width: 75%;
+        margin-left: auto
+    }
 
 }
+

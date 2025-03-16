@@ -67,10 +67,10 @@ function HeaderOne() {
         <div className="overlay-content">
 
           <ul className="overlay-info">
-            <li><Link to="#Services" onClick={toggleMenu2}>SERVICES</Link></li>
-            <li><Link to="/works" onClick={toggleMenu2}>PROJECTS</Link></li>
+            <li><Link to="#Services" onClick={toggleMenu2}>ABOUT</Link></li>
+            <li><Link to="/works" onClick={toggleMenu2}>FEATURED</Link></li>
             <li><Link to="/synopsis" onClick={toggleMenu2}>SYNOPSIS</Link></li>
-            <li><Link to="#Ovations" onClick={toggleMenu2}>OVATIONS</Link></li>
+            <li><Link to="#Ovations" onClick={toggleMenu2}>PROJECTS</Link></li>
             <li><Link to="#Contact" onClick={toggleMenu2}>CONTACT</Link></li>
           </ul>
 
