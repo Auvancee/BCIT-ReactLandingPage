@@ -124,7 +124,7 @@ main {
 
 @media (min-width: 30em) {
 
-/* • Introduction • */    
+    /* • Introduction • */    
     main {
         background-color: #000000;
         color: white;
@@ -194,21 +194,39 @@ main {
         margin: 0;
     }
     
-    .AboutTitle h4, .FavoriteTitle h4 {
+    .AboutTitle h4 {
         font-family: 'NeueM-MonoThin';
         color: #00000080;
         font-size: 18px;
     }
+
+    .FavoriteTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #00000080;
+        font-size: 18px;
+        text-align: right;
+    }
     
-    .AboutTitle h3, .FavoriteTitle h3 {
+    .AboutTitle h3 {
         font-family: 'NeueM-Bold';
         font-size: 40px;
         letter-spacing: -0.7px;
     }
+
+    .FavoriteTitle h3 {
+        font-family: 'NeueM-Bold';
+        font-size: 40px;
+        text-align: right;
+    }
     
-    .AboutContent p, .FavoriteContent p {
+    .AboutContent p {
         font-family: 'NeueM-Book';
         text-align: right;
+        font-size: 20px;
+    }
+
+    .FavoriteContent p {
+        text-align: left;
         font-size: 20px;
     }
 
@@ -224,28 +242,31 @@ main {
 }
 
 
+/* ● DESKTOP SETTINGS ● */
+
+
 @media (min-width: 65em){
 
 
+     /* • Introduction • */  
     main {
         background-color: #000000;
         color: white;
     }
     
-    /* HERO section full screen */
+    /* • Hero section full screen • */
     .HeroSection {
-        min-height: 100vh; /* Full screen */
+        min-height: 100vh; 
         display: flex;
         flex-direction: column;
-        justify-content: space-between; /* Spread items: Intro top, Splide bottom */
+        justify-content: space-between; 
     }
     
-    /* Intro */
+    
     .Introduction {
-        margin-bottom: auto; /* Push it upwards naturally */
+        margin-bottom: auto; 
     }
     
-    /* Small heading */
     .Introduction h2 {
         font-size: 1.5rem;
         text-transform: uppercase;
@@ -254,7 +275,6 @@ main {
         text-align: left;
     }
     
-    /* Big outlined heading */
     .Introduction h1 {
         font-size: 6rem;
         text-align: left;
@@ -267,7 +287,7 @@ main {
         -webkit-text-stroke: 1px white;
     }
     
-    /* Splide at the bottom */
+    /* • Splide Sticker Auto Scroll  • */
     .splide {
         width: 100%;
         display: flex;
@@ -276,8 +296,8 @@ main {
         padding: 1rem 0;
         pointer-events: visible;
     }
-    
-    /* Splide Track */
+
+
     .splide .splide__track ul li {
         display: flex;
         align-items: center;
@@ -288,23 +308,20 @@ main {
         font-family: 'MonumentExtended-Black';
     }
     
-    /* Splide Images */
+   
     .splide .splide__track ul li img {
         width: 6.4rem;
         height: 4rem;
     }
     
-    /* Splide White Track */
     .splide .splide__track-2 {
         background-color: #ffffff;
     }
     
-    /* Splide text color black */
     .splide .splide__track-2 ul li {
         color: black;
     }
     
-    /* About Section */
     .ContainerWhite {
         background-color: #ffffff;
         color: black;
@@ -313,22 +330,24 @@ main {
     }
 
 
+    /* • About Container & Content • */
     .AboutContainer  {
         padding: 0rem 14rem 0rem 14rem;
         margin-top: 9rem;
     }
     
-    .AboutTitle h4, h3 {
+    /* ◭ Both About & Favorite Settings ◭ */
+    .AboutTitle h4, .AboutTitle h3  {
         margin: 0;
     }
     
-    .AboutTitle h4 {
+    .AboutTitle h4, .FavoriteTitle h4 {
         font-family: 'NeueM-MonoThin';
         color: #00000080;
         font-size: 18px;
     }
     
-    .AboutTitle h3 {
+    .AboutTitle h3, .FavoriteTitle h3 {
         font-family: 'NeueM-Bold';
         font-size: 80px;
         letter-spacing: -0.7px;
@@ -336,7 +355,6 @@ main {
     }
     
     .AboutContent p {
-        
         font-family: 'NeueM-Book';
         text-align: right;
         font-size: 30px;
@@ -344,5 +362,157 @@ main {
         margin-left: auto
     }
 
-}
+    .FavoriteContent p {
+        text-align: left;
+        font-size: 30px;
+        max-width: 75%;
+    }
 
+    /* • Favourite Container & Content • */
+    .FavoriteContent {
+        padding: 0rem 14rem 0rem 14rem;
+        margin-top: 9rem;
+        color: black;
+    }
+
+
+    /* Projects Sticky Scroll Setup */
+    .cards {
+        height: 80vh;
+        width: 70%;
+        margin: auto;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .card {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        border: #000 1px solid;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 20px 0px 20px;
+        margin-bottom: 50px;
+    }
+    
+    .card-1 {
+        left: 0;
+        right: 0;
+    }
+    
+    .card-2 {
+        left: 0px;
+        top: 110px;
+    }
+    
+    .card-3 {
+        left: 0px;
+        top: 200px;
+    }
+    
+    .card h2 {
+        font-size: 80px;
+        font-weight: 900;
+        font-stretch: condensed;
+        color: #ff98a2;
+        text-transform: uppercase;
+    }
+    
+    .card-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        box-sizing: border-box;
+        gap: 2rem;
+      }
+      
+      /* Left: Image or Video Preview */
+      .card-image {
+        width: 80%;
+        height: 100%;
+        background: black; /* Placeholder background */
+        border-radius: 0px 20px 0px 20px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+      }
+      
+      .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      
+      /* Right: Project Info */
+      .card-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end; /* Right align */
+        text-align: right;
+      }
+    
+      
+      /* Title */
+      .card-info h3 {
+        font-size: 2rem;
+        margin: 0 0 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+      
+      /* Tags */
+      .card-tags {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 1rem 0;
+      }
+      
+      .card-tags span {
+        border: 1px solid black;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      
+      /* Description */
+      .card-info p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin: 1rem 0;
+        max-width: 90%;
+      }
+      
+      /* Button */
+      .card-button {
+        margin-top: 1rem;
+        padding: 0.5rem 1.5rem;
+        background: black;
+        color: white;
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        position: absolute;
+      }
+      
+      .card-button:hover {
+        background: #333;
+      }
+}

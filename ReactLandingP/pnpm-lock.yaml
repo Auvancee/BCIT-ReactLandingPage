@@ -23,6 +23,9 @@ importers:
       '@studio-freight/react-lenis':
         specifier: ^0.0.47
         version: 0.0.47(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      gsap:
+        specifier: ^3.12.7
+        version: 3.12.7
       lenis:
         specifier: ^1.2.1
         version: 1.2.1(react@19.0.0)
