@@ -13,6 +13,7 @@
 [ Happy Developing! :) ]
 
 
-## ★ Project Screenshots ★
+## ★ Project Screenshots (In Development) ★
 
+![Screenshot 2025-03-16 162204](https://github.com/user-attachments/assets/bac4dd20-ca29-4087-8cb9-ebdbf636a4d6)
 
