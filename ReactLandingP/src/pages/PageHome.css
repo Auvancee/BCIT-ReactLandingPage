@@ -118,6 +118,175 @@ main {
     color: black;
 }
 
+/* Projects, Cards & Stuff -DESKTOP NONE */
+.cards {
+    display: none;
+}
+
+
+.mobile-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+
+
+/* Mobile card */
+.mobile-card {
+    width: 100%;
+    background: white;
+    border-radius: 0px 20px 0px 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: #000 1px solid;
+}
+
+/* .mobile-card:hover {
+    transform: scale(1.02);
+} */
+
+/* Card image section */
+.mobile-card-image {
+    background: black;
+    height: 150px;
+    width: 100%; 
+    border-top-right-radius: 20px;
+    position: relative;
+    overflow: hidden; /* Prevent overflow issues */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.mobile-card-image img {
+    width: 100%; /* Ensures it fills horizontally */
+    height: 100%; /* Ensures it fills vertically */
+    object-fit: cover; /* Prevents stretching/shrinking */
+    border-bottom-left-radius: 20px;
+}
+
+/* Card number (circular in top-right corner) */
+.mobile-card-number {
+    width: 40px;
+    height: 40px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    border: #000 1px solid;
+    font-family: 'NeueM-Book';
+}
+
+/* Card content */
+.mobile-card-content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.mobile-card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: right;
+    font-family: 'NeueM-Med';
+}
+
+.mobile-card-content p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 0.8rem;
+    text-align: right;
+    font-family: 'NeueM-Book';
+}
+
+/* Tags */
+.mobile-tags {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-end;
+    font-family: 'NeueM-Book';
+}
+
+.mobile-tags span {
+    border: 1px solid black;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+/* More Work Button */
+.more-work-btn {
+    margin-top: 0.5rem;
+    padding: 0.7rem 2rem;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: auto;
+    font-family: 'NeueM-Thin';
+    border: #000 1px solid;
+}
+
+.more-work-btn:hover {
+    background: #000000;
+    color: white;
+}
+
+.more-work-btn-desktop {
+    display: none;
+}
+
+
+/* • CTA BEFORE • */
+.CTABefore {
+    text-align: center;
+    padding-top: 23rem; 
+    padding-bottom: 23rem; 
+
+}
+
+.CTABefore h4, .CTABefore h5 {
+    margin: 0;
+}
+
+.CTABefore h4 {
+    font-family: 'NeueM-Bold';
+    font-size: 2rem;
+    letter-spacing: -1px;
+    color: black;
+}
+
+.CTABefore h5 {
+    font-family: 'MonumentExtended-Black';
+    font-size: 2rem;
+    letter-spacing: -3px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+
+
 
 
 /* ● TABLET SETTINGS ● */
@@ -237,6 +406,62 @@ main {
         color: black;
 }
 
+    /* Projects, Cards & Stuff -DESKTOP NONE */
+    .mobile-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 90%;
+        margin: auto;
+        padding-top: 5rem;
+        max-width: 500px;
+    }
+
+    .mobile-card {
+        width: 100%;
+        height: 500px;
+        background: white;
+        border-radius: 0px 20px 0px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        border: #000 1px solid;
+    }
+
+    .mobile-card-image {
+        height: 300px;
+        width: 100%; 
+    }
+
+        /* • CTA BEFORE • */
+        .CTABefore {
+            text-align: center;
+            padding-top: 20rem; 
+            padding-bottom: 20rem; 
+        
+        }
+        
+        .CTABefore h4, .CTABefore h5 {
+            margin: 0;
+        }
+
+        .CTABefore h4 {
+            font-family: 'NeueM-Bold';
+            font-size: 3.2rem;
+            letter-spacing: -3px;
+            color: black;
+        }
+        
+        .CTABefore h5 {
+            font-family: 'MonumentExtended-Black';
+            font-size: 3.2rem;
+            letter-spacing: -3px;
+            color: transparent;
+            -webkit-text-stroke: 2px rgb(0, 0, 0);
+        }
 
 
 }
@@ -323,7 +548,7 @@ main {
     }
     
     .ContainerWhite {
-        background-color: #ffffff;
+        background: linear-gradient(#FFFFFF, #E4E5DE);
         color: black;
         margin: 0;
         font-size: 1.5rem;
@@ -369,14 +594,18 @@ main {
     }
 
     /* • Favourite Container & Content • */
-    .FavoriteContent {
+    .FavoriteContainerInner {
         padding: 0rem 14rem 0rem 14rem;
         margin-top: 9rem;
         color: black;
     }
 
 
-    /* Projects Sticky Scroll Setup */
+    .mobile-projects {
+        display: none;
+    }
+
+    /* Projects, Cards & Stuff */
     .cards {
         height: 80vh;
         width: 70%;
@@ -412,16 +641,10 @@ main {
     
     .card-3 {
         left: 0px;
-        top: 200px;
+        top: 150px;
     }
     
-    .card h2 {
-        font-size: 80px;
-        font-weight: 900;
-        font-stretch: condensed;
-        color: #ff98a2;
-        text-transform: uppercase;
-    }
+    
     
     .card-content {
         display: flex;
@@ -465,11 +688,14 @@ main {
       
       /* Title */
       .card-info h3 {
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 0 0 1rem;
         text-transform: uppercase;
         font-weight: 700;
         line-height: 1.2;
+        font-stretch: condensed;
+        color: #000000;
+        font-family: 'NeueM-Book';
       }
       
       /* Tags */
@@ -486,33 +712,86 @@ main {
         padding: 0.3rem 0.8rem;
         border-radius: 20px;
         font-size: 0.75rem;
-        font-weight: 600;
+        font-weight: 00;
         text-transform: uppercase;
+        font-family: 'NeueM-Med';
       }
       
       /* Description */
       .card-info p {
-        font-size: 0.9rem;
-        line-height: 1.6;
+        font-size: 1.2rem;
         margin: 1rem 0;
         max-width: 90%;
+        font-family: 'NeueM-Med';
       }
       
       /* Button */
       .card-button {
         margin-top: 1rem;
-        padding: 0.5rem 1.5rem;
+        padding: 0.7rem 1.5rem;
         background: black;
         color: white;
-        border-radius: 50px;
+        border-radius: 10px;
         text-decoration: none;
         font-size: 0.85rem;
         font-weight: 600;
         transition: all 0.3s ease;
         position: absolute;
+        font-family: 'NeueM-Thin';
+        margin: 15px;
+        transition: 0.5s;
       }
       
       .card-button:hover {
         background: #333;
+        border-radius: 30px;
       }
+
+      .more-work-btn-desktop {
+        display: block;
+        margin-top: 0.5rem;
+        padding: 0.7rem 3rem;
+        background: transparent;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Thin';
+        border: #000 1px solid;
+        margin: auto;
+      }
+
+      .more-work-btn-desktop:hover {
+        background: #000000;
+        color: white;
+      }
+
+      /* • CTA BEFORE • */
+      .CTABefore {
+        text-align: center;
+        padding-top: 20rem; 
+        padding-bottom: 20rem; 
+      
+    }
+       
+      .CTABefore h4, .CTABefore h5 {
+        margin: 0;
+      }
+
+      .CTABefore h4 {
+        font-family: 'NeueM-Bold';
+        font-size: 5rem;
+        letter-spacing: -3px;
+      }
+      
+      .CTABefore h5 {
+        font-family: 'MonumentExtended-Black';
+        font-size: 5rem;
+        letter-spacing: -3px;
+        color: transparent;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+      }
+
 }

@@ -1,0 +1,210 @@
+
+/* ● TABLET SETTINGS ● */
+
+
+
+/* ● DESKTOP SETTINGS ● */
+
+@media (min-width: 65em){ 
+
+
+    .FooterUpper {
+        background: black;
+        color: #E4E5DE;
+        text-align: center;
+        padding: 4rem 2rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 20px;
+        height: 600px;
+    }
+
+    /* Footer Content */
+    .FooterUpperContent  {
+        margin-bottom: auto; 
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        padding: 0 2rem; 
+    }
+
+    .FooterUpperContent h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #ffffff80;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .FooterUpperContent h2 {
+        font-family: 'NeueM-Book';
+        font-size: 4.5rem;
+        margin: 10px;
+    }
+
+    /* Moving Shapes */
+    .footer-shapes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        pointer-events: none;
+    }
+
+    .shape {
+        position: absolute;
+        opacity: 0.3;
+    }
+
+    .email-btn {
+        background: white;
+        color: black;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Book';
+    }
+
+    .email-btn:hover {
+        background: #ddd;
+    }
+
+    .footer-socials h4 {
+        font-family: "NeueM-Bold";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #ccc;
+    }
+
+
+    .FooterLower {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+    }
+
+    .FooterCopyRight h3 {
+        margin: 0;
+        text-align: right;
+        font-family: 'MonumentExtended-Black';
+        font-size: 5rem;
+        letter-spacing: -3px;
+        line-height: 0.9;
+    }
+
+    .FooterSocials h4 {
+        text-align: left;
+        font-family: 'MonumentExtended-Black';
+        font-size: 4.5rem;
+        letter-spacing: -3px;
+        margin: 0;
+    }
+
+    .FooterSocialsContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4rem;
+    }
+
+    .SocialIcon2 {
+        width: 65px;
+        display: block;
+    }
+    .FooterLowerExtra {
+        padding-top: 40px;
+    }
+
+    .FooterLowerLeft {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: black;
+    }
+
+    .FooterExtra {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ScrollToTopContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .scroll-icon {
+        width: 90px;
+        height: 90px;
+        animation: rotate 7s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .local-time-label, .globally-label {
+        font-family: 'MonumentExtended-Regular';
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .local-time, .AvailableWork-label {
+        font-family: 'MonumentExtended-Light';
+        font-size: 25px;
+    }
+
+
+    .WorkingGloballyContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .WorkingText {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    
+    .SubtleEarthEffect {
+        width: 90px;
+        height: 90px;
+    }
+    
+
+
+}

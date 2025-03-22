@@ -10,7 +10,7 @@ const initScrollAnimation = () => {
                 trigger: ".cards",
                 pin: true,
                 pinSpacing: true,
-                start: "top top",
+                start: "top-=70px top",
                 end: "+=1500",
                 scrub: 1
             }

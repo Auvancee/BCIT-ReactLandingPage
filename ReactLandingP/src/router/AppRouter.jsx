@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../components/FooterOne";
 import Header from "../components/HeaderOne";
 import PageHome from "../pages/PageHome";
 import PageWorks from "../pages/PageWorks";
@@ -23,7 +23,7 @@ const AppRouter = () => {
             <Route path="/synopsis" element={<PageSynopsis />} />
           </Routes>
   
-        <Footer />
+        
       </>
   
     );

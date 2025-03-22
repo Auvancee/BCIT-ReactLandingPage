@@ -418,7 +418,7 @@ video {
 
 @font-face {
   font-family: 'NeueM-Med';
-  src: url(.components/fonts/PPNeueMontreal-Medium.otf);
+  src: url(./components/fonts/PPNeueMontreal-Medium.otf);
 }
 
 @font-face {
@@ -474,3 +474,8 @@ video {
   -webkit-tap-highlight-color: transparent;
  }
 
+ img {
+  pointer-events: none; /* Disables drag selection */
+  user-drag: none; /* Prevents drag */
+  -webkit-user-drag: none; /* For Safari */
+}
