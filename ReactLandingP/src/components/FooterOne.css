@@ -1,11 +1,663 @@
+/* ● MOBILE SETTINGS ● */
+.FooterUpper {
+    background: black;
+    color: #E4E5DE;
+    text-align: center;
+    padding: 1rem 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+    height: 400px;
+}
 
-/* ● TABLET SETTINGS ● */
+/* Footer Content */
+.FooterUpperContent  {
+    margin-bottom: auto; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.FooterUpperContent h4 {
+    font-family: 'NeueM-MonoThin';
+    color: #ffffff80;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.FooterUpperContent h2 {
+    font-family: 'NeueM-Book';
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.email-btn {
+    background: white;
+    color: black;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'NeueM-Book';
+}
+
+.email-btn:hover {
+    background: #ffffff;
+}
+
+.FooterLower {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: black;
+    justify-content: space-between;
+    margin: 30px 20px 0px;
+    gap: 50px;
+}
+
+.FooterCopyRight h3 {
+    margin: 0;
+    text-align: left;
+    font-family: 'MonumentExtended-Black';
+    font-size: 2rem;
+    letter-spacing: -1px;
+    line-height: 1;       
+}
+
+.FooterSocials h4 {
+    text-align: left;
+    font-family: 'MonumentExtended-Black';
+    font-size: 2rem;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.FooterSocialsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+.SocialIcon2 {
+    width: 70px;
+    display: block;
+}
+
+.FooterLowerExtra {
+    padding-top: 30px;
+}
+
+.FooterLowerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.FooterExtra {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px 0px;
+    align-items: center;
+    gap: 20px;
+}
+
+.ScrollToTopContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scroll-icon {
+    width: 60px;
+    height: 60px;
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.local-time-label, .globally-label {
+    font-family: 'MonumentExtended-Regular';
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.local-time, .AvailableWork-label {
+    font-family: 'MonumentExtended-Light';
+    font-size: 16px;
+}
+
+.WorkingGloballyContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px 20px 0px;
+    align-items: center;
+    gap: 20px;
+}
+
+.WorkingText {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.SubtleEarthEffect {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+/* ● MINI TABLET SETTINGS ● */
+@media (min-width: 45em) {
+    .FooterUpper {
+        background: black;
+        color: #E4E5DE;
+        text-align: center;
+        padding: 4rem 2rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 20px;
+        height: 600px;
+    }
+
+    /* Footer Content */
+    .FooterUpperContent  {
+        margin-bottom: auto; 
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    .FooterUpperContent h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #ffffff80;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .FooterUpperContent h2 {
+        font-family: 'NeueM-Book';
+        font-size: 2.5rem;
+        margin: 10px;
+    }
+
+    .email-btn {
+        background: white;
+        color: black;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Book';
+    }
+
+    .email-btn:hover {
+        background: #ffffff;
+    }
+
+    .FooterLower {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        color: black;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        gap: 50px;
+    }
+
+    .FooterCopyRight h3 {
+        margin: 0;
+        text-align: left;
+        font-family: 'MonumentExtended-Black';
+        font-size: 3.5rem;
+        letter-spacing: -3px;
+        line-height: 1;       
+    }
+
+    .FooterSocials h4 {
+        text-align: left;
+        font-family: 'MonumentExtended-Black';
+        font-size: 3.5rem;
+        letter-spacing: -3px;
+        margin: 0;
+    }
+
+    .FooterSocialsContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4rem;
+    }
+
+    .SocialIcon2 {
+        width: 90px;
+        display: block;
+    }
+
+    .FooterLowerExtra {
+        padding-top: 40px;
+    }
+
+    .FooterLowerLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: black;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .FooterExtra {
+        display: flex;
+        flex-direction: row;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ScrollToTopContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .scroll-icon {
+        width: 105px;
+        height: 105px;
+        animation: rotate 7s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .local-time-label, .globally-label {
+        font-family: 'MonumentExtended-Regular';
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .local-time, .AvailableWork-label {
+        font-family: 'MonumentExtended-Light';
+        font-size: 25px;
+    }
+
+    .WorkingGloballyContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .WorkingText {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .SubtleEarthEffect {
+        width: 105px;
+        height: 105px;
+    }
+
+
+
+}
+
+
+
+
+
+/* ● LARGE TABLET SETTINGS ● */
+@media (min-width: 55em) {
+    .FooterUpper {
+        background: black;
+        color: #E4E5DE;
+        text-align: center;
+        padding: 4rem 2rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 20px;
+        height: 600px;
+    }
+
+    /* Footer Content */
+    .FooterUpperContent  {
+        margin-bottom: auto; 
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    .FooterUpperContent h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #ffffff80;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .FooterUpperContent h2 {
+        font-family: 'NeueM-Book';
+        font-size: 3rem;
+        margin: 10px;
+    }
+
+    .email-btn {
+        background: white;
+        color: black;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Book';
+    }
+
+    .email-btn:hover {
+        background: #ffffff;
+    }
+
+    .FooterLower {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: black;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        gap: 50px;
+    }
+
+    .FooterCopyRight h3 {
+        margin: 0;
+        text-align: right;
+        font-family: 'MonumentExtended-Black';
+        font-size: 3rem;
+        letter-spacing: -3px;
+        line-height: 1;       
+    }
+
+    .FooterSocials h4 {
+        text-align: left;
+        font-family: 'MonumentExtended-Black';
+        font-size: 3rem;
+        letter-spacing: -3px;
+        margin: 0;
+    }
+
+    .FooterSocialsContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4rem;
+    }
+
+    .SocialIcon2 {
+        width: 50px;
+        display: block;
+    }
+
+    .FooterLowerExtra {
+        padding-top: 40px;
+    }
+
+    .FooterLowerLeft {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: black;
+    }
+
+    .FooterExtra {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ScrollToTopContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .scroll-icon {
+        width: 65px;
+        height: 65px;
+        animation: rotate 7s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .local-time-label, .globally-label {
+        font-family: 'MonumentExtended-Regular';
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    .local-time, .AvailableWork-label {
+        font-family: 'MonumentExtended-Light';
+        font-size: 18px;
+    }
+
+
+    .WorkingGloballyContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .WorkingText {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    
+    .SubtleEarthEffect {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+
+
+
+
+/* ● LAPTOP SETTINGS ● */
+@media (min-width: 60em) {
+
+    .FooterUpper {
+        background: black;
+        color: #E4E5DE;
+        text-align: center;
+        padding: 4rem 2rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 20px;
+        height: 600px;
+    }
+
+    /* Footer Content */
+    .FooterUpperContent  {
+        margin-bottom: auto; 
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    .FooterUpperContent h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #ffffff80;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .FooterUpperContent h2 {
+        font-family: 'NeueM-Book';
+        font-size: 4.5rem;
+        margin: 10px;
+    }
+
+    .email-btn {
+        background: white;
+        color: black;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Book';
+    }
+
+    .email-btn:hover {
+        background: #ddd;
+    }
+
+
+    .FooterLower {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+    }
+
+
+    .FooterCopyRight h3 {
+        margin: 0;
+        text-align: right;
+        font-family: 'MonumentExtended-Black';
+        font-size: 3.5rem;
+        letter-spacing: -3px;
+        line-height: 1;       
+    }
+
+    .FooterSocials h4 {
+        text-align: left;
+        font-family: 'MonumentExtended-Black';
+        font-size: 3.5rem;
+        letter-spacing: -3px;
+        margin: 0;
+    }
+
+    .FooterSocialsContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4rem;
+    }
+
+    .SocialIcon2 {
+        width: 55px;
+        display: block;
+    }
+
+    .FooterLowerExtra {
+        padding-top: 40px;
+    }
+
+    .FooterLowerLeft {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: black;
+    }
+
+    .FooterExtra {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ScrollToTopContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .scroll-icon {
+        width: 90px;
+        height: 90px;
+        animation: rotate 7s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .local-time-label, .globally-label {
+        font-family: 'MonumentExtended-Regular';
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    .local-time, .AvailableWork-label {
+        font-family: 'MonumentExtended-Light';
+        font-size: 20px;
+    }
+
+
+    .WorkingGloballyContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 60px 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .WorkingText {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    
+    .SubtleEarthEffect {
+        width: 90px;
+        height: 90px;
+    }
+
+}
 
 
 
 /* ● DESKTOP SETTINGS ● */
 
-@media (min-width: 65em){ 
+@media (min-width: 75em){ 
 
 
     .FooterUpper {
@@ -78,7 +730,7 @@
         background: #ddd;
     }
 
-    .footer-socials h4 {
+    /* .footer-socials h4 {
         font-family: "NeueM-Bold";
         font-size: 16px;
         margin-bottom: 10px;
@@ -98,7 +750,7 @@
 
     .social-icons a:hover {
         color: #ccc;
-    }
+    } */
 
 
     .FooterLower {
@@ -106,6 +758,7 @@
         color: black;
         justify-content: space-between;
         margin: 30px 60px 0px;
+        align-items: center;
     }
 
     .FooterCopyRight h3 {
