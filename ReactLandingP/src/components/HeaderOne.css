@@ -20,8 +20,17 @@
     height: auto;
     transition: transform 0.3s ease;
     display: block;
-    border-radius: 20px;
+    border-radius: 15px;
+    border: #000 1px solid;
+    transition: 0.4s ease-in-out;
   }
+
+  .main-logo.active {
+    border-radius: 50px; /* More defined circular shape */
+    transform: rotate(-90deg);
+    border: #ffffff 1px solid;
+    filter: invert(1);
+}
   
   /* Fullscreen Overlay */
   .mobile-overlay {
@@ -46,6 +55,7 @@
   /* Show overlay when open */
   .mobile-overlay.open {
     transform: translateX(0);
+
   }
   
   /* Centered content */

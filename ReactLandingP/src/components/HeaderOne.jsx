@@ -21,6 +21,16 @@ function HeaderOne() {
   const handleMouseEnter = () => setIsHovering(true);
   const handleMouseLeave = () => setIsHovering(false);
 
+  // Function to handle smooth scrolling
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      setIsOpen(false); // Close desktop menu
+      setIsOverlayOpen(false); // Close mobile menu
+    }
+  };
+
   return (
     <header className="header-container">
       <nav className="nav-bar">
@@ -46,11 +56,11 @@ function HeaderOne() {
           {isOpen && (
             <div className="dropdown-menu">
               <ul>
-                <li><Link to="#About" onClick={toggleMenu}>ABOUT</Link></li>
-                <li><Link to="#Featured" onClick={toggleMenu}>FEATURED</Link></li>
+                <li><Link to="#About" onClick={() => { toggleMenu(); scrollToSection("About"); }}>ABOUT</Link></li>
+                <li><Link to="#Featured" onClick={() => { toggleMenu(); scrollToSection("Featured"); }}>FEATURED</Link></li>
                 <li><Link to="/synopsis" onClick={toggleMenu}>SYNOPSIS</Link></li>
                 <li><Link to="/works" onClick={toggleMenu}>PROJECTS</Link></li>
-                <li><Link to="#Contact" onClick={toggleMenu}>CONTACT</Link></li>
+                <li><Link to="#Contact" onClick={() => { toggleMenu(); scrollToSection("Contact"); }}>CONTACT</Link></li>
               </ul>
             </div>
           )}
@@ -58,7 +68,7 @@ function HeaderOne() {
 
         {/* Mobile Logo (Hamburger) */}
         <div className="logo-mobile mobile-only" onClick={toggleMenu2}>
-          <img src={logo} alt="HAFIZAU Logo" className="main-logo" />
+          <img src={logo} alt="HAFIZAU Logo" className={isOverlayOpen ? "main-logo active" : "main-logo"} />
         </div>
 
       </nav>
@@ -68,11 +78,11 @@ function HeaderOne() {
         <div className="overlay-content">
 
           <ul className="overlay-info">
-            <li><Link to="#Services" onClick={toggleMenu2}>ABOUT</Link></li>
-            <li><Link to="/works" onClick={toggleMenu2}>FEATURED</Link></li>
+            <li><Link to="#About" onClick={() => { toggleMenu(); scrollToSection("About"); }}>ABOUT</Link></li>
+            <li><Link to="#Featured" onClick={() => { toggleMenu(); scrollToSection("Featured"); }}>FEATURED</Link></li>
             <li><Link to="/synopsis" onClick={toggleMenu2}>SYNOPSIS</Link></li>
-            <li><Link to="#Ovations" onClick={toggleMenu2}>PROJECTS</Link></li>
-            <li><Link to="#Contact" onClick={toggleMenu2}>CONTACT</Link></li>
+            <li><Link to="/works" onClick={toggleMenu2}>PROJECTS</Link></li>
+            <li><Link to="#Contact" onClick={() => { toggleMenu(); scrollToSection("Contact"); }}>CONTACT</Link></li>
           </ul>
 
           <div className="contact-info">

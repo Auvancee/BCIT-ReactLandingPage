@@ -98,7 +98,7 @@ function FooterOne() {
                 </div>
             </div>
             
-            <div className="FooterLower">
+            <div className="FooterLower" id="Contact">
                 {/* Social Icons */}
                 <div className="FooterSocials">
                     <h4>SOCIALS</h4>

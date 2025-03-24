@@ -84,6 +84,10 @@ main {
     color: black;
 }
 
+.ContainerWhite {
+    background: linear-gradient(#FFFFFF, #E4E5DE);
+}
+
 /* • About Container & Content • */
 .AboutContainer  {
     color: black;
@@ -352,6 +356,9 @@ main {
         color: black;
     }
 
+    .ContainerWhite {
+        background: linear-gradient(#FFFFFF, #E4E5DE);
+    }
     /* • About Container & Content • */
     .AboutContainer  {
         padding: 4rem;

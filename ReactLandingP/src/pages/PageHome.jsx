@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./PageHome.css";
 import { initializeSplide } from "../global/splide";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import HeaderOne from "../components/HeaderOne";
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
@@ -19,6 +20,7 @@ import initScrollAnimation from "../global/projectscroll"; // Desktop GSAP
 
 import ProjectOnePC from "../components/images/projectimages/ONAFilmsPC.png";
 import ProjectTwoPC from "../components/images/projectimages/SangHanPC.png";
+import { Link } from "react-router-dom";
 
 
 function PageHome() {
@@ -72,7 +74,7 @@ function PageHome() {
                             </div>
                     </div>
 
-                    <article className="AboutContainer" id="#About">
+                    <article className="AboutContainer" id="About">
 
                         <div className="AboutTitle">
                             <h4>(ABOUT)</h4>
@@ -89,7 +91,7 @@ function PageHome() {
                     </article>
 
 
-                    <article className="FavoriteContainer">
+                    <article className="FavoriteContainer" id="Featured">
 
                         <div className="FavoriteContainerInner">
                             <div className="FavoriteTitle">
@@ -109,32 +111,34 @@ function PageHome() {
                             {/* <!--DESKTOP & TABLET--> */}
                             <div className="cards">
 
+                            
                                 <div className="card card-1">
+                                    
                                     <div className="card-content">
-                                    {/* <!-- Left Image --> */}
-                                    <div className="card-image">
-                                        <a href="javascript:void(0)" className="card-button" target="_blank" rel="noopener noreferrer">LIVE SITE →</a>
-                                       
-                                        <img src="/2025-02-27_22.00.24.png" alt="Project Preview" />
-                                    </div>
-                                
-                                    {/* <!-- Right Info --> */}
-                                    <div className="card-info">
-                                        <h3>CAPSTONE PROJECT</h3>
+                                        {/* <!-- Left Image --> */}
+                                        <div className="card-image">
+                                            <a href="javascript:void(0)" className="card-button" target="_blank" rel="noopener noreferrer">LIVE SITE →</a>
                                         
-                                        <div className="card-tags">
-                                        <span>Design</span>
-                                        <span>Development</span>
-                                        <span>Responsive</span>
+                                            <img src="/2025-02-27_22.00.24.png" alt="Project Preview" />
                                         </div>
                                 
-                                        <p>
-                                        A website built to increase volume of potential students along with
-                                        site responsiveness, sleekness & visual stimulation.
-                                        </p>
-                                
-                                        
-                                    </div>
+                                    {/* <!-- Right Info --> */}
+                                        <div className="card-info">
+                                            <h3>CAPSTONE PROJECT</h3>
+                                            
+                                            <div className="card-tags">
+                                                <span>Design</span>
+                                                <span>Development</span>
+                                                <span>Responsive</span>
+                                            </div>
+                                    
+                                            <p>
+                                                A website built to increase volume of potential students along with
+                                                site responsiveness, sleekness & visual stimulation.
+                                            </p>
+                                    
+                                            
+                                        </div>
                                     </div>
                                 </div>
 
@@ -202,7 +206,7 @@ function PageHome() {
 
                             <button className="more-work-btn-desktop">More Work</button>
                             
-
+                            
 
                             {/* <!--MOBILE--> */}
                             <div className="mobile-projects">
@@ -265,9 +269,9 @@ function PageHome() {
                             </div>
 
 
-                            <FooterOne />
+                            <FooterOne/>
                             
-                            <br/><br/><br/><br/>
+                            <br/><br/>
 
                             
                 </section>
