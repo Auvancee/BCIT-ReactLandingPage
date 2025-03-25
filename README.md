@@ -16,6 +16,9 @@
 
 ## ★ Project Screenshots (In Development) ★
 
+### Homepage
 ![Screenshot 2025-03-16 162204](https://github.com/user-attachments/assets/bac4dd20-ca29-4087-8cb9-ebdbf636a4d6)
 ![image](https://github.com/user-attachments/assets/8f73a0c8-1cfe-49d1-87d5-6cee11e8b3a3)
+![image](https://github.com/user-attachments/assets/2410f6bf-771d-4571-a613-87029bb603d0)
+
 
