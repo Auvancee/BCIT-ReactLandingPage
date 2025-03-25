@@ -1,1 +1,120 @@
- 
+/* ● MOBILE SETTINGS ● */
+
+/* • Introduction • */
+
+
+/* • Hero section full screen • */
+.WorkHeroSection {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+/* ● TABLET SETTINGS ● */
+@media (min-width: 30em) {
+
+}
+
+
+/* ● DESKTOP SETTINGS ● */
+
+
+@media (min-width: 65em){ 
+
+
+    .WorkHeroSection {
+        min-height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .WorkIntro {
+        margin-bottom: auto; 
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        padding: 0 2rem;  
+    }
+
+    .WorkIntro h1 {
+        font-family: 'NeueM-Bold';
+        font-size: 6rem;
+        text-align: center;
+        letter-spacing: -2px;
+    }
+
+    .WorkHighlight {
+        font-family: 'NeueM-Book';
+    }
+
+    /* • Splide Sticker Auto Scroll  • */
+    .splide {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+        pointer-events: visible;
+    }
+
+
+    .splide .splide__track ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6.4rem;
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-family: 'MonumentExtended-Black';
+    }
+    
+   
+    .splide .splide__track ul li img {
+        width: 6.4rem;
+        height: 4rem;
+    }
+    
+    .splide .splide__track-2 {
+        background-color: #ffffff;
+    }
+    
+    .splide .splide__track-2 ul li {
+        color: black;
+    }
+    
+    .ContainerWhite {
+        background: linear-gradient(#FFFFFF, #E4E5DE);
+        color: black;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+
+    /* • Work Container & Content • */
+    .WorkContainer  {
+        padding: 0rem 14rem 0rem 14rem;
+        margin-top: 9rem;
+    }
+
+    .WorkTitle h4, .WorkTitle h3 {
+        margin: 0;
+    }
+
+    .WorkTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #00000080;
+        font-size: 18px;
+    }
+
+    .WorkTitle h3 {
+        font-family: 'NeueM-Bold';
+        font-size: 80px;
+        letter-spacing: -0.7px;
+       
+    }
+
+}
