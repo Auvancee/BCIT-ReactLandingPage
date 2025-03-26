@@ -55,19 +55,20 @@ function PageWorks() {
 
                       <article className="WorkContainer" id="Projects">
 
-                        <div className="WorkTitle">
-                            <h4>(PROJECTS)</h4>
-                            <h3>ELEVATING<br/>EXPERIENCE</h3>
-                        </div>
+                            <div className="WorkTitle">
+                                <h4>(PROJECTS)</h4>
+                                <h3>ELEVATING<br/>EXPERIENCE</h3>
+                            </div>
 
-                        {/* <div className="AboutContent">
-                            <p>Front-End Developer & UX/UI Designer helping brands & teams 
-                                build responsive experiences that blend form, function, and scalable code — 
-                                turning complex ideas into elegant digital solutions.
-                            </p>
-                        </div> */}
+                            <div className="WorkContent">
+                                <p>Meticulosly crafted projects that have been designed, developed
+                                    & reviewed from the absolute bare bone. 
+                                </p>
+                            </div>
 
                         </article>
+
+                        
 
 
 
