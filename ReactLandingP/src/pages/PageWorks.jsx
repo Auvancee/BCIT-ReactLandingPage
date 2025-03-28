@@ -8,6 +8,15 @@ import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import SplideDiamond from "../components/images/DiamondSplide.svg"
 import FooterOne from "../components/FooterOne";
 import "./PageWorks.css";
+import { projects } from "../global/projectData";
+
+
+import { Link } from "react-router-dom";
+// import { projects2 } from "../data/projectData";
+
+
+
+
 
 
 
@@ -67,6 +76,53 @@ function PageWorks() {
                             </div>
 
                         </article>
+
+
+                        <section className="ProjectGrid">
+                        {projects.map((project, index) => (
+                            <Link to={`/project/${project.slug}`} className="ProjectBox" key={index}>
+                                <div className="ProjectImage">
+                                    {project.image ? (
+                                    <img src={project.image} alt={project.title} />
+                                    ) : (
+                                    <div className="Placeholder"></div>
+                                    )}
+                                </div>
+                                <div className="ProjectContent">
+                                    <div className="ProjectTags">
+                                    {project.tags.map((tag, i) => (
+                                        <span key={i} className="Tag">{tag}</span>
+                                    ))}
+                                    </div>
+                                    <div className="ProjectInfo">
+                                    <span className="ProjectYear">{project.year}</span>
+                                    <h3>{project.title}</h3>
+                                    </div>
+                                </div>
+                            </Link>
+                        ))}
+
+
+                        </section>
+                        
+
+
+                        <article className="ArchiveContent">
+                            <h4>(ARCHIVES)</h4>
+                            <button className="ArchiveButton">View On Github ↗</button>
+                        </article>
+
+
+
+                        <div className="CTABefore">
+                            <h4>READY TO</h4>
+                            <h5>TRANSFORM</h5>
+                            <h4>YOUR EXPERIENCE?</h4>
+                        </div>
+
+
+                        <FooterOne/>  
+                        <br/><br/>
 
                         
 

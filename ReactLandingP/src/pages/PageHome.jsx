@@ -91,6 +91,7 @@ function PageHome() {
                     </article>
 
 
+                    {/* Featured Project Intro */}
                     <article className="FavoriteContainer" id="Featured">
 
                         <div className="FavoriteContainerInner">
@@ -204,6 +205,7 @@ function PageHome() {
 
                             <br/><br/><br/><br/>
 
+                            {/* More Work Button */}
                             <button className="more-work-btn-desktop">More Work</button>
                             
                             
@@ -262,13 +264,14 @@ function PageHome() {
 
                     </article>
 
+                            {/* CTA Section */}
                             <div className="CTABefore">
                                 <h4>READY TO</h4>
                                 <h5>TRANSFORM</h5>
                                 <h4>YOUR EXPERIENCE?</h4>
                             </div>
 
-
+                            {/* Footer */}
                             <FooterOne/>
                             
                             <br/><br/>

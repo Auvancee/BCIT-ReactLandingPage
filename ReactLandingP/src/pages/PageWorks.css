@@ -241,4 +241,137 @@
         margin-left: auto
     }
 
+    /* • Project Card Styling • */
+    /* Project Grid Layout for Desktop */
+        .ProjectGrid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+            padding: 2rem 4rem 3rem;
+            justify-items: center;
+        }
+
+        .ProjectBox {
+            background: #f8f8f8;
+            border-radius: 12px;
+            overflow: hidden;
+            /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+            transition: transform 0.3s ease;
+            width: 100%;
+            /* height: 800px; */
+            border-radius: 0px 20px;
+            border: #000 1px solid;
+        }
+
+        .ProjectBox a {
+            color: inherit;
+        }
+
+        .ProjectBox:hover {
+            transform: translateY(-5px);
+        }
+
+        .ProjectImage {
+            width: 100%;
+            height: 500px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .ProjectImage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0px 20px 0px 20px;
+            
+        }
+
+        .Placeholder {
+            width: 100%;
+            height: 100%;
+            border-radius: 0px 20px;
+            background: #ccc;
+        }
+
+        .ProjectContent {
+            padding: 1rem;
+            
+        }
+
+        .ProjectYear {
+            font-size: 30px;
+            color: #272727c0;
+            letter-spacing: -1px;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-family: 'NeueM-Med';
+        }
+
+        .ProjectContent h3 {
+            font-size: 2rem;
+            margin: 0;
+            font-family: 'NeueM-Book';
+        }
+
+        .ProjectInfo {
+            display: flex;
+            flex-direction: column;
+            margin-top: 8rem;
+            
+        }
+
+        .ProjectTags {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+        
+        .Tag {
+            border: 1px solid black;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 00;
+            text-transform: uppercase;
+            font-family: 'NeueM-Med'
+        }
+
+        .ArchiveContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ArchiveContent h4 {
+            margin: 0;
+            font-family: 'NeueM-MonoThin';
+            color: #00000080;
+            font-size: 18px;
+        }
+
+        .ArchiveButton {
+            display: block;
+            margin-top: 1rem;
+            padding: 0.7rem 3rem;
+            background: transparent;
+            color: rgb(0, 0, 0);
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            font-family: 'NeueM-Thin';
+            border: #000 1px solid;
+            margin-top: 1rem;
+
+        }
+
+        .ArchiveButton:hover {
+            background: #000000;
+            color: white;   
+        }
+
 }

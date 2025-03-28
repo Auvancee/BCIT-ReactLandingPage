@@ -1,0 +1,37 @@
+.ProjectDetailSection {
+    padding: 4rem;
+    background: #fff;
+  }
+  
+  .ProjectTitle {
+    font-size: 3rem;
+    font-family: 'NeueM-Bold';
+  }
+  
+  .ProjectDesc {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .ProjectDetailImage img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .ProjectDetailTags .Tag {
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  .BackLink {
+    display: inline-block;
+    margin-top: 2rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
