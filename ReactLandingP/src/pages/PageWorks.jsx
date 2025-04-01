@@ -7,7 +7,6 @@ import HeaderTwo from "../components/HeaderTwo";
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import SplideDiamond from "../components/images/DiamondSplide.svg"
 import FooterOne from "../components/FooterOne";
-import "./PageWorks.css";
 import { projects } from "../global/projectData";
 
 
@@ -32,7 +31,7 @@ function PageWorks() {
     return (
 
     <ReactLenis root>
-            <main ref={containerRef}>
+            <main ref={containerRef} className="PageWorkMain">
                 <HeaderTwo />
 
                 {/* HERO Section that contains everything on the first screen */}

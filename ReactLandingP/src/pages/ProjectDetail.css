@@ -1,23 +1,63 @@
-.ProjectDetailSection {
+
+@media (min-width: 65em) {
+
+  
+
+  .ProjectDetailMain {
+    background-color: #ffffff;
+}
+
+  .ProjectDetailSection {
     padding: 4rem;
     background: #fff;
   }
-  
-  .ProjectTitle {
-    font-size: 3rem;
-    font-family: 'NeueM-Bold';
+
+  .ProjectContentFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'NeueM-Book';
+    padding: 120px 80px 100px;
   }
   
+  .ProjectTitle {
+    font-size: 6rem;
+    max-width: 800px;
+    margin: 0;
+    font-family: 'NeueM-Book';
+  }
+  
+  .ProjectContentSecond {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    font-family: 'NeueM-Book';
+  }
+
   .ProjectDesc {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
     max-width: 600px;
+    margin: 0;
+    text-align: right;    
+  }
+  
+  .ProjectDetailImage  {
+    border: #000 1px solid;
+    height: 800px;
+    border-radius: 0px 20px 0px 20px;
+    padding: 20px;
   }
   
   .ProjectDetailImage img {
     width: 100%;
-    border-radius: 20px;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0px 20px 0px 20px;
     margin-bottom: 2rem;
+    display: block;
+    
   }
   
   .ProjectDetailTags .Tag {
@@ -35,3 +75,24 @@
     font-weight: bold;
   }
   
+  .SubTitle {
+    font-family: 'NeueM-Med';
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+
+  .DetailsSection {
+    font-family: 'NeueM-Book';
+    font-size: 1.5rem;
+  }
+
+  .ToolItem {
+    width: 70px;
+    height: 70px;
+  }
+
+  .ToolGrid {
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+}

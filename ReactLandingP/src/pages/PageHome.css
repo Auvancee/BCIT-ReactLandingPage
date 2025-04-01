@@ -1,7 +1,7 @@
 /* ● MOBILE SETTINGS ● */
 
 /* • Introduction • */
-main {
+.PageHomeMain {
     background-color: #000000;
     color: white;  
 }
@@ -298,7 +298,7 @@ main {
 @media (min-width: 30em) {
 
     /* • Introduction • */    
-    main {
+    .PageHomeMain {
         background-color: #000000;
         color: white;
     }
@@ -481,7 +481,7 @@ main {
 
 
      /* • Introduction • */  
-    main {
+    .PageHomeMain {
         background-color: #000000;
         color: white;
     }
@@ -564,7 +564,7 @@ main {
 
     /* • About Container & Content • */
     .AboutContainer  {
-        padding: 0rem 14rem 0rem 14rem;
+        padding: 0rem 7rem 0rem 7rem;
         margin-top: 9rem;
     }
     
@@ -600,9 +600,15 @@ main {
         max-width: 75%;
     }
 
+    .FavoriteContainer {
+        padding: 0rem;
+        margin-top: 60px;
+        color: black;
+}
+
     /* • Favourite Container & Content • */
     .FavoriteContainerInner {
-        padding: 0rem 14rem 0rem 14rem;
+        padding: 0rem 7rem 0rem 7rem;
         margin-top: 9rem;
         color: black;
     }

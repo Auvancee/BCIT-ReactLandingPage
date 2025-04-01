@@ -45,7 +45,7 @@ function PageHome() {
 
     return (
         <ReactLenis root>
-            <main ref={containerRef}>
+            <main ref={containerRef} className="PageHomeMain">
                 <HeaderOne />
 
                 {/* HERO Section that contains everything on the first screen */}
