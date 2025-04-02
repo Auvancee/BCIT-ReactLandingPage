@@ -20,6 +20,7 @@ import initScrollAnimation from "../global/projectscroll"; // Desktop GSAP
 
 import ProjectOnePC from "../components/images/projectimages/ONAFilmsPC.png";
 import ProjectTwoPC from "../components/images/projectimages/SangHanPC.png";
+import ProjectThreePC from "../components/images/projectimages/IntercodexPC.png";
 import { Link } from "react-router-dom";
 
 
@@ -120,7 +121,7 @@ function PageHome() {
                                         <div className="card-image">
                                             <a href="javascript:void(0)" className="card-button" target="_blank" rel="noopener noreferrer">LIVE SITE →</a>
                                         
-                                            <img src="/2025-02-27_22.00.24.png" alt="Project Preview" />
+                                            <img className="ProjectImageDesktop" src={ProjectThreePC} alt="ONAFilms" />
                                         </div>
                                 
                                     {/* <!-- Right Info --> */}

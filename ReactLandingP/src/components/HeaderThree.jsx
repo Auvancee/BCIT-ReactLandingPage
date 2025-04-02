@@ -61,7 +61,7 @@ function HeaderThree() {
                       <li><Link to="/">HOME</Link></li>
                       <li><Link to="#Projects" onClick={() => { toggleMenu(); scrollToSection("Synopsis"); }}>SYNOPSIS</Link></li>
                       <li><Link to="#Archives" onClick={() => { toggleMenu(); scrollToSection("Skillset"); }}>SKILLSET</Link></li>
-                      <li><Link to="/work" onClick={toggleMenu}>PROJECTS</Link></li>
+                      <li><Link to="/works" onClick={toggleMenu}>PROJECTS</Link></li>
                       <li><Link to="#Contact" onClick={() => { toggleMenu(); scrollToSection("Contact"); }}>CONTACT</Link></li>
                     </ul>
                   </div>
