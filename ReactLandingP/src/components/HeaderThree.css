@@ -1,0 +1,206 @@
+/* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+
+
+/* [1] Header & Navigation */
+.menu-label-three {
+    display: none;
+}
+
+/* Fullscreen Overlay */
+.mobile-overlay-three {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    color: rgb(255, 255, 255);
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+/* Show overlay when open */
+.mobile-overlay-three.open {
+    transform: translateX(0);
+}
+
+.overlay-content-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.overlay-content-three ul {
+    list-style: none;
+    padding: 0;  
+}
+  
+.overlay-content-three a {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'MonumentExtended-Black';
+}
+
+.overlay-content-three li {
+    margin: 0;
+  }
+
+.overlay-info-three {
+    margin: 2px;
+}
+
+/* Contact Info */
+.contact-info-three {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contact-info-three p {
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+.text-logo-three a {
+    display: none;
+}
+
+.emailtitlethree {
+    font-family: 'MonumentExtended-Black';
+    font-size: 1.2rem;
+    color: black;
+}
+
+.emailthree {
+    font-family: 'MonumentExtended-Light';
+    font: 16px;
+    color: black;
+}
+
+.Socials-Three {
+    margin-top: 1rem;
+}
+
+.socialTitleThree p {
+    font-family: 'MonumentExtended-Black';
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: black;
+}
+
+.socialIconsContainerThree {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+/* ⇣⇣ TABLET SETTINGS ⇣⇣   */
+@media (min-width: 30em) {
+    .overlay-content-three a {
+        color: rgb(0, 0, 0);
+        font-size: 3rem;
+        text-decoration: none;
+        font-family: 'MonumentExtended-Black';
+    }
+
+    .emailtitlethree {
+        font-family: 'MonumentExtended-Black';
+        font-size: 1.7rem;
+        color: black;
+    }
+    
+    .socialTitleThree p {
+        font-family: 'MonumentExtended-Black';
+        font-size: 1.7rem;
+        margin: 0.5rem 0;
+    }
+
+}
+
+@media (min-width: 55em) {
+    .menu-label-three {
+        display: block;
+    }
+
+    .text-logo-three a {
+        display: block;
+    }
+
+    .header-container-three {
+        width: 100%;
+        background-color: transparent;
+        color: #000000;
+        position: absolute; 
+        top: 0;
+        left: 0;
+        z-index: 100;
+        font-family: sans-serif;
+    }
+
+    .arrow-three {
+        font-size: 1.2rem;
+        transition: transform 0.3s ease;
+        font-family: 'NeueM-MonoBook';
+        color: black;
+    }
+
+    .arrow-three.rotate {
+        transform: rotate(-45deg);
+      }
+
+    .nav-bar-three {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+
+    .text-logo-three a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #000000;
+        /* mix-blend-mode: difference; */
+        font-family: 'NeueM-MonoBook';
+        /* font-weight: bold; */
+      }
+
+      .menu-label-three {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-family: 'NeueM-MonoBook';
+        color: rgb(0, 0, 0);
+      }
+
+      .dropdown-menu-three {
+        position: absolute;
+        right: 0;
+        top: 100%; /* Right below "MENU" */
+        padding: 1rem 1.5rem;
+        animation: fadeIn 0.3s ease-in-out;
+      }
+
+      .dropdown-menu-three ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .dropdown-menu-three li {
+        margin: 0.5rem 0;
+        text-align: right;
+      }
+
+      .dropdown-menu-three a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.2rem;
+        font-family: 'NeueM-MonoBook';
+        transition: opacity 0.2s ease;
+      }
+
+}

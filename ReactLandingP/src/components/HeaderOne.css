@@ -133,6 +133,7 @@
   }
 
 
+/* ⇣⇣ TABLET SETTINGS ⇣⇣   */
 @media (min-width: 30em) {
   .main-logo {
     width: 4rem; /* or adjust as needed */
@@ -183,7 +184,7 @@
 
 .text-logo a {
     display: block;
-  }
+}
 
 
 /* General Header Layout */
