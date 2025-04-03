@@ -1,22 +1,22 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./FooterOne.css";
+import "./FooterTwo.css";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { useLenis } from "@studio-freight/react-lenis";
 
-{/* Black Icons */}
-import linkedInBlackIcon from "../components/images/blackicons/LinkedInBlack.png"; // Import your SVG as image
-import youTubeBlackIcon from "../components/images/blackicons/YouTubeBlack.png"; // Import your SVG as image
-import codepenBlackIcon from "../components/images/blackicons/CodepenBlack.png"; // Import your SVG as image
-import githubBlackIcon from "../components/images/blackicons/GitHubBlack.png"; // Import your SVG as image
-import behanceBlackIcon from "../components/images/blackicons/BehanceBlack.png"; // Import your SVG as image
+{/* White Icons */}
+import linkedInWhtieIcon from "../components/images/whiteicons/LinkedInWhite.svg"; // Import your SVG as image
+import youTubeWhiteIcon from "../components/images/whiteicons/YouTubeWhite.svg"; // Import your SVG as image
+import codepenWhiteIcon from "../components/images/whiteicons/CodepenWhite.png"; // Import your SVG as image
+import githubWhiteIcon from "../components/images/whiteicons/GitHubWhite.svg"; // Import your SVG as image
+import behanceWhiteIcon from "../components/images/whiteicons/BehanceWhite.png"; // Import your SVG as image
 
 import ScrollToTopIcon from "./images/ScrollToTop.svg"; // Update path if needed
 import EarthSVG from "./images/EarthWorld.svg"; // Update path to your uploaded SVG
 
 
-function FooterOne() {
-    const footerRef = useRef(null);
+function FooterTwo() {
+    const footerRef2 = useRef(null);
     const shapesRef = useRef([]);
     const lenis = useLenis();
     const [localTime, setLocalTime] = useState("");
@@ -74,9 +74,9 @@ function FooterOne() {
     
 
     return (
-        <footer className="footer-container" ref={footerRef}>
+        <footer className="footer-container-three" ref={footerRef2}>
 
-            <div className="FooterUpper">
+            <div className="FooterUpperThree">
                 {/* Moving Shapes Background */}
                 {/* <div className="footer-shapes">
                     <svg className="shape" ref={(el) => (shapesRef.current[0] = el)} width="100" height="100">
@@ -91,32 +91,32 @@ function FooterOne() {
                 </div> */}
 
                 {/* Footer Content */}
-                <div className="FooterUpperContent">
+                <div className="FooterUpperContentThree">
                     <h4>(CONTACT)</h4>
                     <h2>LET'S CONNECT & TRANSFORM</h2>
                     <button className="email-btn">Email Me →</button>
                 </div>
             </div>
             
-            <div className="FooterLower" id="Contact">
+            <div className="FooterLowerThree" id="Contact">
                 {/* Social Icons */}
-                <div className="FooterSocials">
+                <div className="FooterSocialsThree">
                     <h4>SOCIALS</h4>
-                    <div className="FooterSocialsContainer">
+                    <div className="FooterSocialsContainerThree">
                         <a href="https://www.linkedin.com/in/hafizau/">
-                            <img className="SocialIcon" src={linkedInBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon2" src={linkedInWhtieIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://www.youtube.com/@Auvance">
-                            <img className="SocialIcon" src={youTubeBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon2" src={youTubeWhiteIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://codepen.io/Auvancee">
-                            <img className="SocialIcon" src={codepenBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon2" src={codepenWhiteIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon" src={githubBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon2" src={githubWhiteIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon" src={behanceBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon2" src={behanceWhiteIcon} alt="LinkedIn" />
                         </a>
                     </div>
                 </div>
@@ -159,4 +159,4 @@ function FooterOne() {
     );
 }
 
-export default FooterOne;
+export default FooterTwo;

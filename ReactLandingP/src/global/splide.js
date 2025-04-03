@@ -24,4 +24,10 @@ export const initializeSplide = () => {
     // Mount the Splide instance with the AutoScroll extension
     splide.mount({ AutoScroll });
   });
+
+   
+
 };
+
+
+

@@ -3,3 +3,198 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
+
+
+
+
+
+/* ● DESKTOP SETTINGS ● */
+
+
+@media (min-width: 65em){ 
+
+
+ 
+    /* • Introduction • */  
+    .PageSynopsisMain {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .SynopsisHeroSection {
+        min-height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .SynopsisIntro {
+        margin-bottom: auto; 
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        padding: 0 2rem; 
+        max-width: 1000px;
+    }
+
+    .SynopsisIntro {
+        margin-bottom: auto; 
+    }
+
+    .SynopsisIntro h2 {
+        font-family: 'NeueM-Thin';
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: -0.5px;
+        margin: 0;
+    }
+    
+    .SynopsisIntro h1 {
+        font-size: 6rem;
+        text-align: center;
+        margin: 0;
+        letter-spacing: -0.03em;
+        line-height: 0.9;
+        font-family: 'NeueM-Bold';
+        text-transform: uppercase;
+        color: black;
+    }
+
+    /* • Splide Sticker Auto Scroll  • */
+    /* .splide .splide__track-2 {
+        background-color: black;
+    } */
+    
+    /* .splide .splide__track-2 ul li {
+        color: white;
+    } */
+
+    .SocialIcon2{
+        filter: invert(1);
+    }
+
+    .ContainerBlack {
+        background: linear-gradient(#000000, #0A0A0A);
+    }
+
+
+    /* • Synopsis Section  • */
+    .SynopsisContainer {
+        padding: 0rem 7rem 0rem 7rem;
+        margin-top: 9rem;
+    }
+
+    .SynopsisTitle {
+        padding: 0rem 7rem 0rem 7rem;
+    }
+
+    .SynopsisTitle h4, .SynopsisTitle h3, .SkillsetTitle h4, .SkillsetTitle h3  {
+        margin: 0;
+        
+    }
+
+    .SynopsisTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #aaaaaa80;
+        font-size: 18px;
+    }
+
+    .SynopsisTitle h3 {
+        font-family: 'NeueM-Thin';
+        font-size: 80px;
+        letter-spacing: -0.7px;
+        color: #E9E9DA;
+    }
+
+    .SHighLight1 {
+        font-family: 'NeueM-SBold';
+    }
+
+    .SHighLight2 {   
+        font-family: 'NeueM-Med';
+    }
+
+    /* • Synopsis Section Part 2 (LeftSide) • */
+    .LeftColumn {
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+ 
+    .LeftColumn p {
+        padding-top: 4rem;
+        font-family: 'NeueM-Book';
+        color: #E9E9DA;
+        font-size: 50px;
+        max-width: 800px;
+    }
+    
+    .LeftColumn img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+     /* • Synopsis Section Part 3 (RightSide) • */
+     .RightColumn {
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .RightColumnContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .RightColumnContent p {
+        text-align: right;
+        padding-top: 4rem;
+        font-family: 'NeueM-Book';
+        color: #E9E9DA;
+        font-size: 45px;
+        max-width: 800px;
+    }
+    
+    .RightColumn img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* • Skillset Section  • */
+    .SkillsetContainer {
+        padding: 0rem 7rem 0rem 7rem;
+        margin-top: 9rem;
+    }
+
+    .SkillsetTitle {
+        padding: 0rem 7rem 0rem 7rem;
+        text-align: right;
+    }
+
+    .SkillsetTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #aaaaaa80;
+        font-size: 18px;
+    }
+
+    .SkillsetTitle h3 {
+        font-family: 'NeueM-Med';
+        font-size: 80px;
+        letter-spacing: -0.7px;
+        color: #E9E9DA;
+    }
+    
+
+
+}
