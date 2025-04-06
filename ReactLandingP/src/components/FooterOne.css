@@ -325,7 +325,7 @@
 
 
 
-/* ● LARGE TABLET SETTINGS ● */
+/* ● LAPTOP SETTINGS ● */
 @media (min-width: 55em) {
     .FooterUpper {
         background: black;
@@ -490,7 +490,7 @@
 
 
 
-/* ● LAPTOP SETTINGS ● */
+/* ● DESKTOP SETTINGS ● */
 @media (min-width: 60em) {
 
     .FooterUpper {

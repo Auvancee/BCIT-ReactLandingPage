@@ -94,7 +94,7 @@ function FooterTwo() {
                 <div className="FooterUpperContentThree">
                     <h4>(CONTACT)</h4>
                     <h2>LET'S CONNECT & TRANSFORM</h2>
-                    <button className="email-btn">Email Me →</button>
+                    <button className="email-btn-2">Email Me →</button>
                 </div>
             </div>
             
@@ -104,19 +104,19 @@ function FooterTwo() {
                     <h4>SOCIALS</h4>
                     <div className="FooterSocialsContainerThree">
                         <a href="https://www.linkedin.com/in/hafizau/">
-                            <img className="SocialIcon2" src={linkedInWhtieIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={linkedInWhtieIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://www.youtube.com/@Auvance">
-                            <img className="SocialIcon2" src={youTubeWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={youTubeWhiteIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://codepen.io/Auvancee">
-                            <img className="SocialIcon2" src={codepenWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={codepenWhiteIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon2" src={githubWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={githubWhiteIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon2" src={behanceWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={behanceWhiteIcon} alt="LinkedIn" />
                         </a>
                     </div>
                 </div>
@@ -140,17 +140,17 @@ function FooterTwo() {
 
                         {/* Local Time Display */}
                         <div className="LocalTimeContainer">
-                            <span className="local-time-label">Local Time:</span><br/>
-                            <span className="local-time">{localTime}, CA</span>
+                            <span className="local-time-label-2">Local Time:</span><br/>
+                            <span className="local-time-2">{localTime}, CA</span>
                         </div>
                     </div>
 
                     <div className="WorkingGloballyContainer">
                         <div className="WorkingText">
-                            <span className="globally-label">WORKING GLOBALLY</span>
-                            <span className="AvailableWork-label">Available for Work</span>
+                            <span className="globally-label-2">WORKING GLOBALLY</span>
+                            <span className="AvailableWork-label-2">Available for Work</span>
                         </div>
-                        <img ref={earthRef} src={EarthSVG} alt="Earth" className="SubtleEarthEffect" />
+                        <img ref={earthRef} src={EarthSVG} alt="Earth" className="SubtleEarthEffect-2" />
                     </div>
 
                 </div>
