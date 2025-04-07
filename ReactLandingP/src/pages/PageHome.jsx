@@ -83,9 +83,15 @@ function PageHome() {
                         </div>
 
                         <div className="AboutContent">
-                            <p>Front-End Developer & UX/UI Designer helping brands & teams 
-                                build responsive experiences that blend form, function, and scalable code — 
-                                turning complex ideas into elegant digital solutions.
+                            <p>
+                                A Creative Developer & UX/UI Designer with over 2 years of experience 
+                                building intuitive, responsive, & visually compelling digital solutions. 
+                            </p>
+
+                            <p>
+                                I specialize in translating complex ideas into elegant, scalable solutions by 
+                                leveraging thoughtful design & clean, robust code empowering brands & teams 
+                                to connect deeply with their users.
                             </p>
                         </div>
 
@@ -102,8 +108,9 @@ function PageHome() {
                             </div>
     
                             <div className="FavoriteContent">
-                                <p>Top of the line projects that have been meticulously built
-                                    to thrive within the ever paradigm shift of technology.
+                                <p>Top-tier projects, meticulously built to thrive in technology, 
+                                    showcase innovative design, cutting-edge techniques, & 
+                                    seamless integration of creativity and technical expertise.
                                 </p>
                             </div>
                         </div>
@@ -119,13 +126,15 @@ function PageHome() {
                                     <div className="card-content">
                                         {/* <!-- Left Image --> */}
                                         <div className="card-image">
-                                            <a href="javascript:void(0)" className="card-button" target="_blank" rel="noopener noreferrer">LIVE SITE →</a>
+                                           
                                         
                                             <img className="ProjectImageDesktop" src={ProjectThreePC} alt="ONAFilms" />
                                         </div>
                                 
                                     {/* <!-- Right Info --> */}
+                                        <a href="javascript:void(0)" className="card-button" target="_blank" rel="noopener noreferrer">↖</a>
                                         <div className="card-info">
+                                            
                                             <h3>CAPSTONE PROJECT</h3>
                                             
                                             <div className="card-tags">
@@ -148,10 +157,12 @@ function PageHome() {
                                     <div className="card-content">
                                         {/* <!-- Left Image --> */}
                                         <div className="card-image">
-                                            <a href="#" className="card-button" target="_blank">LIVE SITE →</a>
+                                            
                                             <img className="ProjectImageDesktop" src={ProjectOnePC} alt="ONAFilms" />
                                         </div>
-                                    
+
+                                        <a href="#" className="card-button" target="_blank">↖</a>
+
                                         {/* <!-- Right Info --> */}
                                         <div className="card-info">
                                         <h3>REACT MOVIE DATABASE</h3>
@@ -176,9 +187,10 @@ function PageHome() {
                                     <div className="card-content">
                                         {/* <!-- Left Image --> */}
                                         <div className="card-image">
-                                            <a href="#" className="card-button" target="_blank">LIVE SITE →</a>
                                             <img className="ProjectImageDesktop" src={ProjectTwoPC} alt="ONAFilms" />
                                         </div>
+                                        
+                                        <a href="#" className="card-button" target="_blank">↖</a>
                                     
                                         {/* <!-- Right Info --> */}
                                         <div className="card-info">

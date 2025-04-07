@@ -25,13 +25,13 @@
 
 .SynopsisIntro {
     margin-bottom: auto; 
-    width: 500px;
+    width: 300px;
 }
 
 .SynopsisIntro h2 {
     font-family: 'NeueM-Thin';
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     margin: 0;
 }
@@ -84,6 +84,10 @@
 
 .SHighLight2 {   
     font-family: 'NeueM-Med';
+}
+
+.SplideHighlight {
+    color: white;
 }
 
 /* • Synopsis Section Part 2 (LeftSide) • */
@@ -341,7 +345,7 @@
 
     .SynopsisIntro {
         margin-bottom: auto; 
-        width: 500px;
+        /* width: 300px; */
     }
 
     .SynopsisIntro h2 {
@@ -986,7 +990,7 @@
 
     .SynopsisIntro {
         margin-bottom: auto; 
-        width: 900px;
+        width: 700px;
     }
 
     .SynopsisIntro h2 {

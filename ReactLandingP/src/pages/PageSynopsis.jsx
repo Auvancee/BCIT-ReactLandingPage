@@ -57,11 +57,11 @@ function PageSynopsis() {
                         <div className="splide">
                                <div className="splide__track splide__track">
                                    <ul className="splide__list">
-                                       <li className="splide__slide">SYNOPSIS</li>
+                                       <li className="splide__slide"><span className="SplideHighlight">SYNOPSIS</span></li>
                                        <li className="splide__slide"><img className="SocialIcon2" src={SplideDiamond2} alt="" /></li>
-                                       <li className="splide__slide">SYNOPSIS</li>
+                                       <li className="splide__slide"><span className="SplideHighlight">SYNOPSIS</span></li>
                                        <li className="splide__slide"><img className="SocialIcon2" src={SplideDiamond2} alt="" /></li>
-                                       <li className="splide__slide">SYNOPSIS</li>
+                                       <li className="splide__slide"><span className="SplideHighlight">SYNOPSIS</span></li>
                                        <li className="splide__slide"><img className="SocialIcon2" src={SplideDiamond2} alt="" /></li>
                                    </ul>
                                </div>
@@ -79,9 +79,9 @@ function PageSynopsis() {
 
                         <div className="LeftColumn">
                             <img src={Profile1} alt="" />
-                            <p>A young student captivated by the digital space, 
-                                focused on blending aesthetics with functionality, ensuring a 
-                                seamless journey & achieving perfection.
+                            <p>A dedicated student passionate about the digital space, committed to 
+                                harmonizing aesthetics & functionality to deliver seamless experiences 
+                                & achieve digital excellence.
                             </p>
                         </div>
 
@@ -89,15 +89,12 @@ function PageSynopsis() {
                             <img src={Profile2} alt="" />
 
                             <div className="RightColumnContent">
-                                <p>As a Creative Developer, I focus
-                                    on building incredible web experiences with user centric
-                                    principles that leaves a lasting impact.
+                                <p>As a Creative Developer, I craft impactful web experiences 
+                                    centered around user-centric design principles.
                                 </p>
 
-                                <p>When I'm not developing, I turn
-                                    my attention to building my brand,
-                                    working out & stare at antique
-                                    cars for hours!
+                                <p>In my spare time, I enjoy developing my own brand, 
+                                    going to the gym, & admiring the classic beauty of vintage cars.
                                 </p>
                             </div>
                         </div>
