@@ -4,6 +4,7 @@ import ProjectTwoPC from "../components/images/projectimages/SangHanPC.png";
 import ProjectThreePC from "../components/images/projectimages/IntercodexPC.png";
 import ProjectFourPC from "../components/images/projectimages/TicTacToeJS.png"
 import ProjectFivePC from "../components/images/projectimages/CSSTech.png"
+import ProjectSixPC from "../components/images/projectimages/Mindset.png";
 
 /* {Tool SVG Imports} */
 import HTML from '../components/images/toolsvgs/HTMLsvg.svg';
@@ -13,7 +14,11 @@ import Php from '../components/images/toolsvgs/PHPsvg.svg';
 import Sass from '../components/images/toolsvgs/SASSsvg.svg';
 import ReactLogo from '../components/images/toolsvgs/Reactsvg.svg';
 import Wordpress from '../components/images/toolsvgs/Wordpresssvg.svg';
+import GSAP from '../components/images/toolsvgs/Greensock.svg';
+import API from '../components/images/toolsvgs/API.svg';
+import Woo from '../components/images/toolsvgs/Woocommerce.png';
 
+/* {Desgin SVG Imports} */
 
 export const projects = [
     {
@@ -25,9 +30,30 @@ export const projects = [
       image: ProjectThreePC,
 
       tools: [
+        { logo: HTML },
+        { logo: CSS },
+        { logo: JavaScript },
         { logo: Wordpress },
-        { name: "TMDB API", logo: "/logos/api.svg" },
-        { name: "CSS Modules", logo: "/logos/cssmodules.svg" },
+        { logo: Php },
+        { logo: Woo },
+      ],
+
+      development: [
+        "Built a fully responsive layout using grid and flexbox.",
+        "Implemented dynamic routing with React Router for individual movie pages.",
+        "Integrated external API (TMDB) using async/await and Axios.",
+      ],
+    
+      challenges: [
+        "Handling inconsistent data responses from TMDB.",
+        "Styling for mobile-first while keeping desktop fluid.",
+        "Balancing animation with performance for load speed.",
+      ],
+    
+      learningCurve: [
+        "Deepened understanding of asynchronous API handling.",
+        "Learned efficient component reuse across routes.",
+        "Got comfortable debugging CORS and API quota issues.",
       ],
 
     },
@@ -40,9 +66,13 @@ export const projects = [
       image: ProjectOnePC,
 
       tools: [
+
+        { logo: HTML },
+        { logo: CSS },
+        { logo: JavaScript },
+        { logo: GSAP },
         { logo: ReactLogo },
-        { name: "TMDB API", logo: "/logos/api.svg" },
-        { name: "CSS Modules", logo: "/logos/cssmodules.svg" },
+        { logo: API },
       ],
     
       development: [
@@ -71,6 +101,34 @@ export const projects = [
       description: "A SASS/SCSS styled responsive clone of the SangHan director portfolio website, focusing on layout recreation and mobile responsiveness.",
       tags: ["SASS/SCSS", "Design Recreation", "SEO Responsive"],
       image: ProjectTwoPC,
+
+      tools: [
+        { logo: HTML },
+        { logo: CSS },
+        { logo: JavaScript },
+        { logo: ReactLogo },
+        { logo: Sass },
+      ],
+    
+      development: [
+        "Built a fully responsive layout using grid and flexbox.",
+        "Implemented dynamic routing with React Router for individual movie pages.",
+        "Integrated external API (TMDB) using async/await and Axios.",
+      ],
+    
+      challenges: [
+        "Handling inconsistent data responses from TMDB.",
+        "Styling for mobile-first while keeping desktop fluid.",
+        "Balancing animation with performance for load speed.",
+      ],
+    
+      learningCurve: [
+        "Deepened understanding of asynchronous API handling.",
+        "Learned efficient component reuse across routes.",
+        "Got comfortable debugging CORS and API quota issues.",
+      ],
+
+
     },
     {
       slug: "mindset-theme",
@@ -78,7 +136,36 @@ export const projects = [
       title: "Mindset Theme",
       description: "A WordPress theme tailored for mindfulness and lifestyle blogs, using custom block patterns and ACF integration.",
       tags: ["Wordpress Development", "Blocks & Themes", "Online Store"],
-      image: "",
+      image: ProjectSixPC,
+
+      tools: [
+        { logo: HTML },
+        { logo: CSS },
+        { logo: JavaScript },
+        { logo: Wordpress },
+        { logo: Php },
+        { logo: Woo },
+      ],
+    
+      development: [
+        "Built a fully responsive layout using grid and flexbox.",
+        "Implemented dynamic routing with React Router for individual movie pages.",
+        "Integrated external API (TMDB) using async/await and Axios.",
+      ],
+    
+      challenges: [
+        "Handling inconsistent data responses from TMDB.",
+        "Styling for mobile-first while keeping desktop fluid.",
+        "Balancing animation with performance for load speed.",
+      ],
+    
+      learningCurve: [
+        "Deepened understanding of asynchronous API handling.",
+        "Learned efficient component reuse across routes.",
+        "Got comfortable debugging CORS and API quota issues.",
+      ],
+
+
     },
     {
       slug: "tictactoe",
@@ -87,6 +174,32 @@ export const projects = [
       description: "A vanilla JavaScript implementation of the classic TicTacToe game with responsive layout and basic game logic.",
       tags: ["JavaScript", "Game Logic"],
       image: ProjectFourPC,
+
+      tools: [
+        { logo: HTML },
+        { logo: CSS },
+        { logo: JavaScript },
+      ],
+    
+      development: [
+        "Built a fully responsive layout using grid and flexbox.",
+        "Implemented dynamic routing with React Router for individual movie pages.",
+        "Integrated external API (TMDB) using async/await and Axios.",
+      ],
+    
+      challenges: [
+        "Handling inconsistent data responses from TMDB.",
+        "Styling for mobile-first while keeping desktop fluid.",
+        "Balancing animation with performance for load speed.",
+      ],
+    
+      learningCurve: [
+        "Deepened understanding of asynchronous API handling.",
+        "Learned efficient component reuse across routes.",
+        "Got comfortable debugging CORS and API quota issues.",
+      ],
+
+
     },
     {
       slug: "css-technologies",
@@ -95,5 +208,31 @@ export const projects = [
       description: "Explorative page showcasing modern CSS features, animation experiments, and layout techniques.",
       tags: ["CSS", "Responsive", "Animation"],
       image: ProjectFivePC,
+
+      tools: [
+        { logo: HTML },
+        { logo: CSS },
+        { logo: JavaScript },
+      ],
+    
+      development: [
+        "Built a fully responsive layout using grid and flexbox.",
+        "Implemented dynamic routing with React Router for individual movie pages.",
+        "Integrated external API (TMDB) using async/await and Axios.",
+      ],
+    
+      challenges: [
+        "Handling inconsistent data responses from TMDB.",
+        "Styling for mobile-first while keeping desktop fluid.",
+        "Balancing animation with performance for load speed.",
+      ],
+    
+      learningCurve: [
+        "Deepened understanding of asynchronous API handling.",
+        "Learned efficient component reuse across routes.",
+        "Got comfortable debugging CORS and API quota issues.",
+      ],
+
+
     },
   ];

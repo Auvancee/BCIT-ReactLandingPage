@@ -1,8 +1,6 @@
 
 @media (min-width: 65em) {
 
-  
-
   .ProjectDetailMain {
     background-color: #ffffff;
 }
@@ -93,6 +91,8 @@
 
   .ToolGrid {
     display: grid;
-    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+    justify-items: center;
+    gap: 0px;
   }
 }

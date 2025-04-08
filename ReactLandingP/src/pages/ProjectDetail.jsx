@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import HeaderTwo from "../components/HeaderTwo";
 import FooterOne from "../components/FooterOne";
@@ -10,6 +11,10 @@ function ProjectDetail() {
   const lenis = useLenis(({ scroll }) => {});
   const { slug } = useParams();
   const project = projects.find((p) => p.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!project) {
     return (
@@ -36,7 +41,14 @@ function ProjectDetail() {
       <main className="ProjectDetailMain">
         <HeaderTwo />
 
+        
+
         <section className="ProjectDetailSection">
+          {/* Back Button */}
+            <Link to="/works" className="BackLink">
+              ← Back to Projects
+            </Link>
+
           <div className="ProjectDetailWrapper">
             {/* Title & Short Description */}
             <div className="ProjectContentFirst">
@@ -82,10 +94,7 @@ function ProjectDetail() {
                 <Section title="Learning Curve" items={project.learningCurve} />
             </div>
 
-            {/* Back Button */}
-            <Link to="/works" className="BackLink">
-              ← Back to Projects
-            </Link>
+            
           </div>
         </section>
 
