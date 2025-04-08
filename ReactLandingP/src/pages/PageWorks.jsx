@@ -69,8 +69,9 @@ function PageWorks() {
                             </div>
 
                             <div className="WorkContent">
-                                <p>Meticulosly crafted projects that have been designed, developed
-                                    & reviewed from the absolute bare bone. 
+                                <p>A showcase of meticulously crafted projects—designed, 
+                                    developed, & refined to deliver exceptional results across 
+                                    multiple areas of the web industry.
                                 </p>
                             </div>
 

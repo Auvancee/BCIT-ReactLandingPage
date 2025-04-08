@@ -110,8 +110,8 @@ function PageSynopsis() {
                         </div>
 
                         <div className="SynopsisContent">
-                            <p>Meticulosly crafted projects that have been designed, developed
-                                & reviewed from the absolute bare bone. 
+                            <p>A showcase of meticulously crafted projects—designed, developed, & 
+                                refined to deliver exceptional results across multiple areas of the web industry.
                             </p>
                         </div>
 
@@ -122,23 +122,40 @@ function PageSynopsis() {
                                 <div className="card-contentskill">
 
                                 <div className="cardskill-info">
-                                    <h3>Search Optimization SEO</h3>
-                            
-                                    <p>
-                                    Amplify your online presence with a website that truly connects with your audience's feelings and desires. I design stunning, high-converting sites that align with your business goals.
-                                    </p>
-                            
-                                    <div className="cardskill-tags">
-                                    <span>CMS Integration</span>
-                                    <span>Motion & Animate</span>
-                                    <span>3D Development</span>
+                                    
+                                    <div className="cscontent1">
+                                        <h3>Web Development</h3>
+                                       
+                                        <div className="card-number">
+                                            <h4>1</h4>
+                                        </div>
+                                        
                                     </div>
+                                    
+                                    <br/>
+                                        <div className="divider"></div> 
+                                    <br/>
+
+                                    <div className="cscontent2">
+                                        <p>
+                                            Specialized in crafting modern websites built with clean, efficient code, 
+                                            optimized for performance and scalability. Integration with innovative 
+                                            technologies & micro animations ensuring a seamless functionality to 
+                                            your needs.
+                                        </p>
+                                
+                                        <div className="cardskill-tags">
+                                            <span>CMS Integration</span>
+                                            <span>Motion & Animate</span>
+                                            <span>3D Development</span>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            
-                                {/* <!-- Hexagonal Icon (Right Side) --> */}
-                                <div className="card-icon">
-                                    {/* <!-- Insert Icon or SVG here --> */}
-                                </div>
+                                    
+
+                                    
+                                    
 
                                 </div>
                             </div>
@@ -147,23 +164,36 @@ function PageSynopsis() {
                                 <div className="card-contentskill">
 
                                 <div className="cardskill-info">
-                                    <h3>Search Optimization SEO</h3>
-                            
-                                    <p>
-                                    Amplify your online presence with a website that truly connects with your audience's feelings and desires. I design stunning, high-converting sites that align with your business goals.
-                                    </p>
-                            
-                                    <div className="cardskill-tags">
-                                    <span>CMS Integration</span>
-                                    <span>Motion & Animate</span>
-                                    <span>3D Development</span>
+                                    
+                                    <div className="cscontent1">
+                                        <h3>Web Design | UX/UI</h3>
+                                        <div className="card-number">
+                                            <h4>2</h4>
+                                        </div>
                                     </div>
+
+                                    <br/>
+                                        <div className="divider"></div> 
+                                    <br/>
+
+                                    <div className="cscontent2">
+                                        <p>
+                                            Focused on designing intuitive interfaces and visually striking layouts that prioritize 
+                                            usability and user satisfaction. My designs blend aesthetics and 
+                                            functionality, ensuring digital experiences that resonate deeply 
+                                            with your audience.
+                                        </p>
+                                
+                                        <div className="cardskill-tags">
+                                            <span>Responsive</span>
+                                            <span>Prototyping</span>
+                                            <span>Personas</span>
+                                        </div>
+                                    </div>
+
                                 </div>
                             
-                                {/* <!-- Hexagonal Icon (Right Side) --> */}
-                                <div className="card-icon">
-                                    {/* <!-- Insert Icon or SVG here --> */}
-                                </div>
+                                
 
                                 </div>
                             </div>
@@ -172,23 +202,34 @@ function PageSynopsis() {
                                 <div className="card-contentskill">
                                 
                                     <div className="cardskill-info">
-                                    <h3>Search Optimization SEO</h3>
-
-                                    <p>
-                                        Amplify your online presence with a website that truly connects with your audience's feelings and desires. I design stunning, high-converting sites that align with your business goals.
-                                    </p>
-
-                                    <div className="cardskill-tags">
-                                        <span>CMS Integration</span>
-                                        <span>Motion & Animate</span>
-                                        <span>3D Development</span>
-                                    </div>
+                                    
+                                    <div className="cscontent1">
+                                        <h3>SEO Leverage</h3>
+                                        <div className="card-number">
+                                            <h4>3</h4>
+                                        </div>
                                     </div>
 
-                                    {/* <!-- Hexagonal Icon (Right Side) --> */}
-                                    <div className="card-icon">
-                                    {/* <!-- Insert Icon or SVG here --> */}
+                                    <br/>
+                                        <div className="divider"></div> 
+                                    <br/>
+                                    
+                                    <div className="cscontent2">
+                                        <p>
+                                            Dedicated to implementing effective SEO strategies to improve visibility, 
+                                            drive organic growth, and enhance overall website performance. 
+                                            My methods ensure your content reaches the right audience, 
+                                            fostering measurable, long-term success.
+                                        </p>
+                                
+                                        <div className="cardskill-tags">
+                                            <span>CMS Integration</span>
+                                            <span>Motion & Animate</span>
+                                            <span>3D Development</span>
+                                        </div>
                                     </div>
+
+                                </div>
 
                                 </div>
                             </div>
