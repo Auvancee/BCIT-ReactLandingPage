@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./HeaderTwo.css";
-import logo from "./images/HAFIZAU PNG LOGO INVERTED.png"; // Import your SVG as image
+import logo from "/OtherImages/HAFIZAU PNG LOGO INVERTED.png"; // Import your SVG as image
 
 {/* White Icons */}
-import linkedInWhtieIcon from "../components/images/whiteicons/LinkedInWhite.svg"; // Import your SVG as image
-import youTubeWhiteIcon from "../components/images/whiteicons/YouTubeWhite.svg"; // Import your SVG as image
-import codepenWhiteIcon from "../components/images/whiteicons/CodepenWhite.png"; // Import your SVG as image
-import githubWhiteIcon from "../components/images/whiteicons/GitHubWhite.svg"; // Import your SVG as image
-import behanceWhiteIcon from "../components/images/whiteicons/BehanceWhite.png"; // Import your SVG as image
+import linkedInWhtieIcon from "/whiteicons/LinkedInWhite.svg"; // Import your SVG as image
+import youTubeWhiteIcon from "/whiteicons/YouTubeWhite.svg"; // Import your SVG as image
+import codepenWhiteIcon from "/whiteicons/CodepenWhite.png"; // Import your SVG as image
+import githubWhiteIcon from "/whiteicons/GitHubWhite.svg"; // Import your SVG as image
+import behanceWhiteIcon from "/whiteicons/BehanceWhite.png"; // Import your SVG as image
 
 function HeaderTwo() {
   const [isOpen, setIsOpen] = useState(false); // Desktop dropdown menu

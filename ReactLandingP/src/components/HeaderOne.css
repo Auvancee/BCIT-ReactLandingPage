@@ -1,5 +1,12 @@
 /* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+.header-container, nav {
+  
+    max-width: 2250px;
+    margin: 0 auto;
+    
 
+  
+}
 
 /* [1] Header & Navigation */
 
@@ -193,8 +200,8 @@
     background-color: transparent;
     color: #fff;
     position: absolute; 
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     z-index: 100;
     font-family: sans-serif;
   }

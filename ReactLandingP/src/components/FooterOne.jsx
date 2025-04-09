@@ -5,14 +5,14 @@ import gsap from "gsap";
 import { useLenis } from "@studio-freight/react-lenis";
 
 {/* Black Icons */}
-import linkedInBlackIcon from "../components/images/blackicons/LinkedInBlack.png"; // Import your SVG as image
-import youTubeBlackIcon from "../components/images/blackicons/YouTubeBlack.png"; // Import your SVG as image
-import codepenBlackIcon from "../components/images/blackicons/CodepenBlack.png"; // Import your SVG as image
-import githubBlackIcon from "../components/images/blackicons/GitHubBlack.png"; // Import your SVG as image
-import behanceBlackIcon from "../components/images/blackicons/BehanceBlack.png"; // Import your SVG as image
+import linkedInBlackIcon from "/blackicons/LinkedInBlack.png"; // Import your SVG as image
+import youTubeBlackIcon from "/blackicons/YouTubeBlack.png"; // Import your SVG as image
+import codepenBlackIcon from "/blackicons/CodePenBlack.png"; // Import your SVG as image
+import githubBlackIcon from "/blackicons/GitHubBlack.png"; // Import your SVG as image
+import behanceBlackIcon from "/blackicons/BehanceBlack.png"; // Import your SVG as image
 
-import ScrollToTopIcon from "./images/ScrollToTop.svg"; // Update path if needed
-import EarthSVG from "./images/EarthWorld.svg"; // Update path to your uploaded SVG
+import ScrollToTopIcon from "/OtherImages/ScrollToTop.svg"; // Update path if needed
+import EarthSVG from "/OtherImages/EarthWorld.svg"; // Update path to your uploaded SVG
 
 
 function FooterOne() {

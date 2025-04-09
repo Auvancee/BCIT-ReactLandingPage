@@ -5,11 +5,11 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import HeaderThree from "../components/HeaderThree";
 import FooterTwo from "../components/FooterTwo";
-import SplideDiamond2 from "../components/images/DiamondSplide.svg"
+import SplideDiamond2 from "/public/OtherImages/DiamondSplide.svg"
 
 
-import Profile1 from "../components/images/Portrait1.png";
-import Profile2 from "../components/images/Portrait2.png";
+import Profile1 from "/public/OtherImages/Portrait1.png";
+import Profile2 from "/public/OtherImages/Portrait2.png";
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";

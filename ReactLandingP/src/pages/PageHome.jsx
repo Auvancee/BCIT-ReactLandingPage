@@ -5,7 +5,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import HeaderOne from "../components/HeaderOne";
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
-import SplideDiamond from "../components/images/DiamondSplide.svg"
+import SplideDiamond from "/OtherImages/DiamondSplide.svg"
 import FooterOne from "../components/FooterOne";
 
 
@@ -18,9 +18,9 @@ import initScrollAnimation from "../global/projectscroll"; // Desktop GSAP
 
 
 
-import ProjectOnePC from "../components/images/projectimages/ONAFilmsPC.png";
-import ProjectTwoPC from "../components/images/projectimages/SangHanPC.png";
-import ProjectThreePC from "../components/images/projectimages/IntercodexPC.png";
+import ProjectOnePC from "/projectimages/ONAFilmsPC.png";
+import ProjectTwoPC from "/projectimages/SangHanPC.png";
+import ProjectThreePC from "/projectimages/IntercodexPC.png";
 import { Link } from "react-router-dom";
 
 
@@ -128,19 +128,20 @@ function PageHome() {
                                         <div className="card-image">
                                            
                                         
-                                            <img className="ProjectImageDesktop" src={ProjectThreePC} alt="ONAFilms" />
+                                            <img className="ProjectImageDesktop" src={ProjectThreePC} alt="Intercodex" />
                                         </div>
                                 
                                     {/* <!-- Right Info --> */}
-                                        <a href="javascript:void(0)" className="card-button" target="_blank" rel="noopener noreferrer">↖</a>
+                                        <a href="https://intercodex.bcitwebdeveloper.ca/" className="card-button" target="_blank">↖</a>
+
                                         <div className="card-info">
                                             
-                                            <h3>CAPSTONE PROJECT</h3>
+                                            <h3>Intecodex</h3>
                                             
                                             <div className="card-tags">
-                                                <span>Design</span>
-                                                <span>Development</span>
-                                                <span>Responsive</span>
+                                                <span>Wordpress Development</span>
+                                                <span>CMS Integration</span>
+                                                <span>Online Store</span>
                                             </div>
                                     
                                             <p>
@@ -161,16 +162,16 @@ function PageHome() {
                                             <img className="ProjectImageDesktop" src={ProjectOnePC} alt="ONAFilms" />
                                         </div>
 
-                                        <a href="#" className="card-button" target="_blank">↖</a>
+                                        <a href="https://aumar.xyz/ONA-Films/" className="card-button" target="_blank">↖</a>
 
                                         {/* <!-- Right Info --> */}
                                         <div className="card-info">
-                                        <h3>REACT MOVIE DATABASE</h3>
+                                        <h3>ONAFilms</h3>
                                         
                                         <div className="card-tags">
-                                            <span>Design</span>
-                                            <span>Development</span>
-                                            <span>Responsive</span>
+                                            <span>React Development</span>
+                                            <span>Movie API</span>
+                                            <span>Responsive Design</span>
                                         </div>
                                     
                                         <p>
@@ -187,24 +188,24 @@ function PageHome() {
                                     <div className="card-content">
                                         {/* <!-- Left Image --> */}
                                         <div className="card-image">
-                                            <img className="ProjectImageDesktop" src={ProjectTwoPC} alt="ONAFilms" />
+                                            <img className="ProjectImageDesktop" src={ProjectTwoPC} alt="SangHan-Sass" />
                                         </div>
                                         
-                                        <a href="#" className="card-button" target="_blank">↖</a>
+                                        <a href="https://auvancee.github.io/BCIT-SangHanReplica/" className="card-button" target="_blank">↖</a>
                                     
                                         {/* <!-- Right Info --> */}
                                         <div className="card-info">
                                         <h3>SANGHAN SASS/SCSS</h3>
                                         
                                         <div className="card-tags">
-                                            <span>Design</span>
-                                            <span>Development</span>
-                                            <span>Responsive</span>
+                                            <span>SASS/SCSS</span>
+                                            <span>Design Recreation</span>
+                                            <span>SEO Responsive</span>
                                         </div>
                                     
                                         <p>
-                                            A website built to increase volume of potential students along with
-                                            site responsiveness, sleekness & visual stimulation.
+                                            A SASS/SCSS styled responsive clone of the SangHan director portfolio website, 
+                                            focusing on layout recreation and mobile responsiveness.
                                         </p>
                                     
                                         

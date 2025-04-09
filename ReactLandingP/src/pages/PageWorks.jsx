@@ -5,7 +5,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import HeaderTwo from "../components/HeaderTwo";
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
-import SplideDiamond from "../components/images/DiamondSplide.svg"
+import SplideDiamond from "/OtherImages/DiamondSplide.svg"
 import FooterOne from "../components/FooterOne";
 import { projects } from "../global/projectData";
 

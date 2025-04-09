@@ -1,22 +1,22 @@
 /* {ProjectImages (PC ONLY)} */
-import ProjectOnePC from "../components/images/projectimages/ONAFilmsPC.png";
-import ProjectTwoPC from "../components/images/projectimages/SangHanPC.png";
-import ProjectThreePC from "../components/images/projectimages/IntercodexPC.png";
-import ProjectFourPC from "../components/images/projectimages/TicTacToeJS.png"
-import ProjectFivePC from "../components/images/projectimages/CSSTech.png"
-import ProjectSixPC from "../components/images/projectimages/Mindset.png";
+import ProjectOnePC from "/projectimages/ONAFilmsPC.png";
+import ProjectTwoPC from "/projectimages/SangHanPC.png";
+import ProjectThreePC from "/projectimages/IntercodexPC.png";
+import ProjectFourPC from "/projectimages/TicTacToeJS.png"
+import ProjectFivePC from "/projectimages/CSSTech.png"
+import ProjectSixPC from "/projectimages/Mindset.png";
 
 /* {Tool SVG Imports} */
-import HTML from '../components/images/toolsvgs/HTMLsvg.svg';
-import CSS from '../components/images/toolsvgs/CSSsvg.svg';
-import JavaScript from '../components/images/toolsvgs/JavaScriptsvg.svg';
-import Php from '../components/images/toolsvgs/PHPsvg.svg';
-import Sass from '../components/images/toolsvgs/SASSsvg.svg';
-import ReactLogo from '../components/images/toolsvgs/Reactsvg.svg';
-import Wordpress from '../components/images/toolsvgs/Wordpresssvg.svg';
-import GSAP from '../components/images/toolsvgs/Greensock.svg';
-import API from '../components/images/toolsvgs/API.svg';
-import Woo from '../components/images/toolsvgs/Woocommerce.png';
+import HTML from '/toolsvgs/HTMLsvg.svg';
+import CSS from '/toolsvgs/CSSsvg.svg';
+import JavaScript from '/toolsvgs/JavaScriptsvg.svg';
+import Php from '/toolsvgs/PHPsvg.svg';
+import Sass from '/toolsvgs/SASSsvg.svg';
+import ReactLogo from '/toolsvgs/Reactsvg.svg';
+import Wordpress from '/toolsvgs/Wordpresssvg.svg';
+import GSAP from '/toolsvgs/Greensock.svg';
+import API from '/toolsvgs/API.svg';
+import Woo from '/toolsvgs/Woocommerce.png';
 
 /* {Desgin SVG Imports} */
 

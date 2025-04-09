@@ -505,7 +505,7 @@ a {
   color: inherit;
 }
 
-/* body {
-  width: 2000px;
-  margin: 0;
-} */
+body {
+  max-width: 2250px;
+  margin: 0 auto;
+} 

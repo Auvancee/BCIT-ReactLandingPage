@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./HeaderThree.css";
-import logotwo from "./images/HAFIZAU PNG LOGO.png"; // Import your SVG as image
+import logotwo from "/OtherImages/HAFIZAU PNG LOGO.png"; // Import your SVG as image
 
 {/* Black Icons */}
-import linkedInBlackIcon from "../components/images/blackicons/LinkedInBlack.png"; // Import your SVG as image
-import youTubeBlackIcon from "../components/images/blackicons/YouTubeBlack.png"; // Import your SVG as image
-import codepenBlackIcon from "../components/images/blackicons/CodePenBlack.png"; // Import your SVG as image
-import githubBlackIcon from "../components/images/blackicons/GitHubBlack.png"; // Import your SVG as image
-import behanceBlackIcon from "../components/images/blackicons/BehanceBlack.png"; // Import your SVG as image
+import linkedInBlackIcon from "/blackicons/LinkedInBlack.png"; // Import your SVG as image
+import youTubeBlackIcon from "/blackicons/YouTubeBlack.png"; // Import your SVG as image
+import codepenBlackIcon from "/blackicons/CodePenBlack.png"; // Import your SVG as image
+import githubBlackIcon from "/blackicons/GitHubBlack.png"; // Import your SVG as image
+import behanceBlackIcon from "/blackicons/BehanceBlack.png"; // Import your SVG as image
 
 
 function HeaderThree() {
