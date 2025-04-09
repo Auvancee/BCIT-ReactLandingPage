@@ -74,7 +74,7 @@ function ProjectDetail() {
 
             {/* Tools */}
             {project.tools && project.tools.length > 0 && (
-              <div className="DetailSection">
+              <div className="DetailsSection">
                 <h2 className="SubTitle">Tools & Technologies</h2>
                 <div className="ToolGrid">
                   {project.tools.map((tool, i) => (
@@ -89,9 +89,9 @@ function ProjectDetail() {
 
             {/* Detailed Sections */}
             <div className="DetailsSection">
-                <Section title="Development" items={project.development} />
-                <Section title="Challenges" items={project.challenges} />
-                <Section title="Learning Curve" items={project.learningCurve} />
+                <Section title="Development Process" items={project.development} className="DetailHeading" />
+                <Section title="Setbacks & Challenges" items={project.challenges} className="DetailHeading" />
+                <Section title="Learning Curve" items={project.learningCurve}  className="DetailHeading" />
             </div>
 
             
