@@ -25,7 +25,7 @@
 
 .SynopsisIntro {
     margin-bottom: auto; 
-    width: 300px;
+    width: 280px;
 }
 
 .SynopsisIntro h2 {
@@ -212,12 +212,12 @@
 
 .card-2 {
     left: 0px;
-    top: 180px;
+    top: 100px;
 }
 
 .card-3 {
     left: 0px;
-    top: 230px;
+    top: 170px;
 }
 
 
@@ -227,7 +227,7 @@
     align-items: flex-start;
     width: 100%;
     height: 100%;
-    padding: 2rem;
+    padding: 1rem 1rem 2rem;
     box-sizing: border-box;
     gap: 2rem;
   }
@@ -327,17 +327,17 @@
 
   .CTABeforeTwo h4 {
     font-family: 'NeueM-Bold';
-    font-size: 2rem;
+    font-size: 1.7rem;
     letter-spacing: -1px;
     color: #E9E9DA;
   }
   
   .CTABeforeTwo h5 {
     font-family: 'MonumentExtended-Black';
-    font-size: 2rem;
-    letter-spacing: -2px;
+    font-size: 1.7rem;
+    letter-spacing: 0px;
     color: transparent;
-    -webkit-text-stroke: 1px #E9E9DA;
+    -webkit-text-stroke: 0.6px #E9E9DA;
   }
 
 

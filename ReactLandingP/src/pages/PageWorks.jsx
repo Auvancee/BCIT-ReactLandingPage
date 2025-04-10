@@ -27,6 +27,10 @@ function PageWorks() {
     useEffect(() => {
         initializeSplide();
     }, []); // Add an empty dependency array to run the effect only once
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
             
     return (
 
@@ -107,7 +111,7 @@ function PageWorks() {
                         
 
 
-                        <article className="ArchiveContent">
+                        <article className="ArchiveContent" id="Archives">
                             <h4>(ARCHIVES)</h4>
                             <button className="ArchiveButton">View On Github ↗</button>
                         </article>

@@ -103,16 +103,16 @@ function HeaderTwo() {
                   <img className="SocialIcon" src={linkedInWhtieIcon} alt="LinkedIn" />
                 </a>
                 <a href="https://www.youtube.com/@Auvance">
-                  <img className="SocialIcon" src={youTubeWhiteIcon} alt="LinkedIn" />
+                  <img className="SocialIcon" src={youTubeWhiteIcon} alt="YouTube" />
                 </a>
                 <a href="https://codepen.io/Auvancee">
-                  <img className="SocialIcon" src={codepenWhiteIcon} alt="LinkedIn" />
+                  <img className="SocialIcon" src={codepenWhiteIcon} alt="Codepen" />
                 </a>
                 <a href="https://github.com/Auvancee">
-                  <img className="SocialIcon" src={githubWhiteIcon} alt="LinkedIn" />
+                  <img className="SocialIcon" src={githubWhiteIcon} alt="Github" />
                 </a>
-                <a href="https://github.com/Auvancee">
-                  <img className="SocialIcon" src={behanceWhiteIcon} alt="LinkedIn" />
+                <a href="https://www.behance.net/auvance">
+                  <img className="SocialIcon" src={behanceWhiteIcon} alt="Behance" />
                 </a>
               </div>
             </div>

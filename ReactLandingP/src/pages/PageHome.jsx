@@ -38,6 +38,10 @@ function PageHome() {
         return () => ctx.revert(); // Clean up animation on unmount
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
 
    
     

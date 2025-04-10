@@ -276,15 +276,15 @@
 
 .CTABefore h4 {
     font-family: 'NeueM-Bold';
-    font-size: 2rem;
+    font-size: 1.7rem;
     letter-spacing: -1px;
     color: black;
 }
 
 .CTABefore h5 {
     font-family: 'MonumentExtended-Black';
-    font-size: 2rem;
-    letter-spacing: -3px;
+    font-size: 1.7rem;
+    letter-spacing: 0px;
     color: transparent;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }

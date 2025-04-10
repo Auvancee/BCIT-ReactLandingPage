@@ -94,7 +94,7 @@ function FooterOne() {
                 <div className="FooterUpperContent">
                     <h4>(CONTACT)</h4>
                     <h2>LET'S CONNECT & TRANSFORM</h2>
-                    <button className="email-btn">Email Me →</button>
+                    <button className="email-btn" onClick={() => window.location.href = "mailto:aakifumar55@gmail.com"}>Email Me →</button>
                 </div>
             </div>
             
@@ -107,16 +107,16 @@ function FooterOne() {
                             <img className="SocialIcon" src={linkedInBlackIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://www.youtube.com/@Auvance">
-                            <img className="SocialIcon" src={youTubeBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon" src={youTubeBlackIcon} alt="YouTube" />
                         </a>
                         <a href="https://codepen.io/Auvancee">
-                            <img className="SocialIcon" src={codepenBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon" src={codepenBlackIcon} alt="Codepen" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon" src={githubBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon" src={githubBlackIcon} alt="GitHub" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon" src={behanceBlackIcon} alt="LinkedIn" />
+                            <img className="SocialIcon" src={behanceBlackIcon} alt="Behance" />
                         </a>
                     </div>
                 </div>

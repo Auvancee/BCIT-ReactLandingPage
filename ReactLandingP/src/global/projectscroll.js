@@ -11,7 +11,7 @@ const initScrollAnimation = () => {
                 pin: true,
                 pinSpacing: true,
                 start: "top-=70px top",
-                end: "+=1500",
+                end: "+=1700",
                 scrub: 1
             }
         });
@@ -57,6 +57,8 @@ const initScrollAnimation = () => {
         });
 
     });
+
+    
 
     return () => ctx.revert(); // Cleanup to prevent multiple animations
 };

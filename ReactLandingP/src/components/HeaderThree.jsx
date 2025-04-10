@@ -103,16 +103,16 @@ function HeaderThree() {
                       <img className="SocialIcon" src={linkedInBlackIcon} alt="LinkedIn" />
                     </a>
                     <a href="https://www.youtube.com/@Auvance">
-                      <img className="SocialIcon" src={youTubeBlackIcon} alt="LinkedIn" />
+                      <img className="SocialIcon" src={youTubeBlackIcon} alt="YouTube" />
                     </a>
                     <a href="https://codepen.io/Auvancee">
-                      <img className="SocialIcon" src={codepenBlackIcon} alt="LinkedIn" />
+                      <img className="SocialIcon" src={codepenBlackIcon} alt="Codepen" />
                     </a>
                     <a href="https://github.com/Auvancee">
-                      <img className="SocialIcon" src={githubBlackIcon} alt="LinkedIn" />
+                      <img className="SocialIcon" src={githubBlackIcon} alt="Github" />
                     </a>
                     <a href="https://github.com/Auvancee">
-                      <img className="SocialIcon" src={behanceBlackIcon} alt="LinkedIn" />
+                      <img className="SocialIcon" src={behanceBlackIcon} alt="Behance" />
                     </a>
                   </div>
                 </div>

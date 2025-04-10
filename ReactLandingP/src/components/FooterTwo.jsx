@@ -94,7 +94,7 @@ function FooterTwo() {
                 <div className="FooterUpperContentThree">
                     <h4>(CONTACT)</h4>
                     <h2>LET'S CONNECT & TRANSFORM</h2>
-                    <button className="email-btn-2">Email Me →</button>
+                    <button className="email-btn-2" onClick={() => window.location.href = "mailto:aakifumar55@gmail.com"}>Email Me →</button>
                 </div>
             </div>
             
@@ -107,16 +107,16 @@ function FooterTwo() {
                             <img className="SocialIcon3" src={linkedInWhtieIcon} alt="LinkedIn" />
                         </a>
                         <a href="https://www.youtube.com/@Auvance">
-                            <img className="SocialIcon3" src={youTubeWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={youTubeWhiteIcon} alt="YouTube" />
                         </a>
                         <a href="https://codepen.io/Auvancee">
-                            <img className="SocialIcon3" src={codepenWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={codepenWhiteIcon} alt="Codepen" />
                         </a>
                         <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon3" src={githubWhiteIcon} alt="LinkedIn" />
+                            <img className="SocialIcon3" src={githubWhiteIcon} alt="Github" />
                         </a>
-                        <a href="https://github.com/Auvancee">
-                            <img className="SocialIcon3" src={behanceWhiteIcon} alt="LinkedIn" />
+                        <a href="https://www.behance.net/auvance">
+                            <img className="SocialIcon3" src={behanceWhiteIcon} alt="Behance" />
                         </a>
                     </div>
                 </div>

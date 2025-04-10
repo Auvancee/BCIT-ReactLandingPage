@@ -24,13 +24,19 @@ function PageSynopsis() {
     const containerRef = useRef(null);
         const lenis = useLenis(({ scroll }) => {});
 
-    useEffect(() => {
-        let ctx = gsap.context(() => {
-            initScrollAnimation2();
-        }, containerRef);
         
-        return () => ctx.revert(); // Clean up animation on unmount
-    }, []);
+
+        useEffect(() => {
+            const timeout = setTimeout(() => {
+                let ctx = gsap.context(() => {
+                    initScrollAnimation2();
+                }, containerRef);
+                
+                return () => ctx.revert();
+            }, 50); // slight delay gives DOM time to stabilize
+        
+            return () => clearTimeout(timeout);
+        }, []);
     
         useEffect(() => {
             initializeSplide();

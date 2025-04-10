@@ -39,7 +39,7 @@ function ProjectDetail() {
   return (
     <ReactLenis root>
       <main className="ProjectDetailMain">
-        <HeaderTwo />
+        
 
         
 
