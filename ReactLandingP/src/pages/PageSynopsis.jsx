@@ -8,8 +8,8 @@ import FooterTwo from "../components/FooterTwo";
 import SplideDiamond2 from "/public/OtherImages/DiamondSplide.svg"
 
 
-import Profile1 from "/public/OtherImages/Portrait1.png";
-import Profile2 from "/public/OtherImages/Portrait2.png";
+import Profile1 from "/OtherImages/Portrait1.png";
+import Profile2 from "/OtherImages/Portrait2.png";
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -24,7 +24,7 @@ function PageSynopsis() {
     const containerRef = useRef(null);
         const lenis = useLenis(({ scroll }) => {});
 
-        
+
 
         useEffect(() => {
             const timeout = setTimeout(() => {
@@ -116,8 +116,8 @@ function PageSynopsis() {
                         </div>
 
                         <div className="SynopsisContent">
-                            <p>A showcase of meticulously crafted projects—designed, developed, & 
-                                refined to deliver exceptional results across multiple areas of the web industry.
+                            <p>A breakdown of my core competencies each service crafted to solve real-world digital challenges, 
+                                focused on delivering high performance solutions.
                             </p>
                         </div>
 
@@ -151,9 +151,9 @@ function PageSynopsis() {
                                         </p>
                                 
                                         <div className="cardskill-tags">
-                                            <span>CMS Integration</span>
-                                            <span>Motion & Animate</span>
-                                            <span>3D Development</span>
+                                            <span>Browser Support</span>
+                                            <span>Micro Animations</span>
+                                            <span>Accessibility Ready</span>
                                         </div>
                                     </div>
 
@@ -229,9 +229,9 @@ function PageSynopsis() {
                                         </p>
                                 
                                         <div className="cardskill-tags">
-                                            <span>CMS Integration</span>
-                                            <span>Motion & Animate</span>
-                                            <span>3D Development</span>
+                                            <span>Content Optimization</span>
+                                            <span>Technical SEO</span>
+                                            <span>On-Page SEO</span>
                                         </div>
                                     </div>
 
