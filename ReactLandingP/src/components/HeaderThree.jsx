@@ -81,8 +81,8 @@ function HeaderThree() {
       
                 <ul className="overlay-info-three">
                   <li><Link to="/">HOME</Link></li>
-                  <li><Link to="#Projects" onClick={() => { toggleMenu(); scrollToSection("Projects"); }}>PROJECTS</Link></li>
-                  <li><Link to="#Archives" onClick={() => { toggleMenu(); scrollToSection("Archives"); }}>ARCHIVES</Link></li>
+                  <li><Link to="/works" onClick={toggleMenu2}>PROJECTS</Link></li>
+                  <li><a href="https://github.com/Auvancee" target="_blank" rel="noopener noreferrer">ARCHIVES</a></li>
                   <li><Link to="/synopsis" onClick={toggleMenu2}>SYNOPSIS</Link></li>
                   <li><Link to="#Contact" onClick={() => { toggleMenu(); scrollToSection("Contact"); }}>CONTACT</Link></li>
                 </ul>

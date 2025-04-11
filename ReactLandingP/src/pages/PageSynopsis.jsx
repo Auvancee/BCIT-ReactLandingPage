@@ -25,6 +25,9 @@ function PageSynopsis() {
         const lenis = useLenis(({ scroll }) => {});
 
 
+         useEffect(() => {
+                window.scrollTo(0, 0);
+              }, []);
 
         useEffect(() => {
             const timeout = setTimeout(() => {

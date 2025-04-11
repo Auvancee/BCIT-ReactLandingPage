@@ -113,7 +113,9 @@ function PageWorks() {
 
                         <article className="ArchiveContent" id="Archives">
                             <h4>(ARCHIVES)</h4>
-                            <button className="ArchiveButton">View On Github ↗</button>
+                            <a href="https://github.com/Auvancee" target="_blank">
+                                <button className="ArchiveButton">View On Github ↗</button>
+                            </a>
                         </article>
 
 
