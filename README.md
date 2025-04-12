@@ -10,6 +10,7 @@
  - React Based Website w/ (VITE, GSAP, LENIS, SPLIDE)
  - ScrollTrigger GSAP Card Overlay Effect
  - Infinite Scroll Splide Sticker Animation
+ - (And Much More!)
 
 [ Happy Developing! :) ]
 
