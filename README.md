@@ -4,17 +4,17 @@
 
 ✦ My Personal Portfolio Website <br>
 ✦ About Me, Portfolio Projects, And More! <br>
-✦ Check Out The Live Site → https://aumar.xyz/ [under construction]
+✦ Check Out The Live Site → https://aumar.xyz/ 
 
-★ Upcoming Features:
- - React Based Website
- - PageTransitions & Preloader
- - ScrollTrigger GSAP Effect
+★ Features:
+ - React Based Website w/ (VITE, GSAP, LENIS, SPLIDE)
+ - ScrollTrigger GSAP Card Overlay Effect
+ - Infinite Scroll Splide Sticker Animation
 
 [ Happy Developing! :) ]
 
 
-## ★ Project Screenshots (In Development) ★
+## ★ Project Screenshots ★
 
 ### Homepage
 ![Screenshot 2025-03-16 162204](https://github.com/user-attachments/assets/bac4dd20-ca29-4087-8cb9-ebdbf636a4d6)
