@@ -16,42 +16,42 @@ const initScrollAnimation2 = () => {
             }
         });
 
-        timeline.addLabel('card1');
-        timeline.to('.card-1', {
+        timeline.addLabel('card4');
+        timeline.to('.card-4', {
             yPercent: 0,
             opacity: 1,
         });
 
-        timeline.from('.card-2', {
+        timeline.from('.card-5', {
             yPercent: 75,
             opacity: 0,
         });
-        timeline.addLabel("card2");
+        timeline.addLabel("card5");
 
-        timeline.to(".card-1", {
+        timeline.to(".card-4", {
             scale: 0.95,
             yPercent: -10,
             opacity: 0.5,
         }, "-=0.3");
 
-        timeline.to('.card-2', {
+        timeline.to('.card-5', {
             yPercent: 0,
             opacity: 1,
         });
 
-        timeline.from('.card-3', {
+        timeline.from('.card-6', {
             yPercent: 75,
             opacity: 0,
         });
-        timeline.addLabel('card3');
+        timeline.addLabel('card6');
 
-        timeline.to(".card-2", {
+        timeline.to(".card-5", {
             scale: 0.98,
             yPercent: -10,
             opacity: 1,
         }, "-=0.3");
 
-        timeline.to(".card-3", {
+        timeline.to(".card-6", {
             yPercent: 0,
             opacity: 1,
         });

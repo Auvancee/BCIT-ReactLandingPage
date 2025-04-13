@@ -149,8 +149,8 @@ function PageHome() {
                                             </div>
                                     
                                             <p>
-                                                A website built to increase volume of potential students along with
-                                                site responsiveness, sleekness & visual stimulation.
+                                                A corporate CMS-powered website for showcasing tech services and products. 
+                                                Built with SEO performance in mind.
                                             </p>
                                     
                                             
@@ -179,8 +179,8 @@ function PageHome() {
                                         </div>
                                     
                                         <p>
-                                            A website built to increase volume of potential students along with
-                                            site responsiveness, sleekness & visual stimulation.
+                                            ONA Films is a movie database using the Movie API, bringing countless films into a single platform. 
+                                            Built with React and styled for sleek, fast UI/UX.
                                         </p>
                                     
                                         

@@ -127,7 +127,7 @@ function PageSynopsis() {
                         {/* Skillset Cards */}
                         <div className="cardskillset">
 
-                            <div className="cardskill card-1">
+                            <div className="cardskill card-4">
                                 <div className="card-contentskill">
 
                                 <div className="cardskill-info">
@@ -169,7 +169,7 @@ function PageSynopsis() {
                                 </div>
                             </div>
 
-                            <div className="cardskill card-2">
+                            <div className="cardskill card-5">
                                 <div className="card-contentskill">
 
                                 <div className="cardskill-info">
@@ -207,7 +207,7 @@ function PageSynopsis() {
                                 </div>
                             </div>
 
-                            <div className="cardskill card-3">
+                            <div className="cardskill card-6">
                                 <div className="card-contentskill">
                                 
                                     <div className="cardskill-info">
