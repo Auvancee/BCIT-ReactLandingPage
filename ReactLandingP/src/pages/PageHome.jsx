@@ -224,12 +224,14 @@ function PageHome() {
                             <br/><br/><br/><br/>
 
                             {/* More Work Button */}
-                            <button className="more-work-btn-desktop">More Work</button>
+                            <Link to="/works" className="more-work-link-desktop">
+                                <button className="more-work-btn-desktop">More Work</button>
+                            </Link>
                             
                             
 
                             {/* <!--MOBILE--> */}
-                            <div className="mobile-projects">
+                            {/* <div className="mobile-projects">
                                 <div className="mobile-card">
                                     <div className="mobile-card-image">
                                         <div className="mobile-card-number">1</div>
@@ -277,7 +279,7 @@ function PageHome() {
                                 </div>
 
                                 <button className="more-work-btn">More Work</button>
-                            </div>
+                            </div> */}
                             
 
                     </article>

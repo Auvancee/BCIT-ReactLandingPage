@@ -1,5 +1,15 @@
 /* ● MOBILE SETTINGS ● */
 
+
+
+
+
+
+
+
+
+
+
 /* • Introduction • */
 .PageHomeMain {
     background-color: #000000;
@@ -122,118 +132,153 @@
     color: black;
 }
 
-/* Projects, Cards & Stuff -DESKTOP NONE */
+/* Projects, Cards & Stuff */
 .cards {
-    display: none;
+    height: 80vh;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    border: #000 1px solid;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 0px 20px;
+    margin-bottom: 50px;
+}
+
+.card-1 {
+    left: 0;
+    right: 0;
+}
+
+.card-2 {
+    left: 0px;
+    top: 110px;
+}
+
+.card-3 {
+    left: 0px;
+    top: 150px;
 }
 
 
-.mobile-projects {
+
+.card-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    width: 90%;
-    margin: auto;
-    padding-top: 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    gap: 2rem;
 }
 
-
-
-/* Mobile card */
-.mobile-card {
+/* Left: Image or Video Preview */
+.card-image {
     width: 100%;
-    background: white;
+    height: 100%;
+    background: black; /* Placeholder background */
     border-radius: 0px 20px 0px 20px;
     overflow: hidden;
     display: flex;
+    align-items: flex-end;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Right: Project Info */
+.card-info {
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    border: #000 1px solid;
-}
-
-/* .mobile-card:hover {
-    transform: scale(1.02);
-} */
-
-/* Card image section */
-.mobile-card-image {
-    background: black;
-    height: 150px;
-    width: 100%; 
-    border-top-right-radius: 20px;
-    position: relative;
-    overflow: hidden; /* Prevent overflow issues */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 20px;
-    
-}
-
-.mobile-card-image img {
-    width: 100%; /* Ensures it fills horizontally */
-    height: 100%; /* Ensures it fills vertically */
-    object-fit: cover; /* Prevents stretching/shrinking */
-    border-bottom-left-radius: 20px;
-}
-
-/* Card number (circular in top-right corner) */
-.mobile-card-number {
-    width: 40px;
-    height: 40px;
-    background: white;
-    color: black;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 1rem;
-    border: #000 1px solid;
-    font-family: 'NeueM-Book';
-}
-
-/* Card content */
-.mobile-card-content {
-    padding: 1rem;
-    text-align: center;
-}
-
-.mobile-card-content h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    justify-content: space-between;
+    align-items: flex-end; /* Right align */
     text-align: right;
-    font-family: 'NeueM-Med';
 }
 
-.mobile-card-content p {
-    font-size: 0.9rem;
-    opacity: 0.8;
-    margin-bottom: 0.8rem;
-    text-align: right;
+
+/* Title */
+.card-info h3 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    font-stretch: condensed;
+    color: #000000;
     font-family: 'NeueM-Book';
 }
 
 /* Tags */
-.mobile-tags {
+.card-tags {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     gap: 0.5rem;
-    align-items: flex-end;
-    font-family: 'NeueM-Book';
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    
 }
 
-.mobile-tags span {
+.card-tags span {
     border: 1px solid black;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.75rem;
+    font-weight: 00;
+    text-transform: uppercase;
+    font-family: 'NeueM-Med';
+}
+
+/* Description */
+.card-info p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    max-width: 90%;
+    font-family: 'NeueM-Med';
+}
+
+/* Button */
+.card-button {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: absolute;
+    font-family: 'NeueM-Thin';
+    margin: 15px;
+    transition: 0.5s;
+    
+    border: #000 1px solid;
+}
+
+.card-button:hover {
+    background: #333;
+    border-radius: 30px;
+    filter: invert(0);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 /* More Work Button */
@@ -413,36 +458,177 @@
         color: black;
 }
 
-    /* Projects, Cards & Stuff -DESKTOP NONE */
-    .mobile-projects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        width: 90%;
+    /* Projects, Cards & Stuff */
+    .cards {
+        height: 80vh;
+        width: 100%;
         margin: auto;
-        padding-top: 5rem;
-        max-width: 500px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
-    .mobile-card {
+    .card {
+        position: absolute;
         width: 100%;
-        height: 500px;
-        background: white;
+        height: 70vh;
+        border: #000 1px solid;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 20px 0px 20px;
+        margin-bottom: 50px;
+    }
+
+    .card-1 {
+        left: 0;
+        right: 0;
+    }
+
+    .card-2 {
+        left: 0px;
+        top: 110px;
+    }
+
+    .card-3 {
+        left: 0px;
+        top: 150px;
+    }
+
+
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        padding: 1.3rem;
+        box-sizing: border-box;
+        gap: 2rem;
+    }
+    
+    /* Left: Image or Video Preview */
+    .card-image {
+        width: 100%;
+        height: 100%;
+        background: black; /* Placeholder background */
         border-radius: 0px 20px 0px 20px;
         overflow: hidden;
         display: flex;
+        align-items: flex-end;
+    }
+    
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+    /* Right: Project Info */
+    .card-info {
+        width: 100%;
+        display: flex;
         flex-direction: column;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease-in-out;
+        justify-content: space-between;
+        align-items: flex-end; /* Right align */
+        text-align: right;
+    }
+
+    
+    /* Title */
+    .card-info h3 {
+        font-size: 2.5rem;
+        margin: 0 0 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2;
+        font-stretch: condensed;
+        color: #000000;
+        font-family: 'NeueM-Book';
+    }
+    
+    /* Tags */
+    .card-tags {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 1rem 0;
+        
+    }
+    
+    .card-tags span {
+        border: 1px solid black;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 00;
+        text-transform: uppercase;
+        font-family: 'NeueM-Med';
+    }
+    
+    /* Description */
+    .card-info p {
+        font-size: 1rem;
+        margin: 1rem 0;
+        max-width: 90%;
+        font-family: 'NeueM-Med';
+    }
+    
+    /* Button */
+    .card-button {
+        margin-top: 1rem;
+        padding: 0.7rem 1rem;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 0px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        position: absolute;
+        font-family: 'NeueM-Thin';
+        margin: 15px;
+        transition: 0.5s;
+        
         border: #000 1px solid;
     }
-
-    .mobile-card-image {
-        height: 300px;
-        width: 100%; 
+    
+    .card-button:hover {
+        background: #333;
+        border-radius: 30px;
+        filter: invert(0);
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 
+    .more-work-btn-desktop {
+        display: block;
+        padding-top: 1rem;
+        padding: 0.7rem 3rem;
+        background: transparent;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Thin';
+        border: #000 1px solid;
+        margin: auto;
+    }
+    
+    .more-work-btn-desktop:hover {
+        background: #000000;
+        color: white;
+    }
+
+   
         /* • CTA BEFORE • */
         .CTABefore {
             text-align: center;
@@ -475,9 +661,340 @@
 
 
 /* ● DESKTOP SETTINGS ● */
+@media (min-width: 65em) {
+    /* • Introduction • */  
+    .PageHomeMain {
+        background-color: #000000;
+        color: white;
+    }
+
+    /* • Hero section full screen • */
+    .HeroSection {
+        min-height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .Introduction {
+        margin-bottom: auto; 
+    }
+
+    .Introduction h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-family: 'MonumentExtended-Black';
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    .Introduction h1 {
+        font-size: 6rem;
+        text-align: left;
+        margin: 0;
+        letter-spacing: -0.03em;
+        line-height: 0.9;
+        font-family: 'MonumentExtended-Black';
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+    }
+
+    /* • Splide Sticker Auto Scroll  • */
+    .splide {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+        pointer-events: visible;
+    }
 
 
-@media (min-width: 65em){
+    .splide .splide__track ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6.4rem;
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-family: 'MonumentExtended-Black';
+    }
+
+
+    .splide .splide__track ul li img {
+        width: 6.4rem;
+        height: 4rem;
+    }
+
+    .splide .splide__track-2 {
+        background-color: #ffffff;
+    }
+
+    .splide .splide__track-2 ul li {
+        color: black;
+    }
+
+    .ContainerWhite {
+        background: linear-gradient(#FFFFFF, #E4E5DE);
+        color: black;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+
+    /* • About Container & Content • */
+    .AboutContainer  {
+        padding: 0rem 7rem 0rem 7rem;
+        margin-top: 9rem;
+    }
+
+    /* ◭ Both About & Favorite Settings ◭ */
+    .AboutTitle h4, .AboutTitle h3  {
+        margin: 0;
+    }
+
+    .AboutTitle h4, .FavoriteTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #00000080;
+        font-size: 18px;
+    }
+
+    .AboutTitle h3, .FavoriteTitle h3 {
+        font-family: 'NeueM-Bold';
+        font-size: 80px;
+        letter-spacing: -0.7px;
+        
+    }
+
+    .AboutContent p {
+        font-family: 'NeueM-Book';
+        text-align: right;
+        font-size: 30px;
+        max-width: 75%;
+        margin-left: auto
+    }
+
+    .FavoriteContent p {
+        text-align: left;
+        font-size: 30px;
+        max-width: 75%;
+    }
+
+    .FavoriteContainer {
+        padding: 0rem;
+        margin-top: 60px;
+        color: black;
+    }
+
+    /* • Favourite Container & Content • */
+    .FavoriteContainerInner {
+        padding: 0rem 7rem 0rem 7rem;
+        margin-top: 9rem;
+        color: black;
+    }
+
+
+
+
+    /* Projects, Cards & Stuff */
+    .cards {
+        height: 80vh;
+        width: 75%;
+        margin: auto;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .card {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        border: #000 1px solid;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 20px 0px 20px;
+        margin-bottom: 50px;
+    }
+
+    .card-1 {
+        left: 0;
+        right: 0;
+    }
+
+    .card-2 {
+        left: 0px;
+        top: 110px;
+    }
+
+    .card-3 {
+        left: 0px;
+        top: 150px;
+    }
+
+
+
+    .card-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        padding: 1.3rem;
+        box-sizing: border-box;
+        gap: 2rem;
+    }
+    
+    /* Left: Image or Video Preview */
+    .card-image {
+        width: 80%;
+        height: 100%;
+        background: black; /* Placeholder background */
+        border-radius: 0px 20px 0px 20px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+    /* Right: Project Info */
+    .card-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end; /* Right align */
+        text-align: right;
+    }
+
+    
+    /* Title */
+    .card-info h3 {
+        font-size: 2.5rem;
+        margin: 0 0 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2;
+        font-stretch: condensed;
+        color: #000000;
+        font-family: 'NeueM-Book';
+    }
+    
+    /* Tags */
+    .card-tags {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 1rem 0;
+    }
+    
+    .card-tags span {
+        border: 1px solid black;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 00;
+        text-transform: uppercase;
+        font-family: 'NeueM-Med';
+    }
+    
+    /* Description */
+    .card-info p {
+        font-size: 1rem;
+        margin: 1rem 0;
+        max-width: 90%;
+        font-family: 'NeueM-Med';
+    }
+    
+    /* Button */
+    .card-button {
+        margin-top: 1rem;
+        padding: 0.7rem 1rem;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 0px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        position: absolute;
+        font-family: 'NeueM-Thin';
+        margin: 15px;
+        transition: 0.5s;
+        
+        border: #000 1px solid;
+    }
+    
+    .card-button:hover {
+        background: #333;
+        border-radius: 30px;
+        filter: invert(0);
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .more-work-btn-desktop {
+        display: block;
+        margin-top: 0.5rem;
+        padding: 0.7rem 3rem;
+        background: transparent;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'NeueM-Thin';
+        border: #000 1px solid;
+        margin: auto;
+    }
+
+    .more-work-btn-desktop:hover {
+        background: #000000;
+        color: white;
+    }
+
+    /* • CTA BEFORE • */
+    .CTABefore {
+        text-align: center;
+        padding-top: 20rem; 
+        padding-bottom: 20rem; 
+    
+    }
+    
+    .CTABefore h4, .CTABefore h5 {
+        margin: 0;
+    }
+
+    .CTABefore h4 {
+        font-family: 'NeueM-Bold';
+        font-size: 5rem;
+        letter-spacing: -3px;
+    }
+    
+    .CTABefore h5 {
+        font-family: 'MonumentExtended-Black';
+        font-size: 5rem;
+        letter-spacing: -3px;
+        color: transparent;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+    }
+
+}
+
+@media (min-width: 75em){
 
 
      /* • Introduction • */  
@@ -620,7 +1137,7 @@
     /* Projects, Cards & Stuff */
     .cards {
         height: 80vh;
-        width: 70%;
+        width: 80%;
         margin: auto;
         position: relative;
         display: flex;
@@ -715,8 +1232,9 @@
         display: flex;
         gap: 0.5rem;
         flex-wrap: wrap;
-        justify-content: flex-end;
+        justify-content: flex-start;
         margin: 1rem 0;
+        
       }
       
       .card-tags span {
@@ -733,7 +1251,7 @@
       .card-info p {
         font-size: 1.2rem;
         margin: 1rem 0;
-        max-width: 90%;
+        max-width: 100%;
         font-family: 'NeueM-Med';
       }
       
