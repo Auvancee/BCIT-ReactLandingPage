@@ -8,7 +8,7 @@ import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import SplideDiamond from "/OtherImages/DiamondSplide.svg"
 import FooterOne from "../components/FooterOne";
 
-
+import { projects } from "../global/projectData";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import ScrollToPlugin from "gsap/ScrollToPlugin";
@@ -25,9 +25,12 @@ import { Link } from "react-router-dom";
 
 
 function PageHome() {
+    
+   
     const containerRef = useRef(null);
     const lenis = useLenis(({ scroll }) => {});
 
+    // Initialize Splide for the carousel
     useEffect(() => {
         initializeSplide();
 
@@ -38,10 +41,13 @@ function PageHome() {
         return () => ctx.revert(); // Clean up animation on unmount
     }, []);
 
+    // To Scroll To The Top of the Page when the page loads
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
 
+    // To Set the vh variable for mobile devices
+      
 
    
     
@@ -221,6 +227,33 @@ function PageHome() {
 
                             </div>
 
+
+                        <div className="MobileCards">
+                            {projects.slice(0, 3).map((project, index) => (
+                                <Link to={`/project/${project.slug}`} className="ProjectBox" key={index}>
+                                    <div className="ProjectImage">
+                                    {project.image ? (
+                                        <img src={project.image} alt={project.title} />
+                                    ) : (
+                                        <div className="Placeholder"></div>
+                                    )}
+                                    </div>
+                                    <div className="ProjectContent">
+                                    <div className="ProjectTags">
+                                        {project.tags.map((tag, i) => (
+                                        <span key={i} className="Tag">{tag}</span>
+                                        ))}
+                                    </div>
+                                    <div className="ProjectInfo">
+                                        <span className="ProjectYear">{project.year}</span>
+                                        <h3>{project.title}</h3>
+                                    </div>
+                                    </div>
+                                </Link>
+                                ))}
+                    </div>
+                            
+
                             <br/><br/><br/><br/>
 
                             {/* More Work Button */}
@@ -230,56 +263,8 @@ function PageHome() {
                             
                             
 
-                            {/* <!--MOBILE--> */}
-                            {/* <div className="mobile-projects">
-                                <div className="mobile-card">
-                                    <div className="mobile-card-image">
-                                        <div className="mobile-card-number">1</div>
-                                        
-                                    </div>
-                                    <div className="mobile-card-content">
-                                        <h3>CAPSTONE PROJECT</h3>
-                                        <p>A website built to increase volume of potential students along with site responsiveness, sleekness & visual stimulation.</p>
-                                        <div className="mobile-tags">
-                                            <span>CMS & Integration</span>
-                                            <span>Design & Development</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="mobile-card">
-                                    <div className="mobile-card-image">
-                                        <div className="mobile-card-number">2</div>
-                                        <img className="ProjectImageMobile" src={ProjectOnePC} alt="ONAFilms" />
-                                        
-                                    </div>
-                                    <div className="mobile-card-content">
-                                        <h3>REACT MOVIE DATABASE</h3>
-                                        <p>Created to help the foundation base level of the business. Custom background with pieces of built-to-last code.</p>
-                                        <div className="mobile-tags">
-                                            <span>CMS & Integration</span>
-                                            <span>Design & Development</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="mobile-card">
-                                    <div className="mobile-card-image">
-                                        <div className="mobile-card-number">3</div>
-                                        <img className="ProjectImageMobile" src={ProjectTwoPC} alt="ONAFilms" />
-                                    </div>
-                                    <div className="mobile-card-content">
-                                        <h3>SANGHAN SASS/SCSS</h3>
-                                        <p>A website to attract a large base player of the best indie franchise game, well rounded of user-centric principles for converting gamers into sales.</p>
-                                        <div className="mobile-tags">
-                                            <span>CMS & Integration</span>
-                                            <span>Design & Development</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <button className="more-work-btn">More Work</button>
-                            </div> */}
+                    
+                            
                             
 
                     </article>
