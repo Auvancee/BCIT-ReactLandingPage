@@ -62,7 +62,7 @@ function PageHome() {
                 {/* HERO Section that contains everything on the first screen */}
                 <section className="HeroSection">
                     <div className="Introduction">
-                        <h2>UX/UI Designer &</h2>
+                        <h2>Web Designer &</h2>
                         <h1>Creative Developer</h1>
                     </div>
 
