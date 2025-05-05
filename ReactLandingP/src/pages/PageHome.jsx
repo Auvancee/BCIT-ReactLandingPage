@@ -129,102 +129,27 @@ function PageHome() {
 
                             {/* <!--DESKTOP & TABLET--> */}
                             <div className="cards">
-
-                            
-                                <div className="card card-1">
-                                    
+                                {projects.slice(0, 3).map((project, index) => (
+                                    <Link to={`/project/${project.slug}`} className={`card card-${index + 1}`} key={index}>
                                     <div className="card-content">
-                                        {/* <!-- Left Image --> */}
+                                        {/* Image */}
                                         <div className="card-image">
-                                           
-                                        
-                                            <img className="ProjectImageDesktop" src={ProjectThreePC} alt="Intercodex" />
+                                        <img className="ProjectImageDesktop" src={project.image} alt={project.title} />
                                         </div>
-                                
-                                    {/* <!-- Right Info --> */}
-                                        <a href="https://intercodex.bcitwebdeveloper.ca/" className="card-button" target="_blank">↖</a>
 
+                                        {/* Info */}
                                         <div className="card-info">
-                                            
-                                            <h3>Intecodex</h3>
-                                            
-                                            <div className="card-tags">
-                                                <span>Wordpress Development</span>
-                                                <span>CMS Integration</span>
-                                                <span>Online Store</span>
-                                            </div>
-                                    
-                                            <p>
-                                                A corporate CMS-powered website for showcasing tech services and products. 
-                                                Built with SEO performance in mind.
-                                            </p>
-                                    
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="card card-2">
-                                    <div className="card-content">
-                                        {/* <!-- Left Image --> */}
-                                        <div className="card-image">
-                                            
-                                            <img className="ProjectImageDesktop" src={ProjectOnePC} alt="ONAFilms" />
-                                        </div>
-
-                                        <a href="https://aumar.xyz/ONA-Films/" className="card-button" target="_blank">↖</a>
-
-                                        {/* <!-- Right Info --> */}
-                                        <div className="card-info">
-                                        <h3>ONAFilms</h3>
-                                        
+                                        <h3>{project.title}</h3>
                                         <div className="card-tags">
-                                            <span>React Development</span>
-                                            <span>Movie API</span>
-                                            <span>Responsive Design</span>
+                                            {project.tags.map((tag, i) => (
+                                            <span key={i}>{tag}</span>
+                                            ))}
                                         </div>
-                                    
-                                        <p>
-                                            ONA Films is a movie database using the Movie API, bringing countless films into a single platform. 
-                                            Built with React and styled for sleek, fast UI/UX.
-                                        </p>
-                                    
-                                        
+                                        <p>{project.description}</p>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div className="card card-3">
-                                    <div className="card-content">
-                                        {/* <!-- Left Image --> */}
-                                        <div className="card-image">
-                                            <img className="ProjectImageDesktop" src={ProjectTwoPC} alt="SangHan-Sass" />
-                                        </div>
-                                        
-                                        <a href="https://auvancee.github.io/BCIT-SangHanReplica/" className="card-button" target="_blank">↖</a>
-                                    
-                                        {/* <!-- Right Info --> */}
-                                        <div className="card-info">
-                                        <h3>SANGHAN SASS/SCSS</h3>
-                                        
-                                        <div className="card-tags">
-                                            <span>SASS/SCSS</span>
-                                            <span>Design Recreation</span>
-                                            <span>SEO Responsive</span>
-                                        </div>
-                                    
-                                        <p>
-                                            A SASS/SCSS styled responsive clone of the SangHan director portfolio website, 
-                                            focusing on layout recreation and mobile responsiveness.
-                                        </p>
-                                    
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-
+                                    </Link>
+                                ))}
                             </div>
 
 
