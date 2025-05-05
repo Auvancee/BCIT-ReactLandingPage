@@ -94,7 +94,7 @@ function PageHome() {
 
                         <div className="AboutContent">
                             <p>
-                                A Creative Developer & UX/UI Designer with over 2 years of experience 
+                                A Creative Developer & Web Designer with over 2 years of experience 
                                 building intuitive, responsive, & visually compelling digital solutions. 
                             </p>
 
