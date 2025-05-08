@@ -18,9 +18,9 @@ import initScrollAnimation from "../global/projectscroll"; // Desktop GSAP
 
 
 
-import ProjectOnePC from "/projectimages/ONAFilmsPC.png";
-import ProjectTwoPC from "/projectimages/SangHanPC.png";
-import ProjectThreePC from "/projectimages/IntercodexPC.png";
+// import ProjectOnePC from "/projectimages/ONAFilmsPC.png";
+// import ProjectTwoPC from "/projectimages/SangHanPC.png";
+// import ProjectThreePC from "/projectimages/IntercodexPC.png";
 import { Link } from "react-router-dom";
 
 
