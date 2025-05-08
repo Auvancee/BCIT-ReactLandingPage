@@ -8,7 +8,8 @@ import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 import "./ProjectDetail.css";
 
 function ProjectDetail() {
-  const lenis = useLenis(({ scroll }) => {});
+  // const lenis = useLenis(({ scroll }) => {});
+   useLenis(() => {});
   const { slug } = useParams();
   const project = projects.find((p) => p.slug === slug);
 

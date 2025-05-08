@@ -22,7 +22,8 @@ import { Link } from "react-router-dom";
 
 function PageWorks() {
     const containerRef = useRef(null);
-    const lenis = useLenis(({ scroll }) => {});
+    // const lenis = useLenis(({ scroll }) => {});
+     useLenis(() => {});
 
     useEffect(() => {
         initializeSplide();

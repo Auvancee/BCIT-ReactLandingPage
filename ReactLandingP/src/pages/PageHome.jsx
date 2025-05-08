@@ -28,7 +28,8 @@ function PageHome() {
     
    
     const containerRef = useRef(null);
-    const lenis = useLenis(({ scroll }) => {});
+    // const lenis = useLenis(({ scroll }) => {});
+    useLenis(() => {});
 
     // Initialize Splide for the carousel
     useEffect(() => {

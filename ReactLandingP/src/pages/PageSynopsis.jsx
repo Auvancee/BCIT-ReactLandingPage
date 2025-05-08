@@ -22,7 +22,8 @@ import initScrollAnimation2 from "../global/projectscroll2"; // Desktop GSAP
 function PageSynopsis() {
 
     const containerRef = useRef(null);
-        const lenis = useLenis(({ scroll }) => {});
+    // const lenis = useLenis(({ scroll }) => {});
+        useLenis(() => {});
 
 
          useEffect(() => {
