@@ -6,6 +6,7 @@ import FooterOne from "../components/FooterOne";
 import { projects } from "../global/projectData";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 import "./ProjectDetail.css";
+import SplideGallery from "../components/SplideGallery"; // adjust path as needed
 
 function ProjectDetail() {
   // const lenis = useLenis(({ scroll }) => {});
@@ -67,11 +68,14 @@ function ProjectDetail() {
             </div>
 
             {/* Image */}
-            {project.image && (
+            {project.media ? (
+              <SplideGallery media={project.media} />
+            ) : project.image ? (
               <div className="ProjectDetailImage">
                 <img src={project.image} alt={project.title} />
               </div>
-            )}
+            ) : null}
+
 
             {/* Tools */}
             {project.tools && project.tools.length > 0 && (

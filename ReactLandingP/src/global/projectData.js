@@ -42,8 +42,9 @@ export const projects = [
         "Built a fully responsive layout using grid and flexbox.",
         "Implemented dynamic routing with React Router for individual movie pages.",
         "Integrated external API (TMDB) using async/await and Axios.",
+       
       ],
-    
+      
       challenges: [
         "Handling inconsistent data responses from TMDB.",
         "Styling for mobile-first while keeping desktop fluid.",
@@ -55,6 +56,12 @@ export const projects = [
         "Learned efficient component reuse across routes.",
         "Got comfortable debugging CORS and API quota issues.",
       ],
+
+      media: [
+        { type: "image", src: ProjectThreePC },
+        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
+        { type: "youtube", src: "https://www.youtube.com/embed/abc123xyz" },
+      ]
 
     },
     {

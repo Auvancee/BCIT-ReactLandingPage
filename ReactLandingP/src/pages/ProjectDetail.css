@@ -44,7 +44,7 @@
   border: #000 1px solid;
   height: 300px;
   border-radius: 0px 20px 0px 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .ProjectDetailImage img {
@@ -93,6 +93,7 @@
   font-family: 'NeueM-Book';
   font-size: 1.2rem;
   padding: 20px;
+  
 }
 
 .DetailsSection ul {
