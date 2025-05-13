@@ -100,6 +100,12 @@ export const projects = [
         "Got comfortable debugging CORS and API quota issues.",
       ],
 
+      media: [
+        { type: "image", src: ProjectOnePC },
+        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
+        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
+      ]
+
     },
     {
       slug: "sanghan-replica",
