@@ -76,11 +76,11 @@ function PageHome() {
                     <div className="splide">
                             <div className="splide__track splide__track-2">
                                 <ul className="splide__list">
-                                    <li className="splide__slide">HAFIZAU</li>
+                                    <li className="splide__slide"><span className="SplideHighlight">HAFIZAU</span></li>
                                     <li className="splide__slide"><img className="SocialIcon" src={SplideDiamond} alt="" /></li>
-                                    <li className="splide__slide">HAFIZAU</li>
+                                    <li className="splide__slide"><span className="SplideHighlight">HAFIZAU</span></li>
                                     <li className="splide__slide"><img className="SocialIcon" src={SplideDiamond} alt="" /></li>
-                                    <li className="splide__slide">HAFIZAU</li>
+                                    <li className="splide__slide"><span className="SplideHighlight">HAFIZAU</span></li>
                                     <li className="splide__slide"><img className="SocialIcon" src={SplideDiamond} alt="" /></li>
                                 </ul>
                             </div>
