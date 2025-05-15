@@ -164,10 +164,13 @@
         font-size: 1.2rem;
         text-decoration: none;
         color: #000000;
-        /* mix-blend-mode: difference; */
         font-family: 'NeueM-MonoBook';
-        /* font-weight: bold; */
+        transition: 0.4s;
       }
+
+    /* .text-logo-three a:hover {
+        opacity: 0.6;
+    } */
 
       .menu-label-three {
         font-size: 1.2rem;
@@ -175,6 +178,8 @@
         font-family: 'NeueM-MonoBook';
         color: rgb(0, 0, 0);
       }
+
+    
 
       .dropdown-menu-three {
         position: absolute;

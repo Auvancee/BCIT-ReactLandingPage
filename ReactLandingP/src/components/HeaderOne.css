@@ -218,10 +218,13 @@
     font-size: 1.2rem;
     text-decoration: none;
     color: #ffffff;
-    /* mix-blend-mode: difference; */
     font-family: 'NeueM-MonoBook';
-    /* font-weight: bold; */
+    transition: 0.4s;
   }
+
+  /* .text-logo a:hover {
+    opacity: 0.6;
+  } */
   
   /* Right Menu + Arrow */
   .menu-toggle {
