@@ -27,7 +27,13 @@ const SplideGallery = ({ media }) => {
           <img src={item.src} alt={`Slide ${i}`} className="ProjectMedia" />
         )}
         {item.type === 'video' && (
-          <video controls className="ProjectMedia">
+          <video 
+            controls
+            autoplay
+            muted
+            loop   
+            className="ProjectMedia">
+  
             <source src={item.src} type="video/mp4" />
           </video>
         )}
