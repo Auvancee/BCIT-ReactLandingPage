@@ -18,6 +18,10 @@ function ProjectDetail() {
     window.scrollTo(0, 0);
   }, []);
 
+//   useEffect(() => {
+//   window.scrollTo({ top: 0, behavior: "smooth" });
+// }, [slug]);
+
   if (!project) {
     return (
       <div style={{ padding: "4rem", textAlign: "center" }}>
@@ -25,6 +29,8 @@ function ProjectDetail() {
       </div>
     );
   }
+
+  
 
   const Section = ({ title, items }) =>
     items && items.length > 0 && (
@@ -37,6 +43,10 @@ function ProjectDetail() {
         </ul>
       </div>
     );
+
+    const currentIndex = projects.findIndex(p => p.slug === slug);
+    const nextProject = projects[(currentIndex + 1) % projects.length];
+
 
   return (
     <ReactLenis root>
@@ -77,32 +87,92 @@ function ProjectDetail() {
             ) : null}
 
 
-            {/* Tools */}
-            {project.tools && project.tools.length > 0 && (
-              <div className="DetailsSection">
-                <h2 className="SubTitle">Tools & Technologies</h2>
-                <div className="ToolGrid">
-                  {project.tools.map((tool, i) => (
-                    <div className="ToolItem" key={i}>
-                      <img src={tool.logo} alt={tool.name} />
-                      <span>{tool.name}</span>
+            {/* Links */}
+            {project.links && (
+              <div className="ExternalLinks">
+                {project.links.live && (
+                  <a href={project.links.live} target="_blank" rel="noreferrer">Live Site ↗</a>
+                )}
+                {project.links.code && (
+                  <a href={project.links.code} target="_blank" rel="noreferrer">View Code ↗</a>
+                )}
+                {project.links.wireframe && (
+                  <a href={project.links.wireframe} target="_blank" rel="noreferrer">Wireframe ↗</a>
+                )}
+              </div>
+            )}
+
+            {/* Tech Stack */}
+            {project.techstack && (
+              <div className="TechStackSection">
+                <div className="TechStackHeading">Tech Stack</div>
+                <div className="TechStackBox">
+                  {project.techstack.map((tool, i) => (
+                    <img key={i} src={tool.logo} alt={tool.name} className="TechIcon" />
+                  ))}
+                </div>
+              </div>
+            )}
+
+
+            {/* Development Process */}
+            {project.developmentprocess && (
+              <div className="DevelopmentProcess">
+                <h2 className="SubTitle">Development Process</h2>
+                <div className="DevProcessGrid">
+                  {project.developmentprocess.map((step, i) => (
+                    <div className="DevStep" key={i}>
+                      <img src={step.icon} alt="step icon" className="StepIcon" />
+                      <p>{step.text}</p>
                     </div>
                   ))}
                 </div>
               </div>
             )}
 
-            {/* Detailed Sections */}
-            <div className="DetailsSection">
-                <Section title="Development Process" items={project.development} className="DetailHeading" />
-                <Section title="Setbacks & Challenges" items={project.challenges} className="DetailHeading" />
-                <Section title="Learning Curve" items={project.learningCurve}  className="DetailHeading" />
-            </div>
+            {/* Responsive Design Section */}
+            {project.responsiveImages && (
+              <div className="ResponsiveShowcase">
+                <h2 className="SubTitle">Responsive Design \ <br/> Accessibility</h2>
+
+                <div className="ResponsiveTopRow">
+                  <div className="ResponsiveText">
+                    <p>Mobile-First,<br />Everywhere Always</p>
+                  </div>
+                  <div className="ResponsiveMobileImages">
+                    {project.responsiveImages.mobile.map((img, i) => (
+                      <img key={i} src={img} className="MobileScreen" alt={`Mobile ${i}`} />
+                    ))}
+                  </div>
+                </div>
+
+                <div className="ResponsiveBottomColumn">
+                  <img src={project.responsiveImages.desktop} className="MacScreen" alt="Desktop view" />
+                  <p className="MacNote">Designing for All Devices</p>
+                </div>
+              </div>
+            )}
 
             
           </div>
+
+          
+
         </section>
 
+            {/* Mini Footer: Next Work */}
+          {projects.length > 1 && (
+            <div className="NextProjectFooter">
+              <p className="NextLabel">Next Work</p>
+              <a href={`/project/${nextProject.slug}`} className="NextTitle">
+  {nextProject.title}
+</a>
+
+              <hr className="FooterLine" />
+              <Link to="/works" className="AllWorksButton">All Work ↗</Link>
+              <p className="FooterSignature">HAFIZAU ©2025</p>
+            </div>
+          )}
         
       </main>
     </ReactLenis>
