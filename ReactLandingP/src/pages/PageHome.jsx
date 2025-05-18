@@ -95,14 +95,15 @@ function PageHome() {
 
                         <div className="AboutContent">
                             <p>
-                                A Creative Developer & Web Designer with over 2 years of experience 
-                                building intuitive, responsive, & visually compelling digital solutions. 
+                                I'm a Creative Developer & Web Designer with 2+ years of
+                                experience crafting responsive, accessible, and user-centered websites.
                             </p>
 
                             <p>
-                                I specialize in translating complex ideas into elegant, scalable solutions by 
-                                leveraging thoughtful design & clean, robust code empowering brands & teams 
-                                to connect deeply with their users.
+                                I focus on building powerful digital experiences that don’t 
+                                just look good, but solve real problems. My work blends clean UI, 
+                                purposeful code, and thoughtful design to create tools that help people, 
+                                not just fill portfolios.
                             </p>
                         </div>
 
@@ -119,9 +120,9 @@ function PageHome() {
                             </div>
     
                             <div className="FavoriteContent">
-                                <p>Top-tier projects, meticulously built to thrive in technology, 
-                                    showcase innovative design, cutting-edge techniques, & 
-                                    seamless integration of creativity and technical expertise.
+                                <p>A selection of meaningful projects, thoughtfully built to bridge creativity and functionality. 
+                                    Each one reflects my ongoing journey to design and develop with clarity, intention, and 
+                                    real-world impact.
                                 </p>
                             </div>
                         </div>
@@ -188,12 +189,38 @@ function PageHome() {
                             </Link>
                             
                             
-
+                            <br/><br/><br/><br/>
                     
                             
                             
 
                     </article>
+
+                    {/* Featured Misson Intro */}
+                    <article className="MissionContainer" id="Mission">
+
+                        <div className="MissionTitle">
+                            <h4>(MISSION)</h4>
+                            <h3>MISSION & PURPOSE</h3>
+                        </div>
+
+                        <div className="MissionContent">
+                            <p>
+                               I'm currently focused on building meaningful, purpose-driven web projects that help real people, not just fill a portfolio. 
+                               My current project is a gluten-free resource hub inspired by my own experience with celiac disease.
+                            </p>
+
+                            <p>
+                                Along the way, I'm rebuilding my foundation, not just as a developer, but in how I think through problems, 
+                                communicate clearly, and create with real impact. I'm learning in public and documenting the journey as I go.
+                            </p>
+                        </div>
+                        
+                    </article>
+                    
+
+
+
 
                             {/* CTA Section */}
                             <div className="CTABefore">

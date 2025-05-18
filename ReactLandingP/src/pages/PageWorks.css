@@ -771,6 +771,12 @@
             font-size: 18px;
         }
 
+        .ArchiveContent p {
+             font-size: 1rem;
+             font-family: 'NeueM-Med';
+             margin: 0;
+        }
+
         .ArchiveButton {
             display: block;
             margin-top: 1rem;

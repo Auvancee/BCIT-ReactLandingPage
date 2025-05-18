@@ -16,7 +16,7 @@ const SplideGallery = ({ media }) => {
       autoplay: true,
       arrows: true,
       pagination: true,
-      heightRatio: 0.46875, // ← this is the key
+      heightRatio: 0.390625, // ← this is the key
       cover: true,
     }}
     className="MediaCarousel"

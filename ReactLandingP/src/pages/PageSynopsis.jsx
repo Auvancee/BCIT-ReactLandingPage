@@ -89,9 +89,9 @@ function PageSynopsis() {
 
                         <div className="LeftColumn">
                             <img src={Profile1} alt="" />
-                            <p>A dedicated student passionate about the digital space, committed to 
-                                harmonizing aesthetics & functionality to deliver seamless experiences 
-                                & achieve digital excellence.
+                            <p> A curious and dedicated student passionate about the digital 
+                                space—driven by the goal of building tools that solve real-world 
+                                problems and serve people meaningfully.
                             </p>
                         </div>
 
@@ -99,12 +99,13 @@ function PageSynopsis() {
                             <img src={Profile2} alt="" />
 
                             <div className="RightColumnContent">
-                                <p>As a Creative Developer, I craft impactful web experiences 
-                                    centered around user-centric design principles.
+                                <p>As a Creative Developer, I care about building digital experiences that feel intuitive, 
+                                    thoughtful, and genuinely helpful. I’m less about trends—and more about making things that matter.
                                 </p>
 
-                                <p>In my spare time, I enjoy developing my own brand, 
-                                    going to the gym, & admiring the classic beauty of vintage cars.
+                                <p>Outside of code, you’ll find me building my brand, 
+                                    lifting at the gym, or geeking out over vintage car design.
+                                     Balance fuels my creativity.
                                 </p>
                             </div>
                         </div>
@@ -120,12 +121,13 @@ function PageSynopsis() {
                         </div>
 
                         <div className="SynopsisContent">
-                            <p>A breakdown of my core competencies each service crafted to solve real-world digital challenges, 
-                                focused on delivering high performance solutions.
+                            <p>A look at the areas I'm developing; where design, development, problem-solving, 
+                                and clear thinking come together. Each skill here reflects how I build today 
+                                and how I aim to grow tomorrow.
                             </p>
                         </div>
 
-                        {/* Skillset Cards */}
+                        {/* Desktop GSAP Overlay Cards */}
                         <div className="cardskillset">
 
                             <div className="cardskill card-4">
@@ -148,14 +150,14 @@ function PageSynopsis() {
 
                                     <div className="cscontent2">
                                         <p>
-                                            Specialized in crafting modern websites built with clean, efficient code, 
-                                            optimized for performance and scalability. Integration with innovative 
-                                            technologies & micro animations ensuring a seamless functionality to 
-                                            your needs.
+                                            I build responsive websites with clean, maintainable code—focusing on performance, accessibility, 
+                                            and small interactive details that elevate the user experience. I'm continuously 
+                                            refining my workflow to create scalable, real-world solutions.
                                         </p>
                                 
                                         <div className="cardskill-tags">
-                                            <span>Browser Support</span>
+                                            <span>Responsive Layouts</span>
+                                            <span>Interactive UI</span>
                                             <span>Micro Animations</span>
                                             <span>Accessibility Ready</span>
                                         </div>
@@ -170,13 +172,14 @@ function PageSynopsis() {
                                 </div>
                             </div>
 
+                            
                             <div className="cardskill card-5">
                                 <div className="card-contentskill">
 
                                 <div className="cardskill-info">
                                     
                                     <div className="cscontent1">
-                                        <h3>Web Design | UX/UI</h3>
+                                        <h3>Web Design | UI</h3>
                                         <div className="card-number">
                                             <h4>2</h4>
                                         </div>
@@ -188,16 +191,16 @@ function PageSynopsis() {
 
                                     <div className="cscontent2">
                                         <p>
-                                            Focused on designing intuitive interfaces and visually striking layouts that prioritize 
-                                            usability and user satisfaction. My designs blend aesthetics and 
-                                            functionality, ensuring digital experiences that resonate deeply 
-                                            with your audience.
+                                            I design intuitive, front-end layouts that feel good to use—striking a 
+                                            balance between visual clarity and practical usability. I value simplicity, 
+                                            visual hierarchy, and keeping things easy to navigate.
                                         </p>
                                 
                                         <div className="cardskill-tags">
-                                            <span>Responsive</span>
-                                            <span>Prototyping</span>
-                                            <span>Personas</span>
+                                            <span>UI Prototyping</span>
+                                            <span>Layout Design</span>
+                                            <span>Transitions & Flow</span>
+                                            <span>Visual Hierarchy</span>
                                         </div>
                                     </div>
 
@@ -226,16 +229,15 @@ function PageSynopsis() {
                                     
                                     <div className="cscontent2">
                                         <p>
-                                            Dedicated to implementing effective SEO strategies to improve visibility, 
-                                            drive organic growth, and enhance overall website performance. 
-                                            My methods ensure your content reaches the right audience, 
-                                            fostering measurable, long-term success.
+                                            I’m exploring core SEO principles to better understand how to improve 
+                                            visibility and structure content effectively. My goal is to make websites 
+                                            that are not just user-friendly—but discoverable and scalable too.
                                         </p>
                                 
                                         <div className="cardskill-tags">
-                                            <span>Content Optimization</span>
-                                            <span>Technical SEO</span>
                                             <span>On-Page SEO</span>
+                                            <span>Content Structuring</span>
+                                            <span>Metadata & Semantics</span>
                                         </div>
                                     </div>
 
@@ -246,6 +248,127 @@ function PageSynopsis() {
 
                         </div>
                         
+                        
+                        {/* Mobile GSAP Overlay Cards */}
+                        <div className="cardskillset2">
+
+                            <div className="cardskill2 card-7">
+                                <div className="card-contentskill">
+
+                                <div className="cardskill-info">
+                                    
+                                    <div className="cscontent1">
+                                        <h3>Web Development</h3>
+                                       
+                                        <div className="card-number">
+                                            <h4>1</h4>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <br/>
+                                        <div className="divider"></div> 
+                                    <br/>
+
+                                    <div className="cscontent2">
+                                        <p>
+                                            I build responsive websites with clean, maintainable code—focusing on performance, accessibility, 
+                                            and small interactive details that elevate the user experience. I'm continuously 
+                                            refining my workflow to create scalable, real-world solutions.
+                                        </p>
+                                
+                                        <div className="cardskill-tags">
+                                            <span>Responsive Layouts</span>
+                                            <span>Interactive UI</span>
+                                            <span>Micro Animations</span>
+                                            <span>Accessibility Ready</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                    
+
+                                    
+                                    
+
+                                </div>
+                            </div>
+
+                            
+                            <div className="cardskill2 card-8">
+                                <div className="card-contentskill">
+
+                                <div className="cardskill-info">
+                                    
+                                    <div className="cscontent1">
+                                        <h3>Web Design | UI</h3>
+                                        <div className="card-number">
+                                            <h4>2</h4>
+                                        </div>
+                                    </div>
+
+                                    <br/>
+                                        <div className="divider"></div> 
+                                    <br/>
+
+                                    <div className="cscontent2">
+                                        <p>
+                                            I design intuitive, front-end layouts that feel good to use—striking a 
+                                            balance between visual clarity and practical usability. I value simplicity, 
+                                            visual hierarchy, and keeping things easy to navigate.
+                                        </p>
+                                
+                                        <div className="cardskill-tags">
+                                            <span>UI Prototyping</span>
+                                            <span>Layout Design</span>
+                                            <span>Transitions & Flow</span>
+                                            <span>Visual Hierarchy</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            
+                                
+
+                                </div>
+                            </div>
+
+                            <div className="cardskill2 card-9">
+                                <div className="card-contentskill">
+                                
+                                    <div className="cardskill-info">
+                                    
+                                    <div className="cscontent1">
+                                        <h3>SEO Leverage</h3>
+                                        <div className="card-number">
+                                            <h4>3</h4>
+                                        </div>
+                                    </div>
+
+                                    <br/>
+                                        <div className="divider"></div> 
+                                    <br/>
+                                    
+                                    <div className="cscontent2">
+                                        <p>
+                                            I’m exploring core SEO principles to better understand how to improve 
+                                            visibility and structure content effectively. My goal is to make websites 
+                                            that are not just user-friendly—but discoverable and scalable too.
+                                        </p>
+                                
+                                        <div className="cardskill-tags">
+                                            <span>On-Page SEO</span>
+                                            <span>Content Structuring</span>
+                                            <span>Metadata & Semantics</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                </div>
+                            </div>
+
+                        </div>
 
 
 

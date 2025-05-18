@@ -74,9 +74,8 @@ function PageWorks() {
                             </div>
 
                             <div className="WorkContent">
-                                <p>A showcase of meticulously crafted projects—designed, 
-                                    developed, & refined to deliver exceptional results across 
-                                    multiple areas of the web industry.
+                                <p>These projects represent my journey in building purposeful, evolving solutions; from design to development.  
+                                    Each one is a step toward solving real-world problems with clarity and intention.
                                 </p>
                             </div>
 
@@ -110,14 +109,15 @@ function PageWorks() {
 
                         </section>
                         
-
+                        
 
                         <article className="ArchiveContent" id="Archives">
-                            <h4>(ARCHIVES)</h4>
+                            <h4>(ARCHIVES)</h4>         
                             <a href="https://github.com/Auvancee" target="_blank">
                                 <button className="ArchiveButton">View On Github ↗</button>
                             </a>
                         </article>
+                        
 
 
 

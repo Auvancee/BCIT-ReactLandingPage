@@ -58,6 +58,7 @@ function HeaderOne() {
               <ul>
                 <li><Link to="#About" onClick={() => { toggleMenu(); scrollToSection("About"); }}>ABOUT</Link></li>
                 <li><Link to="#Featured" onClick={() => { toggleMenu(); scrollToSection("Featured"); }}>FEATURED</Link></li>
+                <li><Link to="#Misson" onClick={() => { toggleMenu(); scrollToSection("Mission"); }}>MISSIONS</Link></li>
                 <li><Link to="/synopsis" onClick={toggleMenu}>SYNOPSIS</Link></li>
                 <li><Link to="/works" onClick={toggleMenu}>PROJECTS</Link></li>
                 <li><Link to="#Contact" onClick={() => { toggleMenu(); scrollToSection("Contact"); }}>CONTACT</Link></li>
@@ -80,6 +81,7 @@ function HeaderOne() {
           <ul className="overlay-info">
             <li><Link to="#About" onClick={() => { toggleMenu(); scrollToSection("About"); }}>ABOUT</Link></li>
             <li><Link to="#Featured" onClick={() => { toggleMenu(); scrollToSection("Featured"); }}>FEATURED</Link></li>
+            <li><Link to="#Misson" onClick={() => { toggleMenu(); scrollToSection("Mission"); }}>MISSON</Link></li>
             <li><Link to="/synopsis" onClick={toggleMenu2}>SYNOPSIS</Link></li>
             <li><Link to="/works" onClick={toggleMenu2}>PROJECTS</Link></li>
             <li><Link to="#Contact" onClick={() => { toggleMenu(); scrollToSection("Contact"); }}>CONTACT</Link></li>

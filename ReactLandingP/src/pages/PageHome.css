@@ -1,15 +1,6 @@
 /* ● MOBILE SETTINGS ● */
 
 
-
-
-
-
-
-
-
-
-
 /* • Introduction • */
 .PageHomeMain {
     background-color: #000000;
@@ -30,7 +21,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    padding: 0 2rem; 
+    padding: 0 1.5rem; 
 }
 
 .Introduction h2 {
@@ -105,23 +96,23 @@
     margin-top: 60px;
 }
 
-/* ◭ Both About & Favorite Settings ◭ */
-.AboutTitle h4, .AboutTitle h3, .FavoriteTitle h4, .FavoriteTitle h3 {
+/* ◭ Both About, Favorite & Misson Settings ◭ */
+.AboutTitle h4, .AboutTitle h3, .FavoriteTitle h4, .FavoriteTitle h3, .MissionTitle h4, .MissionTitle h3 {
     margin: 0;
 }
 
-.AboutTitle h4, .FavoriteTitle h4 {
+.AboutTitle h4, .FavoriteTitle h4, .MissionTitle h4 {
     font-family: 'NeueM-MonoThin';
     color: #00000080;
 }
 
-.AboutTitle h3, .FavoriteTitle h3 {
+.AboutTitle h3, .FavoriteTitle h3, .MissionTitle h3 {
     font-family: 'NeueM-Bold';
     font-size: 33px;
     letter-spacing: -0.7px;
 }
 
-.AboutContent p, .FavoriteContent p {
+.AboutContent p, .FavoriteContent p, .MissionContent p {
     font-family: 'NeueM-Book';
 }
 
@@ -169,7 +160,12 @@
     color: white;
 }
 
-
+/* Misson Settings & Container */
+ .MissionContainer {
+    color: black;
+    padding: 1.5rem;
+    margin-top: 60px;
+ }
 
 
 
@@ -277,7 +273,7 @@
         margin-top: 60px;
     }
     
-    /* ◭ Both About & Favorite Settings ◭ */
+    /* ◭ Both About, Favorite & Misson Settings ◭ */
     .AboutTitle h4, .AboutTitle h3 {
         margin: 0;
     }
@@ -294,6 +290,12 @@
         font-size: 18px;
         text-align: right;
     }
+
+    .MissionTitle h4 {
+        font-family: 'NeueM-MonoThin';
+        color: #00000080;
+        font-size: 18px;
+    }
     
     .AboutTitle h3 {
         font-family: 'NeueM-Bold';
@@ -307,6 +309,12 @@
         text-align: right;
     }
     
+    .MissionTitle h3 {
+       font-family: 'NeueM-Bold';
+        font-size: 40px;
+        text-align: left; 
+    }
+    
     .AboutContent p {
         font-family: 'NeueM-Book';
         text-align: right;
@@ -315,6 +323,12 @@
 
     .FavoriteContent p {
         text-align: left;
+        font-size: 20px;
+    }
+
+    .MissionContent p {
+        font-family: 'NeueM-Book';
+         text-align: right;
         font-size: 20px;
     }
 
@@ -500,7 +514,15 @@
         color: white;
     }
 
-   
+    /* Misson Settings & Container */
+    .MissionContainer {
+        padding: 4rem;
+        margin-top: 60px;
+        color: black;
+      }
+
+      
+
         /* • CTA BEFORE • */
         .CTABefore {
             text-align: center;
@@ -626,13 +648,13 @@
         margin: 0;
     }
 
-    .AboutTitle h4, .FavoriteTitle h4 {
+    .AboutTitle h4, .FavoriteTitle h4, .MissionTitle h4 {
         font-family: 'NeueM-MonoThin';
         color: #00000080;
         font-size: 18px;
     }
 
-    .AboutTitle h3, .FavoriteTitle h3 {
+    .AboutTitle h3, .FavoriteTitle h3, .MissionTitle h3 {
         font-family: 'NeueM-Bold';
         font-size: 80px;
         letter-spacing: -0.7px;
@@ -838,6 +860,22 @@
         color: white;
     }
 
+    /* • Misson Container & Content • */
+    .MissionContainer {
+        padding: 0rem 7rem 0rem 7rem;
+        margin-top: 9rem;
+    }
+
+    .MissionContent p {
+        font-family: 'NeueM-Book';
+        font-size: 30px;
+        text-align: right;
+        max-width: 75%;
+        margin-left: auto;
+    }
+
+
+
     /* • CTA BEFORE • */
     .CTABefore {
         text-align: center;
@@ -956,18 +994,18 @@
         margin-top: 9rem;
     }
     
-    /* ◭ Both About & Favorite Settings ◭ */
+    /* ◭ Both About, Favorite & Misson Settings ◭ */
     .AboutTitle h4, .AboutTitle h3  {
         margin: 0;
     }
     
-    .AboutTitle h4, .FavoriteTitle h4 {
+    .AboutTitle h4, .FavoriteTitle h4, .MissionTitle h4 {
         font-family: 'NeueM-MonoThin';
         color: #00000080;
         font-size: 18px;
     }
     
-    .AboutTitle h3, .FavoriteTitle h3 {
+    .AboutTitle h3, .FavoriteTitle h3, .MissionTitle h3 {
         font-family: 'NeueM-Bold';
         font-size: 80px;
         letter-spacing: -0.7px;
@@ -1174,6 +1212,28 @@
         background: #000000;
         color: white;
       }
+      /* • Misson Container & Content • */
+      .MissionContainer {
+        padding: 0rem 7rem 0rem 7rem;
+        margin-top: 9rem;
+      }
+
+      
+       .MissionContent p {
+        font-family: 'NeueM-Book';
+        font-size: 30px;
+        text-align: right;
+        max-width: 75%;
+        margin-left: auto;
+       }
+
+
+
+      
+
+
+
+
 
       /* • CTA BEFORE • */
       .CTABefore {
