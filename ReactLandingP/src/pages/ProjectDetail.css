@@ -454,32 +454,34 @@
   
   /* Project Links */
 
-  .ExternalLinks {
+.ExternalLinks {
   display: flex;
-   justify-content: center;
+  justify-content: center;
   gap: 1rem;
   margin: 2rem 0;
 }
 
 .ExternalLinks a {
-  text-decoration: none;
-  background: black;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 50px;
-  font-family: 'NeueM-Book';
-  font-size: 0.95rem;
-  transition: background 0.3s ease;
- 
+    padding: 0.7rem 2rem;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'NeueM-Thin';
+    border: #000 1px solid; 
 }
 
 .ExternalLinks a:hover {
-  background: #333;
+  background: #000000;
+  color: white;
 }
 
   /* Tech Stack */
 .TechStackSection {
-  margin-top: 6rem;
+  margin-top: 15rem;
   padding: 0 4rem;
 }
 
@@ -489,7 +491,8 @@
   justify-content: center;
   gap: 2rem;
   font-family: 'NeueM-Bold';
-  font-size: 1.4rem;
+  font-size: 3rem;
+    letter-spacing: -1px;
   text-transform: uppercase;
   margin-bottom: 2rem;
   position: relative;
@@ -500,14 +503,14 @@
   content: "";
   flex: 1;
   height: 1px;
-  
+  width: 1px;
   background: black;
 }
 
 .TechStackBox {
   border: 1px solid black;
-  border-radius: 10px;
-  padding: 2rem;
+  border-radius: 0px 20px 0px 20px;
+  padding: 3rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -521,7 +524,7 @@
 
   /* Dev Process */
 .DevelopmentProcess {
-  margin-top: 6rem;
+  margin-top: 17rem;
   padding: 0 4rem;
 }
 
@@ -531,7 +534,8 @@
   justify-content: center;
   gap: 2rem;
   font-family: 'NeueM-Bold';
-  font-size: 1.4rem;
+  font-size: 3rem;
+  letter-spacing: -1px;
   text-transform: uppercase;
   margin-bottom: 2rem;
   position: relative;
@@ -547,7 +551,7 @@
 
 .DevProcessGrid {
   border: 1px solid black;
-  border-radius: 10px;
+   border-radius: 0px 20px 0px 20px;
   padding: 2rem 2.5rem;
   display: flex;
   flex-direction: column;
@@ -560,16 +564,21 @@
   gap: 1.5rem;
 }
 
+.DevStep p {
+  font-size: 25px;
+  font-family: 'NeueM-Book';
+}
+
 .StepIcon {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
   margin-top: 0.3rem;
 }
 
 /* Responsive/Access Section */
 .ResponsiveShowcase {
-  margin-top: 6rem;
+  margin-top: 17rem;
   padding: 0 4rem;
 }
 
@@ -579,10 +588,11 @@
   justify-content: center;
   gap: 2rem;
   font-family: 'NeueM-Bold';
-  font-size: 1.4rem;
+  font-size: 3rem;
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
   position: relative;
+  text-align: center;
 }
 
 .ResponsiveShowcase .SubTitle::before,
@@ -597,24 +607,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
   margin-bottom: 4rem;
 }
 
 .ResponsiveText {
   font-family: 'NeueM-Book';
-  font-size: 1rem;
-  line-height: 1.6;
-  text-align: right;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  text-align: center;
 }
 
 .ResponsiveMobileImages {
   display: flex;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .MobileScreen {
-  height: 280px;
+  height: 500px;
   width: auto;
 }
 
@@ -623,17 +633,19 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  margin-top: 10rem;
 }
 
 .MacScreen {
   max-width: 100%;
-  height: auto;
+  height: 650px;
 }
 
 .MacNote {
   font-family: 'NeueM-Book';
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
+  letter-spacing: -1px;
   margin-top: 1rem;
 }
 
@@ -641,24 +653,27 @@
   .NextProjectFooter {
   background: black;
   color: white;
+  height: 80vh;
   padding: 4rem 2rem;
   text-align: center;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  margin-top: 6rem;
+  margin-top: 10rem;
   position: relative;
 }
 
 .NextLabel {
-  font-family: 'NeueM-Med';
-  font-size: 0.9rem;
+  font-family: 'NeueM-Bold';
+  font-size: 2rem;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .NextTitle {
-  font-size: 3rem;
-  font-family: 'NeueM-Bold';
+  font-size: 10rem;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  font-family: 'NeueM-Book';
   color: white;
   text-decoration: none;
 }
@@ -672,24 +687,27 @@
   width: 80%;
   border: none;
   height: 1px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.582);
 }
 
 .AllWorksButton {
-  display: inline-block;
-  margin-top: 1rem;
-  background: white;
-  color: black;
-  padding: 0.5rem 1.5rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9rem;
-  transition: 0.3s ease;
+    padding: 0.9rem 3rem;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'NeueM-Thin';
+    border: #ffffff 1px solid; 
+    display: inline-block;
+    margin-top: 1rem;
 }
 
 .AllWorksButton:hover {
-  background: #eee;
+  background: #ffffff;
+  color: black;
 }
 
 .FooterSignature {

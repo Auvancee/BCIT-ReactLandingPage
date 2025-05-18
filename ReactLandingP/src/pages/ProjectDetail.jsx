@@ -91,13 +91,13 @@ function ProjectDetail() {
             {project.links && (
               <div className="ExternalLinks">
                 {project.links.live && (
-                  <a href={project.links.live} target="_blank" rel="noreferrer">Live Site ↗</a>
+                  <a href={project.links.live} target="_blank" rel="noreferrer">View Live</a>
                 )}
                 {project.links.code && (
-                  <a href={project.links.code} target="_blank" rel="noreferrer">View Code ↗</a>
+                  <a href={project.links.code} target="_blank" rel="noreferrer">View Code</a>
                 )}
                 {project.links.wireframe && (
-                  <a href={project.links.wireframe} target="_blank" rel="noreferrer">Wireframe ↗</a>
+                  <a href={project.links.wireframe} target="_blank" rel="noreferrer">View AdobeXD</a>
                 )}
               </div>
             )}
@@ -165,8 +165,8 @@ function ProjectDetail() {
             <div className="NextProjectFooter">
               <p className="NextLabel">Next Work</p>
               <a href={`/project/${nextProject.slug}`} className="NextTitle">
-  {nextProject.title}
-</a>
+                {nextProject.title}
+              </a>
 
               <hr className="FooterLine" />
               <Link to="/works" className="AllWorksButton">All Work ↗</Link>
