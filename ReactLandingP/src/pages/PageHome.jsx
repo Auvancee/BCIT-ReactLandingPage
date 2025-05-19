@@ -8,7 +8,7 @@ import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import SplideDiamond from "/OtherImages/DiamondSplide.svg"
 import FooterOne from "../components/FooterOne";
 
-import { projects } from "../global/projectData";
+import { projects } from "../global/projectData.jsx";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import ScrollToPlugin from "gsap/ScrollToPlugin";

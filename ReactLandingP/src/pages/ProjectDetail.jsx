@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import HeaderTwo from "../components/HeaderTwo";
 import FooterOne from "../components/FooterOne";
-import { projects } from "../global/projectData";
+import { projects } from "../global/projectData.jsx";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 import "./ProjectDetail.css";
 import SplideGallery from "../components/SplideGallery"; // adjust path as needed
@@ -122,8 +122,11 @@ function ProjectDetail() {
                 <div className="DevProcessGrid">
                   {project.developmentprocess.map((step, i) => (
                     <div className="DevStep" key={i}>
-                      <img src={step.icon} alt="step icon" className="StepIcon" />
-                      <p>{step.text}</p>
+                      <div className="StepHeader">
+                        <img src={step.icon} alt="step icon" className="StepIcon" />
+                        <h3 className="StepTitle">{step.heading}</h3>
+                      </div>
+                      <p className="StepText">{step.text}</p>
                     </div>
                   ))}
                 </div>

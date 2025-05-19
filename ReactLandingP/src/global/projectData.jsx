@@ -27,7 +27,7 @@ import SPLIDE from '/toolsvgs/Splide.png';
 /* Others */
 import WP from '/toolsvgs/Wordpress.svg';
 // import API from '/toolsvgs/API.svg';
-// import WOO from '/toolsvgs/Woocommerce.png';
+import WOO from '/toolsvgs/WooCommerce.svg';
 
 /* Tools/Designs */
 import XD from '/toolsvgs/XD.svg'
@@ -83,16 +83,25 @@ export const projects = [
 
       developmentprocess: [
       { icon: Developer, 
-        text: "The goal with Intercodex was to create a sleek, CMS-powered corporate site that felt lightweight, yet scalable. I used WordPress as the foundation, allowing for dynamic content management while customizing the front-end to keep the interface consistent and modern." },
+        heading: "Developer:",
+        text: ( <>
+        "This portfolio was built as both a showcase and a reflection of my evolving thinking as a developer. 
+        I treated it as a personal platform to experiment with smoother motion, scalable architecture, and clarity in communication." 
+        </>  
+      )
+      },
 
       { icon: PuzzlePiece, 
-        text: "Structurally, I focused on creating a reusable system of components—so future pages and sections could be easily added without breaking layout or flow. I implemented a modular CSS structure and paid extra attention to page hierarchy, ensuring clarity across multiple service lines." },
+        heading: "Structure:",
+        text: "I used modular component design and motion libraries like GSAP + Lenis to create a flow that felt fluid but controlled. I prioritized consistent spacing and transitions to help guide the visitor through the content intuitively." },
 
       { icon: PaintBrush, 
-        text: "Throughout the build, performance remained a priority. I optimized asset loading and limited animation to subtle transitions that enhanced UX without slowing the site. The balance between flexibility and stability was a constant tradeoff—but one that pushed me to think more like a systems designer than a page builder." },
+        heading: "Functionality/Styling:",
+        text: "Animation was treated as a tool for focus—not flair. Every visual movement serves to direct the eye or reinforce hierarchy. The result is an experience that moves with intention, not distraction." },
 
       { icon: DiamondSplide, 
-        text: "This project taught me how small structural choices early on affect everything downstream—from loading speed to future edits" }
+        heading: "Reflection:",
+        text: "Building my own site taught me that simplicity is harder than complexity—but far more rewarding. It forced me to think like both the user and the builder at once." }
     ],
 
       responsiveImages: {
@@ -136,6 +145,7 @@ export const projects = [
         { logo: REACT },
         { logo: WP },
         { logo: PHP },
+        { logo: WOO },
         { logo: FIGMA },
         { logo: AI}
       ],
