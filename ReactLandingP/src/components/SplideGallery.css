@@ -1,3 +1,21 @@
+.MediaWrapper {
+  border: #000 1px solid;
+  /* height: 800px; */
+  border-radius: 0px 20px 0px 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.ProjectMedia {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 20px 0px 20px;
+}
+
+
+
 
 @media (min-width: 30em) {
 .MediaWrapper {

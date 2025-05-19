@@ -13,7 +13,7 @@ const SplideGallery = ({ media }) => {
     options={{
   type: 'loop',
   perPage: 1,
-   perMove: 1,
+  perMove: 1,
   autoplay: false,
   arrows: true,
   pagination: true,
@@ -29,7 +29,8 @@ const SplideGallery = ({ media }) => {
       900: { perPage: 1, gap: "1rem", arrows: false }, // Tablet
       750: { perPage: 1, gap: "1rem", arrows: false }, // Small Tablet
       500: { perPage: 1, gap: "1rem", arrows: false}, // Mobile
-      320: { perPage: 1, gap: "0.5rem", arrows: false }, // Extra Small Screens
+      320: { perPage: 1, gap: "0.5rem", arrows: false, 
+        heightRatio: 0.7425, pagination: false, autoplay: true}, // Extra Small Screens
   },
 }}
 

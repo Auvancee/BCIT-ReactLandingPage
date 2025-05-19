@@ -189,7 +189,7 @@ export const projects = [
       links: {
         live: "https://aumar.xyz/home",
         code: "https://github.com/Auvancee/BCIT-ReactMovieDatabase",
-        wireframe: ""
+        wireframe: "https://xd.adobe.com/view/cd29fc8c-0f0a-4647-9b62-8c184b912c88-987a/?fullscreen"
       },
 
       techstack: [
