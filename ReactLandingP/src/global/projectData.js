@@ -98,7 +98,8 @@ export const projects = [
       responsiveImages: {
         mobile: [
           iphone14,
-          iphone14
+          iphone14,
+          iphone14,
         ],
         desktop: macbookair
       }
@@ -332,7 +333,8 @@ export const projects = [
       responsiveImages: {
         mobile: [
           iphone14,
-          iphone14
+          iphone14,
+          
         ],
         desktop: macbookair
       }

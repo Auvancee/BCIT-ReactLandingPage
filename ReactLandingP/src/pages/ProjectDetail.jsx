@@ -142,14 +142,20 @@ function ProjectDetail() {
                   <div className="ResponsiveMobileImages">
                     {project.responsiveImages.mobile.map((img, i) => (
                       <img key={i} src={img} className="MobileScreen" alt={`Mobile ${i}`} />
+                      
                     ))}
                   </div>
                 </div>
 
                 <div className="ResponsiveBottomColumn">
-                  <img src={project.responsiveImages.desktop} className="MacScreen" alt="Desktop view" />
-                  <p className="MacNote">Designing for All Devices</p>
+                  <div className="ResponsiveDesktopImage">
+                    <img src={project.responsiveImages.desktop} className="MacScreen" alt="Desktop view" />
+                  </div>
+                  <div className="ResponsiveText2">
+                    <p className="MacNote">Designing for All Devices</p>
+                  </div>
                 </div>
+
               </div>
             )}
 

@@ -13,10 +13,10 @@ const SplideGallery = ({ media }) => {
     options={{
       type: 'loop',
       perPage: 1,
-      autoplay: true,
+      autoPlay: false,
       arrows: true,
       pagination: true,
-      heightRatio: 0.390625, // ← this is the key
+      heightRatio: 0.4296875, // ← this is the key
       cover: true,
     }}
     className="MediaCarousel"
