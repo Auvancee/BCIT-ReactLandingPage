@@ -48,13 +48,19 @@
 }
 
 /* • Splide Sticker Auto Scroll  • */
+.PointerEvents {
+    pointer-events: none;
+    background-color: transparent;
+    width: 100%;
+}
+
 .splide {
     position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    pointer-events: none;
+    pointer-events: all;
    
 }
 
@@ -231,13 +237,19 @@
     }
     
     /* • Splide Sticker Auto Scroll  • */
+    .PointerEvents {
+        pointer-events: none;
+        background-color: transparent;
+        width: 100%;
+    }
+
     .splide {
         position: relative;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        pointer-events: none;
+        pointer-events:all;
     }
 
     .splide .splide__track ul li {
@@ -604,6 +616,11 @@
         pointer-events: visible;
     }
 
+    .PointerEvents {
+        pointer-events: all;
+        background-color: transparent;
+        width: 100%;
+    }
 
     .splide .splide__track ul li {
         display: flex;

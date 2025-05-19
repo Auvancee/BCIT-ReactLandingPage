@@ -64,7 +64,7 @@ function PageSynopsis() {
             {/* Work Section */}
             <section className="ContainerBlack">
 
-                        <div className="splide">
+                        <div className="splide"><span className="PointerEvents">
                                <div className="splide__track splide__track">
                                    <ul className="splide__list">
                                        <li className="splide__slide"><span className="SplideHighlight2">SYNOPSIS</span></li>
@@ -75,6 +75,7 @@ function PageSynopsis() {
                                        <li className="splide__slide"><img className="SocialIcon2" src={SplideDiamond2} alt="" /></li>
                                    </ul>
                                </div>
+                            </span>
                        </div>            
 
 

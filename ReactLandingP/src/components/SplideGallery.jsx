@@ -11,14 +11,28 @@ const SplideGallery = ({ media }) => {
     <div className="MediaWrapper">
   <Splide
     options={{
-      type: 'loop',
-      perPage: 1,
-      autoPlay: false,
-      arrows: true,
-      pagination: true,
-      heightRatio: 0.4296875, // ← this is the key
-      cover: true,
-    }}
+  type: 'loop',
+  perPage: 1,
+   perMove: 1,
+  autoplay: false,
+  arrows: true,
+  pagination: true,
+  heightRatio: 0.515625,
+  cover: true,
+  drag: true,
+  swipe: true,
+  flickPower: 500,
+  flickMaxPages: 1,
+  breakpoints: {
+      1300: { perPage: 1, gap: "1rem" }, // Tablet
+      1100: { perPage: 1, gap: "1rem" }, // Tablet
+      900: { perPage: 1, gap: "1rem", arrows: false }, // Tablet
+      750: { perPage: 1, gap: "1rem", arrows: false }, // Small Tablet
+      500: { perPage: 1, gap: "1rem", arrows: false}, // Mobile
+      320: { perPage: 1, gap: "0.5rem", arrows: false }, // Extra Small Screens
+  },
+}}
+
     className="MediaCarousel"
   >
     {media.map((item, i) => (

@@ -73,7 +73,8 @@ function PageHome() {
                 {/* About Section */}
                 <section className="ContainerWhite">
 
-                    <div className="splide">
+                
+                    <div className="splide"><span className="PointerEvents">
                             <div className="splide__track splide__track-2">
                                 <ul className="splide__list">
                                     <li className="splide__slide"><span className="SplideHighlight">HAFIZAU</span></li>
@@ -84,7 +85,9 @@ function PageHome() {
                                     <li className="splide__slide"><img className="SocialIcon" src={SplideDiamond} alt="" /></li>
                                 </ul>
                             </div>
+                        </span>
                     </div>
+                
 
                     <article className="AboutContainer" id="About">
 

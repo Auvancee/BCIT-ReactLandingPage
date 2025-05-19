@@ -52,7 +52,7 @@ function PageWorks() {
                 {/* Work Section */}
                   <section className="ContainerWhite">
   
-                      <div className="splide">
+                      <div className="splide"><span className="PointerEvents">
                               <div className="splide__track splide__track-2">
                                   <ul className="splide__list">
                                       <li className="splide__slide"><span className="SplideHighlight">WORKS</span></li>
@@ -63,6 +63,7 @@ function PageWorks() {
                                       <li className="splide__slide"><img className="SocialIcon" src={SplideDiamond} alt="" /></li>
                                   </ul>
                               </div>
+                            </span>
                       </div>
 
 
