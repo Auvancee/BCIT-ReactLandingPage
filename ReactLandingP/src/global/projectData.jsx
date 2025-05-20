@@ -50,8 +50,8 @@ export const projects = [
       /* Portfolio Website (HAFIZAU) */
       slug: "aumarxyz",
       year: "2025",
-      title: "Portfolio Site (HAFIZAU)",
-      description: "A corporate CMS-powered website for showcasing tech services and products. Built with SEO performance in mind.",
+      title: "Portfolio Site",
+      description: "A personal portfolio built to showcase projects and document growth-focused on clarity, performance, and interactive storytelling.",
       tags: ["React Development", "GSAP & Lenis", "Responsive"],
       image: HAFIZAU,
       
@@ -142,7 +142,7 @@ export const projects = [
       slug: "intercodex",
       year: "2025",
       title: "Intercodex",
-      description: "A corporate CMS-powered website for showcasing tech services and products. Built with SEO performance in mind.",
+      description: "A fictional tech conference site built with WordPress, featuring dynamic content, custom blocks, and ticketing through WooCommerce.",
       tags: ["Wordpress Development", "CMS Integration", "Online Store"],
       image: InterCodex,
 
@@ -231,7 +231,7 @@ export const projects = [
       slug: "onafilms",
       year: "2025",
       title: "ONA Films",
-      description: "ONA Films is a movie database using the Movie API, bringing countless films into a single platform. Built with React and styled for sleek, fast UI/UX.",
+      description: "A collaborative React app for browsing real-time movie data using the TMDB API—designed for smooth navigation, filtering, and responsive interactivity.",
       tags: ["React Development", "Movie API", "Responsive Design"],
       image: ONAFilms,
 
@@ -326,7 +326,7 @@ export const projects = [
       slug: "sanghan-replica",
       year: "2025",
       title: "SangHan Replica",
-      description: "A SASS/SCSS styled responsive clone of the SangHan director portfolio website, focusing on layout recreation and mobile responsiveness.",
+      description: "A responsive replica of a creative portfolio site, rebuilt collaboratively using SCSS and semantic HTML to explore layout precision and scalable styling.",
       tags: ["SASS/SCSS", "Design Recreation", "SEO Responsive"],
       image: SangHan,
 
@@ -414,7 +414,7 @@ export const projects = [
       slug: "tictactoe",
       year: "2024",
       title: "TicTacToe Game",
-      description: "A vanilla JavaScript implementation of the classic TicTacToe game with responsive layout and basic game logic.",
+      description: "A lightweight browser game built with vanilla JavaScript to reinforce foundational logic, state handling, and responsive design.",
       tags: ["JavaScript", "Game Logic"],
       image: TICJS,
 
