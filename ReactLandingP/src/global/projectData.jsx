@@ -83,25 +83,46 @@ export const projects = [
 
       developmentprocess: [
       { icon: Developer, 
-        heading: "Developer:",
+        heading: "Project Scope:",
         text: ( <>
-        "This portfolio was built as both a showcase and a reflection of my evolving thinking as a developer. 
-        I treated it as a personal platform to experiment with smoother motion, scalable architecture, and clarity in communication." 
+          This portfolio was built as both a showcase and a reflection of my evolving thinking as a developer. 
+          I treated it as a personal platform to experiment with smoother motion, scalable architecture, and 
+          clarity in communication. It wasn’t just about presenting work — it was about expressing how I think.
         </>  
       )
       },
 
       { icon: PuzzlePiece, 
-        heading: "Structure:",
-        text: "I used modular component design and motion libraries like GSAP + Lenis to create a flow that felt fluid but controlled. I prioritized consistent spacing and transitions to help guide the visitor through the content intuitively." },
+        heading: "System Design:",
+        text: ( <>
+          I used modular component structures and integrated motion libraries like GSAP and Lenis to create a flow 
+          that felt fluid but controlled. Every section was built with reusability in mind, allowing for consistent 
+          behavior across pages while keeping the codebase manageable and adaptable.
+        </>  
+      )
+    },
 
       { icon: PaintBrush, 
-        heading: "Functionality/Styling:",
-        text: "Animation was treated as a tool for focus—not flair. Every visual movement serves to direct the eye or reinforce hierarchy. The result is an experience that moves with intention, not distraction." },
-
+        heading: "Interface Behavior:",
+        text: ( <>
+          Animations were treated as tools for focus—not flair. Visual transitions were 
+          designed to direct attention and reinforce hierarchy rather than distract. Every 
+          interaction, hover, and scroll behavior was tuned to feel responsive and intuitive 
+          without overcomplicating the experience.
+        </>  
+      )
+    },
       { icon: DiamondSplide, 
         heading: "Reflection:",
-        text: "Building my own site taught me that simplicity is harder than complexity—but far more rewarding. It forced me to think like both the user and the builder at once." }
+        text: ( <>
+          This project taught me that simplicity is harder than complexity—but far more rewarding. 
+          It pushed me to think like both the user and the builder, and showed me how intentional 
+          design paired with thoughtful development can create experiences that are both functional 
+          and memorable.
+        </>  
+      )
+    },
+
     ],
 
       responsiveImages: {
@@ -152,25 +173,50 @@ export const projects = [
 
       developmentprocess: [
       { icon: Developer, 
-        text: "The goal with Intercodex was to create a sleek, CMS-powered corporate site that felt lightweight, yet scalable. I used WordPress as the foundation, allowing for dynamic content management while customizing the front-end to keep the interface consistent and modern." },
+        heading: "Project Scope:",
+        text: ( <>
+          Intercodex was developed as a fictional tech showcase—a blend between a virtual 
+          Comic-Con and a modern product conference. Built collaboratively, the goal was to 
+          create an experience that combined real-time updates, content-rich pages, and a bold 
+          visual identity that would appeal to a diverse digital audience.
+        </>  
+      )
+      },
 
       { icon: PuzzlePiece, 
-        text: "Structurally, I focused on creating a reusable system of components—so future pages and sections could be easily added without breaking layout or flow. I implemented a modular CSS structure and paid extra attention to page hierarchy, ensuring clarity across multiple service lines." },
+        heading: "System Design:",
+        text: ( <>
+          The project leveraged WordPress custom post types and taxonomies to model speakers, 
+          events, and schedules in a scalable way. We used Gutenberg blocks and the template hierarchy 
+          to modularize content rendering, while WooCommerce handled ticketing, pricing tiers, and live updates. 
+          This architecture gave the team flexibility across both structure and content delivery.
+        </>  
+      )
+    },
 
       { icon: PaintBrush, 
-        text: "Throughout the build, performance remained a priority. I optimized asset loading and limited animation to subtle transitions that enhanced UX without slowing the site. The balance between flexibility and stability was a constant tradeoff—but one that pushed me to think more like a systems designer than a page builder." },
-
+        heading: "Interface Behavior:",
+        text: ( <>
+          The interface was designed in Figma and implemented with a focus on responsiveness and accessibility. 
+          Custom blocks and modals were optimized for mobile-first viewing, while hover states and visual 
+          transitions guided users through complex information without friction. We kept performance top of 
+          mind—prioritizing lightweight assets and accessible markup.   
+        </>  
+      )
+    },
       { icon: DiamondSplide, 
-        text: "This project taught me how small structural choices early on affect everything downstream—from loading speed to future edits" }
-    ],
+        heading: "Reflection:",
+        text: ( <>
+          Intercodex taught me how to work within a team while still owning core sections of the build. 
+          Collaborating via Slack and Discord, we solved blockers through regular mentor feedback and daily 
+          async updates. It sharpened my ability to plan architecture around actual content needs and made 
+          me more confident in working with dynamic systems that serve real user flows.
+        </>  
 
-      responsiveImages: {
-        mobile: [
-          iphone14,
-          iphone14
-        ],
-        desktop: macbookair
-      }
+      )
+    },
+
+    ],
 
       
 
@@ -216,16 +262,50 @@ export const projects = [
 
       developmentprocess: [
       { icon: Developer, 
-        text: "The goal with Intercodex was to create a sleek, CMS-powered corporate site that felt lightweight, yet scalable. I used WordPress as the foundation, allowing for dynamic content management while customizing the front-end to keep the interface consistent and modern." },
+        heading: "Project Scope:",
+        text: ( <>
+          ONA Films is a collaborative React-based web app built to simulate a cinematic movie 
+          browser using the TMDB API. The goal was to create an engaging discovery platform that 
+          felt both interactive and accessible—where users could explore trending films with ease, 
+          across devices.
+        </>  
+      )
+      },
 
       { icon: PuzzlePiece, 
-        text: "Structurally, I focused on creating a reusable system of components—so future pages and sections could be easily added without breaking layout or flow. I implemented a modular CSS structure and paid extra attention to page hierarchy, ensuring clarity across multiple service lines." },
+        heading: "System Design:",
+        text: ( <>
+          We built the app using modular React components and dynamic routing with React Router. 
+          Data was handled asynchronously via Axios and abstracted into services for reuse across 
+          views. We integrated Splide for carousel functionality and structured our file system to 
+          encourage scalability. The architecture focused on separation of concerns—handling data, 
+          presentation, and routing independently for maintainability.
+        </>  
+      )
+    },
 
       { icon: PaintBrush, 
-        text: "Throughout the build, performance remained a priority. I optimized asset loading and limited animation to subtle transitions that enhanced UX without slowing the site. The balance between flexibility and stability was a constant tradeoff—but one that pushed me to think more like a systems designer than a page builder." },
-
+        heading: "Interface Behavior:",
+        text: ( <>
+          The interface was built around smooth user flow and clarity. Using Lenis for subtle scroll behavior, 
+          we ensured that content moved fluidly and felt responsive across devices. Carousel navigation, hover states, 
+          and modal previews were all designed to feel intuitive and consistent—guiding users without adding visual noise. 
+          Mobile layout and accessibility were prioritized from the start to make browsing seamless on any screen.
+        </>  
+      )
+    },
       { icon: DiamondSplide, 
-        text: "This project taught me how small structural choices early on affect everything downstream—from loading speed to future edits" }
+        heading: "Reflection:",
+        text: ( <>
+          Working on ONA Films pushed me to collaborate deeply—from resolving state flow bugs with teammates to 
+          refining layout behavior based on design feedback. I learned the value of modular thinking in React, the 
+          power of clean async data handling, and how to prioritize user experience while balancing technical constraints. 
+          It was a project that matured both my technical approach and my communication inside a dev team.
+        </>  
+
+      )
+    },
+
     ],
 
       responsiveImages: {
@@ -270,18 +350,49 @@ export const projects = [
         { logo: SASS },
       ],
 
-      developmentprocess: [
+       developmentprocess: [
       { icon: Developer, 
-        text: "The goal with Intercodex was to create a sleek, CMS-powered corporate site that felt lightweight, yet scalable. I used WordPress as the foundation, allowing for dynamic content management while customizing the front-end to keep the interface consistent and modern." },
+        heading: "Project Scope:",
+        text: ( <>
+          This collaborative project involved recreating the Sang Han portfolio site—a minimalist, 
+          visual-heavy layout—with SCSS and vanilla JavaScript. The goal was to replicate the overall 
+          structure and flow of the site closely, focusing on responsive design and layout precision without 
+          relying on the original codebase.
+        </>  
+      )
+      },
 
       { icon: PuzzlePiece, 
-        text: "Structurally, I focused on creating a reusable system of components—so future pages and sections could be easily added without breaking layout or flow. I implemented a modular CSS structure and paid extra attention to page hierarchy, ensuring clarity across multiple service lines." },
+        heading: "System Design:",
+        text: ( <>
+          We used SCSS partials, variables, and BEM naming conventions to keep the code modular and scalable
+          across team contributions. While not pixel-perfect, the layout was recreated with attention to hierarchy 
+          and spacing using Flexbox and media queries. Roles were divided clearly, and files were structured to 
+          streamline collaboration.
+        </>  
+      )
+    },
 
       { icon: PaintBrush, 
-        text: "Throughout the build, performance remained a priority. I optimized asset loading and limited animation to subtle transitions that enhanced UX without slowing the site. The balance between flexibility and stability was a constant tradeoff—but one that pushed me to think more like a systems designer than a page builder." },
-
+        heading: "Interface Behavior:",
+        text: ( <>
+          The interface focused on maintaining a clean, predictable rhythm. Hover states, transitions, and layout 
+          scale were designed to echo the elegance of the original site. Animations were minimal by choice, letting typography, 
+          spacing, and visual pacing carry the experience across screen sizes.
+        </>  
+      )
+    },
       { icon: DiamondSplide, 
-        text: "This project taught me how small structural choices early on affect everything downstream—from loading speed to future edits" }
+        heading: "Reflection:",
+        text: ( <>
+          This project gave me hands-on experience working within a shared codebase—learning how to stay organized, communicate 
+          through code, and adapt to team decisions. Recreating the layout taught me how to balance design intent with clean, scalable CSS. 
+          It also helped me see how collaborative structure supports clarity at every stage of a build.
+        </>  
+
+      )
+    },
+
     ],
 
       responsiveImages: {
@@ -326,18 +437,48 @@ export const projects = [
         { logo: JS },
       ],
 
-      developmentprocess: [
+       developmentprocess: [
       { icon: Developer, 
-        text: "The goal with Intercodex was to create a sleek, CMS-powered corporate site that felt lightweight, yet scalable. I used WordPress as the foundation, allowing for dynamic content management while customizing the front-end to keep the interface consistent and modern." },
+        heading: "Project Scope:",
+        text: ( <>
+          TicTacToe JS is a browser-based implementation of the classic game, designed to reinforce core JavaScript 
+          fundamentals. The objective was to build a fully functional, responsive game interface using only HTML, CSS, 
+          and vanilla JavaScript—emphasizing clean logic, user interaction, and mobile accessibility.
+        </>  
+      )
+      },
 
       { icon: PuzzlePiece, 
-        text: "Structurally, I focused on creating a reusable system of components—so future pages and sections could be easily added without breaking layout or flow. I implemented a modular CSS structure and paid extra attention to page hierarchy, ensuring clarity across multiple service lines." },
+        heading: "System Design:",
+        text: ( <>
+          The game logic was structured around a modular approach, separating concerns between game state management and 
+          DOM manipulation. Functions were created to handle player turns, win conditions, and game resets, ensuring clarity 
+          and maintainability. The codebase was organized to facilitate scalability, allowing for potential future enhancements 
+          like AI integration or score tracking.
+        </>  
+      )
+    },
 
       { icon: PaintBrush, 
-        text: "Throughout the build, performance remained a priority. I optimized asset loading and limited animation to subtle transitions that enhanced UX without slowing the site. The balance between flexibility and stability was a constant tradeoff—but one that pushed me to think more like a systems designer than a page builder." },
-
+        heading: "Interface Behavior:",
+        text: ( <>
+          The user interface features a minimalist 3x3 grid layout, with responsive design principles ensuring usability 
+          across devices. Interactive elements provide immediate feedback on player actions, and the game state updates dynamically 
+          to reflect wins, draws, or ongoing play. A reset functionality allows users to start new games seamlessly
+        </>  
+      )
+    },
       { icon: DiamondSplide, 
-        text: "This project taught me how small structural choices early on affect everything downstream—from loading speed to future edits" }
+        heading: "Reflection:",
+        text: ( <>
+          This project was a starting point in solidifying my JavaScript fundamentals. While simple on the surface, building 
+          TicTacToe helped me better understand state management, conditionals, and interaction feedback. It exposed gaps I’m 
+          now actively working to close—and gave me a clearer sense of what clean, maintainable JS looks like in practice.
+        </>  
+
+      )
+    },
+
     ],
 
       responsiveImages: {

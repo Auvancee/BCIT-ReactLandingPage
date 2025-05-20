@@ -201,21 +201,24 @@
     gap: 1.5rem;
   }
 
-  .DevStep p {
+ .DevStep p {
     font-size: 1rem;
     font-family: 'NeueM-Book';
+    line-height: 23px;
   }
 
   .StepHeader {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-bottom: 0.5rem;
   }
 
   .StepTitle {
-    font-family: 'NeueM-Bold';
-    font-size: 1rem;
+    font-family: 'NeueM-Thin';
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 1.3rem;
     margin: 0;
   }
 
@@ -228,10 +231,10 @@
 
 
   .StepIcon {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     flex-shrink: 0;
-    margin-top: 0.3rem;
+    
   }
 
   /* Responsive/Access Section */
@@ -580,8 +583,9 @@
   }
 
   .DevStep p {
-  font-size: 1rem;
-  font-family: 'NeueM-Book';
+    font-size: 1.1rem;
+    font-family: 'NeueM-Book';
+    line-height: 23px;
   }
 
   .StepHeader {
@@ -592,8 +596,10 @@
   }
 
   .StepTitle {
-    font-family: 'NeueM-Bold';
-    font-size: 1.1rem;
+   font-family: 'NeueM-Thin';
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 1.4rem;
     margin: 0;
   }
 
@@ -608,7 +614,6 @@
     width: 35px;
     height: 35px;
     flex-shrink: 0;
-    margin-top: 0.3rem;
   }
 
   /* Responsive/Access Section */
@@ -974,8 +979,9 @@
   }
 
   .DevStep p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'NeueM-Book';
+  line-height: 23px;
   }
 
   .StepHeader {
@@ -986,13 +992,16 @@
 }
 
 .StepTitle {
-  font-family: 'NeueM-Bold';
-  font-size: 1.1rem;
+  font-family: 'NeueM-Thin';
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.938);
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .StepText {
   font-family: 'NeueM-Book';
+  color: rgba(0, 0, 0, 0.712);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
@@ -1002,7 +1011,6 @@
     width: 35px;
     height: 35px;
     flex-shrink: 0;
-    margin-top: 0.3rem;
   }
 
   /* Responsive/Access Section */
@@ -1369,8 +1377,9 @@
   }
 
   .DevStep p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'NeueM-Book';
+  line-height: 22px;
   }
 
   .StepHeader {
@@ -1381,13 +1390,16 @@
 }
 
 .StepTitle {
-  font-family: 'NeueM-Bold';
-  font-size: 1.1rem;
+  font-family: 'NeueM-Thin';
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.938);
+  font-size: 1.8rem;
   margin: 0;
 }
 
 .StepText {
   font-family: 'NeueM-Book';
+  color: rgba(0, 0, 0, 0.712);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
@@ -1397,7 +1409,6 @@
     width: 35px;
     height: 35px;
     flex-shrink: 0;
-    margin-top: 0.3rem;
   }
 
   /* Responsive/Access Section */
@@ -1755,13 +1766,14 @@
   .DevStep p {
   font-size: 20px;
   font-family: 'NeueM-Book';
+  line-height: 25px;
   }
 
   .StepIcon {
     width: 40px;
     height: 40px;
     flex-shrink: 0;
-    margin-top: 0.3rem;
+
   }
 
   /* Responsive/Access Section */
@@ -2113,6 +2125,7 @@
 .DevStep p {
   font-size: 25px;
   font-family: 'NeueM-Book';
+  line-height: 30px;
 }
 
 .StepHeader {
@@ -2123,13 +2136,16 @@
 }
 
 .StepTitle {
-  font-family: 'NeueM-Bold';
-  font-size: 1.1rem;
+font-family: 'NeueM-Thin';
+ letter-spacing: 0px;
+ color: rgba(0, 0, 0, 0.938);
+  font-size: 2rem;
   margin: 0;
 }
 
 .StepText {
   font-family: 'NeueM-Book';
+  color: rgba(0, 0, 0, 0.712);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
@@ -2139,8 +2155,8 @@
   width: 40px;
   height: 40px;
   flex-shrink: 0;
-  margin-top: 0.3rem;
 }
+
 
 /* Responsive/Access Section */
 .ResponsiveShowcase {
