@@ -341,10 +341,6 @@
   text-decoration: none;
 }
 
-.NextTitle:hover {
-  text-decoration: underline;
-}
-
 .FooterLine {
   margin: 1rem auto;
   width: 95%;
@@ -729,9 +725,6 @@
   text-decoration: none;
 }
 
-.NextTitle:hover {
-  text-decoration: underline;
-}
 
 .FooterLine {
   margin: 2rem auto;
@@ -1126,9 +1119,6 @@
   text-decoration: none;
 }
 
-.NextTitle:hover {
-  text-decoration: underline;
-}
 
 .FooterLine {
   margin: 2rem auto;
@@ -1524,9 +1514,7 @@
   text-decoration: none;
 }
 
-.NextTitle:hover {
-  text-decoration: underline;
-}
+
 
 .FooterLine {
   margin: 2rem auto;
@@ -1888,9 +1876,7 @@
   text-decoration: none;
 }
 
-.NextTitle:hover {
-  text-decoration: underline;
-}
+
 
 .FooterLine {
   margin: 2rem auto;
@@ -2261,7 +2247,10 @@ font-family: 'NeueM-Thin';
   margin-bottom: 0rem;
 }
 
+/* Line Animated Hover For Project */
 .NextTitle {
+  position: relative;
+  display: inline-block;
   font-size: 10rem;
   letter-spacing: -4px;
   text-transform: uppercase;
@@ -2270,9 +2259,27 @@ font-family: 'NeueM-Thin';
   text-decoration: none;
 }
 
-.NextTitle:hover {
-  text-decoration: underline;
+.NextTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+
+  /* Animation */
+  transform: scaleX(0);
+  transform-origin: right; /* expands from left */
+  transition: transform 0.4s ease-in-out;
 }
+
+.NextTitle:hover::after {
+  transform: scaleX(1);
+  transform-origin: left; /* collapses back to right */
+}
+
+/* ---------------------------------------- */
 
 .FooterLine {
   margin: 2rem auto;
