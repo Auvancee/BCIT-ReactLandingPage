@@ -44,6 +44,28 @@ import PaintBrush from '/OtherImages/PaintBrush.svg'
 import iphone14 from '/OtherImages/iphone-14.png';
 import macbookair from '/OtherImages/MacBookAir.png';
 
+/* TicTacToeJS Project Images Import */
+import TTTJSMobile1 from '/projectimages2/TicTacToeMobile1.svg';
+import TTTJSMobile2 from '/projectimages2/TicTacToeMobile2.svg';
+import TTTJSMobile3 from '/projectimages2/TicTacToeMobile3.svg';
+
+/* SangHan Project Images Import */
+import SHMobile1 from '/projectimages2/SangHanMobile1.svg';
+import SHMobile2 from '/projectimages2/SangHanMobile2.svg';
+import SHMobile3 from '/projectimages2/SangHanMobile3.svg';
+
+/* Intercodex Project Images Import */
+import IntercMobile1 from '/projectimages2/IntercodexMobile1.svg';
+import IntercMobile2 from '/projectimages2/IntercodexMobile2.svg';
+import IntercMobile3 from '/projectimages2/IntercodexMobile3.svg';
+
+/* ONAFilms Project Images Import */
+import ONAFMobile1 from '/projectimages2/ONAFilmsMobile1.svg';
+import ONAFMobile2 from '/projectimages2/ONAFilmsMobile2.svg';
+import ONAFMobile3 from '/projectimages2/ONAFilmsMobile3.svg';
+
+
+
 export const projects = [
 
 {
@@ -218,6 +240,15 @@ export const projects = [
 
     ],
 
+    responsiveImages: {
+        mobile: [
+          IntercMobile1,
+          IntercMobile2,
+          IntercMobile3
+        ],
+        desktop: macbookair
+      }
+
       
 
   
@@ -310,8 +341,9 @@ export const projects = [
 
       responsiveImages: {
         mobile: [
-          iphone14,
-          iphone14
+          ONAFMobile1,
+          ONAFMobile2,
+          ONAFMobile3
         ],
         desktop: macbookair
       }
@@ -397,8 +429,9 @@ export const projects = [
 
       responsiveImages: {
         mobile: [
-          iphone14,
-          iphone14
+          SHMobile1,
+          SHMobile2,
+          SHMobile3
         ],
         desktop: macbookair
       }
@@ -483,8 +516,9 @@ export const projects = [
 
       responsiveImages: {
         mobile: [
-          iphone14,
-          iphone14,
+          TTTJSMobile1,
+          TTTJSMobile2,
+          TTTJSMobile3,
           
         ],
         desktop: macbookair
