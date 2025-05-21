@@ -1,12 +1,9 @@
-/* {ProjectImages (PC ONLY)} */
+/* {ProjectImages (FOR MINI CARDS ONLY)} */
 import HAFIZAU from "/projectimages/HAFIZAU.png"
 import InterCodex from "/projectimages/IntercodexPC.png";
 import ONAFilms from "/projectimages/ONAFilmsPC.png";
 import SangHan from "/projectimages/SangHanPC.png";
-import MindsetWP from "/projectimages/Mindset.png";
 import TICJS from "/projectimages/TicTacToeJS.png"
-import CSSTech from "/projectimages/CSSTech.png"
-
 
 /* {Tool SVG Imports} */
 
@@ -41,18 +38,12 @@ import PuzzlePiece from '/OtherImages/PuzzlePiece.svg'
 import PaintBrush from '/OtherImages/PaintBrush.svg'
 
 /* Temp Import */
-import iphone14 from '/OtherImages/iphone-14.png';
 import macbookair from '/OtherImages/MacBookAir.png';
 
-/* TicTacToeJS Project Images Import */
-import TTTJSMobile1 from '/projectimages2/TicTacToeMobile1.svg';
-import TTTJSMobile2 from '/projectimages2/TicTacToeMobile2.svg';
-import TTTJSMobile3 from '/projectimages2/TicTacToeMobile3.svg';
-
-/* SangHan Project Images Import */
-import SHMobile1 from '/projectimages2/SangHanMobile1.svg';
-import SHMobile2 from '/projectimages2/SangHanMobile2.svg';
-import SHMobile3 from '/projectimages2/SangHanMobile3.svg';
+/* Portfolio Project Images Import */
+import PortfolioMobile1 from '/projectimages2/PortfolioMobile1.svg';
+import PortfolioMobile2 from '/projectimages2/PortfolioMobile2.svg';
+import PortfolioMobile3 from '/projectimages2/PortfolioMobile3.svg';
 
 /* Intercodex Project Images Import */
 import IntercMobile1 from '/projectimages2/IntercodexMobile1.svg';
@@ -63,6 +54,16 @@ import IntercMobile3 from '/projectimages2/IntercodexMobile3.svg';
 import ONAFMobile1 from '/projectimages2/ONAFilmsMobile1.svg';
 import ONAFMobile2 from '/projectimages2/ONAFilmsMobile2.svg';
 import ONAFMobile3 from '/projectimages2/ONAFilmsMobile3.svg';
+
+/* SangHan Project Images Import */
+import SHMobile1 from '/projectimages2/SangHanMobile1.svg';
+import SHMobile2 from '/projectimages2/SangHanMobile2.svg';
+import SHMobile3 from '/projectimages2/SangHanMobile3.svg';
+
+/* TicTacToeJS Project Images Import */
+import TTTJSMobile1 from '/projectimages2/TicTacToeMobile1.svg';
+import TTTJSMobile2 from '/projectimages2/TicTacToeMobile2.svg';
+import TTTJSMobile3 from '/projectimages2/TicTacToeMobile3.svg';
 
 
 
@@ -149,9 +150,9 @@ export const projects = [
 
       responsiveImages: {
         mobile: [
-          iphone14,
-          iphone14,
-          iphone14,
+          PortfolioMobile1,
+          PortfolioMobile2,
+          PortfolioMobile3,
         ],
         desktop: macbookair
       }
@@ -244,7 +245,7 @@ export const projects = [
         mobile: [
           IntercMobile1,
           IntercMobile2,
-          IntercMobile3
+          IntercMobile3,
         ],
         desktop: macbookair
       }
@@ -343,7 +344,7 @@ export const projects = [
         mobile: [
           ONAFMobile1,
           ONAFMobile2,
-          ONAFMobile3
+          ONAFMobile3,
         ],
         desktop: macbookair
       }
@@ -431,7 +432,7 @@ export const projects = [
         mobile: [
           SHMobile1,
           SHMobile2,
-          SHMobile3
+          SHMobile3,
         ],
         desktop: macbookair
       }
