@@ -1,9 +1,9 @@
 /* {ProjectImages (FOR MINI CARDS ONLY)} */
-import HAFIZAU from "/projectimages/HAFIZAU.png"
-import InterCodex from "/projectimages/IntercodexPC.png";
-import ONAFilms from "/projectimages/ONAFilmsPC.png";
-import SangHan from "/projectimages/SangHanPC.png";
-import TICJS from "/projectimages/TicTacToeJS.png"
+import HAFIZAU from "/cardprojectimages/HAFIZAU.png"
+import InterCodex from "/cardprojectimages/IntercodexPC.png";
+import ONAFilms from "/cardprojectimages/ONAFilmsPC.png";
+import SangHan from "/cardprojectimages/SangHanPC.png";
+import TICJS from "/cardprojectimages/TicTacToeJS.png"
 
 /* {Tool SVG Imports} */
 
@@ -41,41 +41,43 @@ import PaintBrush from '/OtherImages/PaintBrush.svg'
 import macbookair from '/OtherImages/MacBookAir.png';
 
 /* Portfolio Project Images Import */
-import PortfolioMobile1 from '/projectimages2/PortfolioMobile1.svg';
-import PortfolioMobile2 from '/projectimages2/PortfolioMobile2.svg';
-import PortfolioMobile3 from '/projectimages2/PortfolioMobile3.svg';
+import PortfolioMobile1 from '/projectimagesmobile/PortfolioMobile1.svg';
+import PortfolioMobile2 from '/projectimagesmobile/PortfolioMobile2.svg';
+import PortfolioMobile3 from '/projectimagesmobile/PortfolioMobile3.svg';
 import PortfolioVideo from '/videos/PortfolioHAFIZU.mp4';
 
 
 /* Intercodex Project Images Import */
-import IntercMobile1 from '/projectimages2/IntercodexMobile1.svg';
-import IntercMobile2 from '/projectimages2/IntercodexMobile2.svg';
-import IntercMobile3 from '/projectimages2/IntercodexMobile3.svg';
+import IntercMobile1 from '/projectimagesmobile/IntercodexMobile1.svg';
+import IntercMobile2 from '/projectimagesmobile/IntercodexMobile2.svg';
+import IntercMobile3 from '/projectimagesmobile/IntercodexMobile3.svg';
 import IntercVideo from '/videos/Intercodex.mp4';
 
 
 
+
+
 /* ONAFilms Project Images Import */
-import ONAFMobile1 from '/projectimages2/ONAFilmsMobile1.svg';
-import ONAFMobile2 from '/projectimages2/ONAFilmsMobile2.svg';
-import ONAFMobile3 from '/projectimages2/ONAFilmsMobile3.svg';
+import ONAFMobile1 from '/projectimagesmobile/ONAFilmsMobile1.svg';
+import ONAFMobile2 from '/projectimagesmobile/ONAFilmsMobile2.svg';
+import ONAFMobile3 from '/projectimagesmobile/ONAFilmsMobile3.svg';
 import ONAFVideo from '/videos/ONAFilms.mp4';
 
 
 
 
 /* SangHan Project Images Import */
-import SHMobile1 from '/projectimages2/SangHanMobile1.svg';
-import SHMobile2 from '/projectimages2/SangHanMobile2.svg';
-import SHMobile3 from '/projectimages2/SangHanMobile3.svg';
+import SHMobile1 from '/projectimagesmobile/SangHanMobile1.svg';
+import SHMobile2 from '/projectimagesmobile/SangHanMobile2.svg';
+import SHMobile3 from '/projectimagesmobile/SangHanMobile3.svg';
 import SHVideo from '/videos/SangHan.mp4';
 
 
 
 /* TicTacToeJS Project Images Import */
-import TTTJSMobile1 from '/projectimages2/TicTacToeMobile1.svg';
-import TTTJSMobile2 from '/projectimages2/TicTacToeMobile2.svg';
-import TTTJSMobile3 from '/projectimages2/TicTacToeMobile3.svg';
+import TTTJSMobile1 from '/projectimagesmobile/TicTacToeMobile1.svg';
+import TTTJSMobile2 from '/projectimagesmobile/TicTacToeMobile2.svg';
+import TTTJSMobile3 from '/projectimagesmobile/TicTacToeMobile3.svg';
 import TTTJSVideo from '/videos/TicTacToe.mp4';
 
 
