@@ -51,21 +51,31 @@ import IntercMobile2 from '/projectimages2/IntercodexMobile2.svg';
 import IntercMobile3 from '/projectimages2/IntercodexMobile3.svg';
 import IntercVideo from '/videos/Intercodex.mp4';
 
+
+
 /* ONAFilms Project Images Import */
 import ONAFMobile1 from '/projectimages2/ONAFilmsMobile1.svg';
 import ONAFMobile2 from '/projectimages2/ONAFilmsMobile2.svg';
 import ONAFMobile3 from '/projectimages2/ONAFilmsMobile3.svg';
 
+
+
+
 /* SangHan Project Images Import */
 import SHMobile1 from '/projectimages2/SangHanMobile1.svg';
 import SHMobile2 from '/projectimages2/SangHanMobile2.svg';
 import SHMobile3 from '/projectimages2/SangHanMobile3.svg';
+import SHVideo from '/videos/SangHan.mp4';
+
+
 
 /* TicTacToeJS Project Images Import */
 import TTTJSMobile1 from '/projectimages2/TicTacToeMobile1.svg';
 import TTTJSMobile2 from '/projectimages2/TicTacToeMobile2.svg';
 import TTTJSMobile3 from '/projectimages2/TicTacToeMobile3.svg';
 import TTTJSVideo from '/videos/TicTacToe.mp4';
+
+
 
 
 
@@ -366,7 +376,7 @@ export const projects = [
       image: SangHan,
 
        media: [
-        { type: "image", src: SangHan },
+        { type: "video", src: SHVideo },
         { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
         { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
       ],
