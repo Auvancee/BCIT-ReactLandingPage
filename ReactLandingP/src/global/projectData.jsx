@@ -60,9 +60,6 @@ import Interc4 from '/projectimagespreview/Interc4.png';
 import Interc5 from '/projectimagespreview/Interc5.png';
 
 
-
-
-
 /* ONAFilms Project Images Import */
 import ONAFMobile1 from '/projectimagesmobile/ONAFilmsMobile1.svg';
 import ONAFMobile2 from '/projectimagesmobile/ONAFilmsMobile2.svg';
@@ -83,6 +80,9 @@ import SHMobile2 from '/projectimagesmobile/SangHanMobile2.svg';
 import SHMobile3 from '/projectimagesmobile/SangHanMobile3.svg';
 import SHVideo from '/videos/SangHan.mp4';
 
+import sangh1 from '/projectimagespreview/sangh1.png';
+import sangh2 from '/projectimagespreview/sangh2.png';
+import sangh3 from '/projectimagespreview/sangh3.png';
 
 
 /* TicTacToeJS Project Images Import */
@@ -90,6 +90,10 @@ import TTTJSMobile1 from '/projectimagesmobile/TicTacToeMobile1.svg';
 import TTTJSMobile2 from '/projectimagesmobile/TicTacToeMobile2.svg';
 import TTTJSMobile3 from '/projectimagesmobile/TicTacToeMobile3.svg';
 import TTTJSVideo from '/videos/TicTacToe.mp4';
+
+import tttjs1 from '/projectimagespreview/tttjs1.png';
+import tttjs2 from '/projectimagespreview/tttjs2.png';
+import tttjs3 from '/projectimagespreview/tttjs3.png';
 
 
 
@@ -402,8 +406,9 @@ export const projects = [
 
        media: [
         { type: "video", src: SHVideo },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
+        { type: "image", src: sangh1 },
+        { type: "image", src: sangh2 },
+        { type: "image", src: sangh3 },
       ],
 
        /* ● New Updates Below ● */
@@ -491,8 +496,9 @@ export const projects = [
 
       media: [
         { type: "video", src: TTTJSVideo },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
+        { type: "image", src: tttjs1 },
+        { type: "image", src: tttjs2 },
+        { type: "image", src: tttjs3 },
       ],
 
        /* ● New Updates Below ● */
