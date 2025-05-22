@@ -150,14 +150,14 @@ function ProjectDetail() {
                   </div>
                 </div>
 
-                <div className="ResponsiveBottomColumn">
+                {/* <div className="ResponsiveBottomColumn">
                   <div className="ResponsiveDesktopImage">
                     <img src={project.responsiveImages.desktop} className="MacScreen" alt="Desktop view" />
                   </div>
                   <div className="ResponsiveText2">
                     <p className="MacNote">Designing for All Devices</p>
                   </div>
-                </div>
+                </div> */}
 
               </div>
             )}
