@@ -69,7 +69,12 @@ import ONAFMobile2 from '/projectimagesmobile/ONAFilmsMobile2.svg';
 import ONAFMobile3 from '/projectimagesmobile/ONAFilmsMobile3.svg';
 import ONAFVideo from '/videos/ONAFilms.mp4';
 
-
+import onaf1 from '/projectimagespreview/onaf1.png';
+import onaf2 from '/projectimagespreview/onaf2.png';
+import onaf3 from '/projectimagespreview/onaf3.png';
+import onaf4 from '/projectimagespreview/onaf4.png';
+import onaf5 from '/projectimagespreview/onaf5.png';
+import onaf6 from '/projectimagespreview/onaf6.png';
 
 
 /* SangHan Project Images Import */
@@ -295,13 +300,19 @@ export const projects = [
 
       media: [
         { type: "video", src: ONAFVideo },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
+        { type: "image", src: onaf1 },
+        { type: "image", src: onaf2 },
+        { type: "image", src: onaf3 },
+        { type: "image", src: onaf4 },
+        { type: "image", src: onaf5 },
+        { type: "image", src: onaf6 },
+
+      
       ],
 
       /* ● New Updates Below ● */
       links: {
-        live: "https://aumar.xyz/home",
+        live: "https://aumar.xyz/ONA-Films/",
         code: "https://github.com/Auvancee/BCIT-ReactMovieDatabase",
         wireframe: "https://xd.adobe.com/view/cd29fc8c-0f0a-4647-9b62-8c184b912c88-987a/?fullscreen"
       },
