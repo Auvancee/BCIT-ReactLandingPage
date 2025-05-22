@@ -44,7 +44,7 @@ import macbookair from '/OtherImages/MacBookAir.png';
 import PortfolioMobile1 from '/projectimages2/PortfolioMobile1.svg';
 import PortfolioMobile2 from '/projectimages2/PortfolioMobile2.svg';
 import PortfolioMobile3 from '/projectimages2/PortfolioMobile3.svg';
-import PortfolioVideo from '/videos/PortfolioHAFIZU';
+import PortfolioVideo from '/videos/PortfolioHAFIZU.mp4';
 
 
 /* Intercodex Project Images Import */
