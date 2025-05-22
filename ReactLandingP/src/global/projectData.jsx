@@ -44,6 +44,8 @@ import macbookair from '/OtherImages/MacBookAir.png';
 import PortfolioMobile1 from '/projectimages2/PortfolioMobile1.svg';
 import PortfolioMobile2 from '/projectimages2/PortfolioMobile2.svg';
 import PortfolioMobile3 from '/projectimages2/PortfolioMobile3.svg';
+import PortfolioVideo from '/videos/PortfolioHAFIZU';
+
 
 /* Intercodex Project Images Import */
 import IntercMobile1 from '/projectimages2/IntercodexMobile1.svg';
@@ -57,6 +59,7 @@ import IntercVideo from '/videos/Intercodex.mp4';
 import ONAFMobile1 from '/projectimages2/ONAFilmsMobile1.svg';
 import ONAFMobile2 from '/projectimages2/ONAFilmsMobile2.svg';
 import ONAFMobile3 from '/projectimages2/ONAFilmsMobile3.svg';
+import ONAFVideo from '/videos/ONAFilms.mp4';
 
 
 
@@ -91,7 +94,7 @@ export const projects = [
       image: HAFIZAU,
       
       media: [
-        { type: "image", src: HAFIZAU },
+        { type: "video", src: PortfolioVideo },
         { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
         { type: "youtube", src: "https://www.youtube.com/embed/abc123xyz" },
       ],
@@ -280,7 +283,7 @@ export const projects = [
       image: ONAFilms,
 
       media: [
-        { type: "image", src: ONAFilms },
+        { type: "video", src: ONAFVideo },
         { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
         { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
       ],
