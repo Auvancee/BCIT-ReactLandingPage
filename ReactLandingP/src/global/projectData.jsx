@@ -46,6 +46,13 @@ import PortfolioMobile2 from '/projectimagesmobile/PortfolioMobile2.svg';
 import PortfolioMobile3 from '/projectimagesmobile/PortfolioMobile3.svg';
 import PortfolioVideo from '/videos/PortfolioHAFIZU.mp4';
 
+import portfolio1 from '/projectimagespreview/hportfolio1.png';
+import portfolio2 from '/projectimagespreview/hportfolio2.png';
+import portfolio3 from '/projectimagespreview/hportfolio3.png';
+import portfolio4 from '/projectimagespreview/hportfolio4.png';
+import portfolio5 from '/projectimagespreview/hportfolio5.png';
+import portfolio6 from '/projectimagespreview/hportfolio6.png';
+
 
 /* Intercodex Project Images Import */
 import IntercMobile1 from '/projectimagesmobile/IntercodexMobile1.svg';
@@ -112,8 +119,12 @@ export const projects = [
       
       media: [
         { type: "video", src: PortfolioVideo },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
-        { type: "youtube", src: "https://www.youtube.com/embed/abc123xyz" },
+        { type: "image", src: portfolio1 },
+        { type: "image", src: portfolio2 },
+        { type: "image", src: portfolio3 },
+        { type: "image", src: portfolio4 },
+        { type: "image", src: portfolio5 },
+        { type: "image", src: portfolio6 },
       ],
 
       /* ● New Updates Below ● */
