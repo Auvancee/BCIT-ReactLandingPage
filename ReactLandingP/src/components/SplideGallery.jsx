@@ -25,7 +25,7 @@ const SplideGallery = ({ media }) => {
   flickMaxPages: 1,
   breakpoints: {
       1300: { perPage: 1, gap: "1rem" }, // Tablet
-      1100: { perPage: 1, gap: "1rem" }, // Tablet
+      1100: { perPage: 1, gap: "1rem", heightRatio: 0.5671875 }, // Tablet
       900: { perPage: 1, gap: "1rem", arrows: false }, // Tablet
       750: { perPage: 1, gap: "1rem", arrows: false }, // Small Tablet
       500: { perPage: 1, gap: "1rem", arrows: false}, // Mobile
@@ -43,8 +43,8 @@ const SplideGallery = ({ media }) => {
         )}
         {item.type === 'video' && (
           <video 
-            controls
-            autoplay
+            autoPlay
+            playsInline
             muted
             loop   
             className="ProjectMedia">
