@@ -53,6 +53,12 @@ import IntercMobile2 from '/projectimagesmobile/IntercodexMobile2.svg';
 import IntercMobile3 from '/projectimagesmobile/IntercodexMobile3.svg';
 import IntercVideo from '/videos/Intercodex.mp4';
 
+import Interc1 from '/projectimagespreview/Interc1.png';
+import Interc2 from '/projectimagespreview/Interc2.png';
+import Interc3 from '/projectimagespreview/Interc3.png';
+import Interc4 from '/projectimagespreview/Interc4.png';
+import Interc5 from '/projectimagespreview/Interc5.png';
+
 
 
 
@@ -188,8 +194,11 @@ export const projects = [
 
       media: [
         { type: "video", src: IntercVideo },
-        { type: "video", src: "/projectmedia/intercodex/demo.mp4" },
-        { type: "youtube", src: "https://www.youtube.com/embed/abc123xyz" },
+        { type: "image", src: Interc1 },
+        { type: "image", src: Interc2 },
+        { type: "image", src: Interc3 },
+        { type: "image", src: Interc4 },
+        { type: "image", src: Interc5 },
       ],
 
        /* ● New Updates Below ● */

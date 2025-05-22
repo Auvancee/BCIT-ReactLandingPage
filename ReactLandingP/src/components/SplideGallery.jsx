@@ -14,7 +14,7 @@ const SplideGallery = ({ media }) => {
   type: 'loop',
   perPage: 1,
   perMove: 1,
-  autoplay: true,
+  autoplay: false,
   arrows: true,
   pagination: true,
   heightRatio: 0.515625,
